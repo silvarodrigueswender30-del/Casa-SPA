@@ -1,0 +1,2393 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <!-- Title -->
+    <title>Marbella Group</title>
+
+    <!-- SEO Meta -->
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="Marbella Group" />
+    <meta name="keywords" content="Marbella Group" />
+
+    <meta name="author" content="Marbella Group" />
+
+    <meta property="og:site_name" content="Marbella Group">
+    <meta name="application-name" content="Marbella Group">
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Marbella Group",
+            "alternateName": "Marbella Group",
+            "url": "https://www.gspllp.com/"
+        }
+    </script>
+
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="48x48" href="/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/images/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.png">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.css" />
+    <link rel="stylesheet" href="css/flaticon.css" />
+    <link rel="stylesheet" href="css/pbminfotech-base-icons.css" />
+    <link rel="stylesheet" href="css/themify-icons.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/twentytwenty.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/shortcode.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/marbella-index.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Font Awesome (icons) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" />
+
+    <style>
+        @media (max-width: 767.98px) {
+            h2 {
+                line-height: 35px !important;
+            }
+        }
+
+        .pbmit-slider-one .swiper-horizontal>.swiper-pagination-bullets {
+            display: block;
+            width: 200px;
+            height: 0px;
+            line-height: 100px;
+            right: 0;
+            left: auto;
+            bottom: 0;
+            border-radius: 20px 0 0;
+            background-color: #fff;
+        }
+
+        @media (min-width: 1201px) {
+            .pbmit-slider-one .pbmit-slider-dots-corner {
+                position: absolute;
+                width: 200px;
+                height: 0px;
+                right: 0;
+                bottom: 0;
+                background-color: var(--pbmit-white-color);
+                display: block;
+                border-radius: 20px 0 0;
+                z-index: 1;
+            }
+        }
+
+        .pbmit-slider-one .pbmit-slider-item {
+            display: flex;
+            align-items: center;
+            height: 575px !important;
+            background-color: rgba(64, 50, 38, 0.2);
+        }
+
+        @media (max-width: 991px) {
+            .pbmit-slider-one .pbmit-slider-item {
+                display: flex;
+                align-items: center;
+                height: 365px !important;
+                background-color: rgba(64, 50, 38, 0.2);
+            }
+    </style>
+
+</head>
+
+<body>
+    <!-- page wrapper -->
+    <div class="page-wrapper" id="page">
+        <!-- Header Main Area -->
+
+        <style type="text/css">
+            @media (min-width: 1201px) {
+                .header-style-1 {
+                    position: relative;
+                    margin: 0px 0px 0;
+                }
+            }
+
+            .header-style-1 .site-branding {
+                border-radius: 0 0 20px;
+                position: relative;
+                padding: 0 0px;
+                margin-right: 20px;
+                background-color: var(--pbmit-white-color);
+            }
+
+            .pbmit-sticky-corner svg path {
+                fill: transparent;
+            }
+
+            .header-style-1 .site-branding {
+                border-radius: 0 0 20px;
+                position: relative;
+                padding: 15px 0px 0px 0px;
+                margin-right: 20px;
+                background-color: transparent !important;
+            }
+        </style>
+
+
+        <header class="site-header header-style-1">
+            <div class="pbmit-header-overlay">
+                <div class="pbmit-main-header-area">
+                    <div class="container">
+                        <div class="pbmit-header-content d-flex justify-content-between align-items-center" style="background-color:;">
+                            <div class="pbmit-logo-button-area d-flex justify-content-between align-items-center">
+                                <div class="site-branding">
+                                    <h1 class="site-title">
+                                        <a href="index.html">
+											<img class="logo-img" src="images/logos/1.png" alt="Marbella" width="85">
+										</a>
+                                    </h1>
+                                    <div class="pbmit-sticky-corner  pbmit-top-right-corner">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="" xmlns="http://www.w3.org/2000/svg">
+										   	<path d="M20 20V0C20 16 16 20 0 20H20Z" fill="red"></path>
+										</svg>
+                                    </div>
+                                    <div class="pbmit-sticky-corner pbmit-bottom-left-corner">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										   	<path d="M20 20V0C20 12 12 20 0 20H20Z" fill="red"></path>
+										</svg>
+                                    </div>
+                                </div>
+                                <!-- <div class="pbmit-button-box">
+									<div class="pbmit-header-button">
+										<a href="tel:+1(212)%20255-511">
+											<span class="pbmit-header-button-text-1">+1(212) 255-511</span>			
+											<span class="pbmit-header-button-text-2">tel:+1(212) 255-511</span>		
+										</a>
+									</div>
+								</div> -->
+                            </div>
+                            <div class="site-navigation">
+                                <nav class="main-menu navbar-expand-xl navbar-light">
+                                    <div class="navbar-header">
+                                        <!-- Toggle Button -->
+                                        <button class="navbar-toggler" type="button">
+											<i class="pbmit-base-icon-menu-1"></i>
+										</button>
+                                    </div>
+                                    <div class="pbmit-mobile-menu-bg"></div>
+                                    <div class="collapse navbar-collapse clearfix show" id="pbmit-menu">
+                                        <div class="pbmit-menu-wrap">
+                                            <span class="closepanel">
+												<svg class="qodef-svg--close qodef-m" xmlns="http://www.w3.org/2000/svg" width="20.163" height="20.163" viewBox="0 0 26.163 26.163">
+													<rect width="36" height="1" transform="translate(0.707) rotate(45)"></rect>
+													<rect width="36" height="1" transform="translate(0 25.456) rotate(-45)"></rect>
+												</svg>
+											</span>
+                                            <ul class="navigation clearfix">
+                                                <li class=" active">
+                                                    <a href="index.html">Home</a>
+                                                </li>
+
+                                                <li class="">
+                                                    <a href="about-us.html">About</a>
+                                                </li>
+
+                                                <li class="">
+                                                    <a href="marbella-farms-resort.html">Marbella Farms & Resorts</a>
+                                                </li>
+
+                                                <li class="">
+                                                    <a href="marbella-suites.html">Marbella Suites</a>
+                                                </li>
+
+                                                <!-- <li class="dropdown">
+											    <a href="gallery.html">Gallery</a>
+											  </li> -->
+
+                                                <li class="">
+                                                    <a href="contact-us.html">Contact</a>
+                                                </li>
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+                            <!-- <div class="pbmit-right-box d-flex align-items-center">
+							
+								<div class="pbmit-button-box-second">
+									<a class="pbmit-btn" href="contact-us.html">
+										<span class="pbmit-button-content-wrapper">
+											<span class="pbmit-button-text">Book Consult</span>
+										</span>
+									</a>
+								</div>
+							</div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <!-- Header Main Area End Here -->
+
+        <!-- page content -->
+        <div class="page-content">
+            <div class="pbmit-slider-area pbmit-slider-one">
+                <div class="swiper-slider" data-autoplay="true" data-loop="true" data-dots="true" data-arrows="false" data-columns="1" data-margin="0" data-effect="fade">
+                    <div class="swiper-wrapper">
+                        <!-- Slide1 -->
+                        <div class="swiper-slide">
+                            <div class="pbmit-slider-item">
+                                <div class="pbmit-slider-bg" style="
+                      background-image: url(images/slider-1.JPG);
+                    "></div>
+                                <!--<div class="container">-->
+                                <!--  <div class="row text-center">-->
+                                <!--    <div class="col-md-12">-->
+                                <!--      <div class="pbmit-slider-content">-->
+                                <!--        <h2-->
+                                <!--          class="pbmit-title transform-bottom-1 transform-delay-2"-->
+                                <!--        >-->
+                                <!--          Welcome To Our <br />-->
+                                <!--          Marbella-->
+                                <!--        </h2>-->
+                                <!--        <h5-->
+                                <!--          class="pbmit-sub-title transform-top transform-delay-1"-->
+                                <!--        >-->
+                                <!--          Farms & Resort, Suites, Studio Rooms!-->
+                                <!--        </h5>-->
+
+                                <!--        <div-->
+                                <!--          class="pbmit-button-wrap transform-bottom-1 transform-delay-3"-->
+                                <!--        >-->
+                                <!--          <a-->
+                                <!--            class="pbmit-btn pbmit-btn-outline"-->
+                                <!--            href="contact-us.html"-->
+                                <!--          >-->
+                                <!--            <span class="pbmit-button-content-wrapper">-->
+                                <!--              <span class="pbmit-button-text"-->
+                                <!--                >Book Your Stay</span-->
+                                <!--              >-->
+                                <!--            </span>-->
+                                <!--          </a>-->
+                                <!--        </div>-->
+                                <!--      </div>-->
+                                <!--    </div>-->
+                                <!--  </div>-->
+                                <!--</div>-->
+                            </div>
+                        </div>
+
+                        <!-- slider extra -->
+                        <!--<div class="swiper-slide">-->
+                        <!--  <div class="pbmit-slider-item">-->
+                        <!--    <div-->
+                        <!--      class="pbmit-slider-bg"-->
+                        <!--      style="-->
+                        <!--        background-image: url(images/ms-images/living-room6.jpeg);-->
+                        <!--      "-->
+                        <!--    ></div>-->
+                        <!--    <div class="container">-->
+                        <!--      <div class="row text-center">-->
+                        <!--        <div class="col-md-12">-->
+                        <!--          <div class="pbmit-slider-content">-->
+                        <!--            <h2-->
+                        <!--              class="pbmit-title transform-bottom-1 transform-delay-2"-->
+                        <!--            >-->
+                        <!--              Welcome To Our <br />-->
+                        <!--              Marbella-->
+                        <!--            </h2>-->
+                        <!--            <h5-->
+                        <!--              class="pbmit-sub-title transform-top transform-delay-1"-->
+                        <!--            >-->
+                        <!--              Farms & Resort, Suites, Studio Rooms!-->
+                        <!--            </h5>-->
+
+                        <!--            <div-->
+                        <!--              class="pbmit-button-wrap transform-bottom-1 transform-delay-3"-->
+                        <!--            >-->
+                        <!--              <a-->
+                        <!--                class="pbmit-btn pbmit-btn-outline"-->
+                        <!--                href="contact-us.html"-->
+                        <!--              >-->
+                        <!--                <span class="pbmit-button-content-wrapper">-->
+                        <!--                  <span class="pbmit-button-text"-->
+                        <!--                    >Book Your Stay</span-->
+                        <!--                  >-->
+                        <!--                </span>-->
+                        <!--              </a>-->
+                        <!--            </div>-->
+                        <!--          </div>-->
+                        <!--        </div>-->
+                        <!--      </div>-->
+                        <!--    </div>-->
+                        <!--  </div>-->
+                        <!--</div>-->
+
+                        <!-- Slider extra -->
+                        <!-- Slide2 -->
+                        <!-- <div class="swiper-slide">
+                <div class="pbmit-slider-item">
+                  <div
+                    class="pbmit-slider-bg"
+                    style="background-image: url(images/img/bg4.jpg)"
+                  ></div>
+                  <div class="container">
+                    <div class="row text-center">
+                      <div class="col-md-12">
+                        <div class="pbmit-slider-content">
+                          <h5
+                            class="pbmit-sub-title transform-top transform-delay-1"
+                          >
+                            Residential Interiors
+                          </h5>
+                          <h2
+                            class="pbmit-title transform-bottom-1 transform-delay-2"
+                          >
+                            Homes That <br />
+                            Breathe
+                          </h2>
+                          <div
+                            class="pbmit-button-wrap transform-bottom-1 transform-delay-3"
+                          >
+                            <a
+                              class="pbmit-btn pbmit-btn-outline"
+                              href="contact-us.html"
+                            >
+                              <span class="pbmit-button-content-wrapper">
+                                <span class="pbmit-button-text"
+                                  >Discover Residential</span
+                                >
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+                        <!-- Slide3 -->
+                        <!-- <div class="swiper-slide">
+                <div class="pbmit-slider-item">
+                  <div
+                    class="pbmit-slider-bg"
+                    style="background-image: url(images/img/bg5.jpg)"
+                  ></div>
+                  <div class="container">
+                    <div class="row text-center">
+                      <div class="col-md-12">
+                        <div class="pbmit-slider-content">
+                          <h5
+                            class="pbmit-sub-title transform-top transform-delay-1"
+                          >
+                            Turnkey Design & Build
+                          </h5>
+                          <h2
+                            class="pbmit-title transform-bottom-1 transform-delay-2"
+                          >
+                            From Concept<br />
+                            to Keys
+                          </h2>
+                          <div
+                            class="pbmit-button-wrap transform-bottom-1 transform-delay-3"
+                          >
+                            <a
+                              class="pbmit-btn pbmit-btn-outline"
+                              href="contact-us.html"
+                            >
+                              <span class="pbmit-button-content-wrapper">
+                                <span class="pbmit-button-text"
+                                  >Start Your Project</span
+                                >
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+                    </div>
+                    <div class="pbmit-slider-dots-corner">
+                        <div class="pbmit-sticky-corner pbmit-top-right-corner">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="" xmlns="http://www.w3.org/2000/svg" data-stylerecorder="true">
+                  <path
+                    d="M20 20V0C20 16 16 20 0 20H20Z"
+                    fill="red"
+                    data-stylerecorder="true"
+                  ></path>
+                </svg>
+                        </div>
+                        <div class="pbmit-sticky-corner pbmit-bottom-left-corner">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="" xmlns="http://www.w3.org/2000/svg" data-stylerecorder="true">
+                  <path
+                    d="M20 20V0C20 16 16 20 0 20H20Z"
+                    fill="red"
+                    data-stylerecorder="true"
+                  ></path>
+                </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="staycation-showcase" aria-label="Perfect staycation options" style="margin-top:">
+                <div class="msc-bg">
+                    <span class="msc-blob msc-blob-a" aria-hidden="true"></span>
+                    <span class="msc-blob msc-blob-b" aria-hidden="true"></span>
+                    <span class="msc-grid" aria-hidden="true"></span>
+                </div>
+
+                <div class="msc-container text-center">
+                    <!--<h4 class="pbmit-subtitle">Your perfect break starts here.</h4>-->
+                    <header class="msc-head">
+                        <h2>The Ideal Staycation To Escape The Busy Schedules</h2>
+                        <!--<p class="fnt-style">-->
+                        <!--  Slow mornings, golden sunsets, and thoughtful comforts —-->
+                        <!--  discover your countryside pause with Marbella.-->
+                        <!--</p>-->
+                    </header>
+
+                    <div class="msc-cards">
+                        <!-- Card 1: Farms & Resort -->
+                        <article class="msc-card">
+                            <div class="msc-media swiper msc-image-slider">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="images/mf-images/villa1.png" alt="Marbella Farms & Resort" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/mf-images/open-air-theatre1.png" alt="Marbella Farms & Resort view 2" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/mf-images/pool-side-lawn1.png" alt="Marbella Farms & Resort view 3" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/mf-images/jambore1.png" alt="Marbella Farms & Resort view 3" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/mf-images/utsav-lawn1.png" alt="Marbella Farms & Resort view 3" />
+                                    </div>
+                                </div>
+                                <div class="msc-slider-pagination"></div>
+                                <span class="msc-badge">Nature • Calm • Space</span>
+                            </div>
+                            <div class="msc-body">
+                                <h3 class="text-start">MARBELLA FARMS & RESORT</h3>
+                                <p class="fnt-style text-start">
+                                    Escape into a refreshing farm retreat where nature, comfort, and calm come together effortlessly. Marbella Farms & Resort offers the perfect countryside getaway for families and special gatherings looking to slow down, reconnect, and unwind in a serene
+                                    natural setting.
+                                </p>
+                                <ul class="msc-points">
+                                    <li>Farm-style experiences with a relaxing resort feel</li>
+                                    <li>Peaceful outdoor spaces for leisure and group gatherings</li>
+                                    <li>Ideal for family stays, celebrations, and large get-togethers</li>
+                                </ul>
+                                <div class="msc-actions">
+                                    <a class="msc-btn msc-btn-primary" href="marbella-farms-resort.html">Explore Farmstay</a
+                    >
+                    <a
+                      class="msc-btn msc-btn-ghost"
+                      href="tel:+91 90000 09921"
+                      aria-label="Call Marbella Farms & Resort"
+                      >Call Us</a
+                    >
+                    <a
+                      class="msc-btn msc-btn-ghost"
+                      href="https://www.instagram.com/_marbella_resort/"
+                      target="_blank"
+                      aria-label="Call Marbella Farms & Resort"
+                      ><i class="fab fa-instagram" aria-hidden="true"></i>
+                      Instagram</a
+                    >
+                    <a
+                      class="msc-btn msc-btn-ghost"
+                      href="http://airbnb.com/h/marbellafarmsandresort"
+                      target="_blank"
+                      aria-label="Call Marbella Farms & Resort"
+                      ><i class="fab fa-airbnb" aria-hidden="true"></i>
+                      Airbnb</a
+                    >
+                  </div>
+                </div>
+              </article>
+
+              <!-- Card 2: Suites -->
+              <article class="msc-card">
+                <div class="msc-media swiper msc-image-slider">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img
+                        src="images/ms-images/lounge5.jpeg"
+                        alt="Marbella Suites"
+                      />
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        src="images/ms-images/living-room2.jpeg"
+                        alt="Marbella Suites view 2"
+                      />
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        src="images/ms-images/master-bedroom1.jpeg"
+                        alt="Marbella Suites view 3"
+                      />
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        src="images/ms-images/bedroom1.jpeg"
+                        alt="Marbella Suites view 3"
+                      />
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        src="images/ms-images/kitchen3.jpeg"
+                        alt="Marbella Suites view 3"
+                      />
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        src="images/ms-images/sunroom3.jpeg"
+                        alt="Marbella Suites view 3"
+                      />
+                    </div>
+                  </div>
+                  <div class="msc-slider-pagination"></div>
+                  <span class="msc-badge">Quiet • Premium • Light</span>
+                </div>
+                <div class="msc-body">
+                  <h3 class="text-start">MARBELLA SUITES</h3>
+                  <p class="fnt-style text-start">
+                    Step into a stay defined by comfort, elegance, and privacy. Marbella Suites is designed for guests who appreciate refined interiors, restful spaces, and a seamless hospitality experience — making it ideal for both short escapes and extended relaxing stays.
+                  </p>
+                  <ul class="msc-points">
+                    <li>Elegant suite with spacious and comfortable interiors</li>
+                    <li>Private, peaceful setting for a restful stay</li>
+                    <li>Thoughtful service with a premium hospitality touch</li>
+                  </ul>
+                  <div class="msc-actions">
+                    <a
+                      class="msc-btn msc-btn-primary"
+                      href="marbella-suites.html"
+                      >Explore Suites</a
+                    >
+                    <a
+                      class="msc-btn msc-btn-ghost"
+                      href="tel:+91 8341029953"
+                      aria-label="Email Marbella Suites"
+                      >Enquire</a
+                    >
+
+                    <a
+                      class="msc-btn msc-btn-ghost"
+                      href="https://www.instagram.com/marbella_suites/"
+                      target="_blank"
+                      aria-label="Call Marbella Farms & Resort"
+                      ><i class="fab fa-instagram" aria-hidden="true"></i>
+                      Instagram</a
+                    >
+                    <a
+                      class="msc-btn msc-btn-ghost"
+                      href="https://www.airbnb.co.in/rooms/1034646254288359498?locale=en&_set_bev_on_new_domain=1719899747_EAOWZlMWJkNDhkOW&source_impression_id=p3_1719899748_P3h_WBTEqRjWwi7e&modal=PHOTO_TOUR_SCROLLABLE"
+                      target="_blank"
+                      aria-label="Call Marbella Farms & Resort"
+                      ><i class="fab fa-airbnb" aria-hidden="true"></i>
+                      Airbnb</a
+                    >
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+        <!-- <section class="marbella-amenities-section">
+          <div class="container">
+
+            <div class="pbmit-heading-subheading animation-style4 text-center">
+              <h4 class="pbmit-subtitle">OUR AMENITIES</h4>
+              <h2 class="pbmit-title">Comforts Designed for Every Stay</h2>
+            </div>
+            <div class="row g-4 marbella-amenities-grid">
+        
+              <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="marbella-amenity-item">
+                  <div class="marbella-amenity-icon"><i class="fas fa-concierge-bell"></i></div>
+                  <h3>Reception</h3>
+                </div>
+              </div>
+        
+              <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="marbella-amenity-item">
+                  <div class="marbella-amenity-icon"><i class="fas fa-key"></i></div>
+                  <h3>Room Access</h3>
+                </div>
+              </div>
+        
+              <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="marbella-amenity-item">
+                  <div class="marbella-amenity-icon"><i class="fas fa-bed"></i></div>
+                  <h3>Luxury Rooms</h3>
+                </div>
+              </div>
+        
+              <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="marbella-amenity-item">
+                  <div class="marbella-amenity-icon"><i class="fas fa-shower"></i></div>
+                  <h3>Modern Bathrooms</h3>
+                </div>
+              </div>
+        
+              <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="marbella-amenity-item">
+                  <div class="marbella-amenity-icon"><i class="fas fa-wind"></i></div>
+                  <h3>Air Conditioning</h3>
+                </div>
+              </div>
+        
+              <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="marbella-amenity-item">
+                  <div class="marbella-amenity-icon"><i class="fas fa-broom"></i></div>
+                  <h3>Housekeeping</h3>
+                </div>
+              </div>
+        
+              <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="marbella-amenity-item">
+                  <div class="marbella-amenity-icon"><i class="fas fa-utensils"></i></div>
+                  <h3>Dining</h3>
+                </div>
+              </div>
+        
+              <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="marbella-amenity-item">
+                  <div class="marbella-amenity-icon"><i class="fas fa-mug-hot"></i></div>
+                  <h3>Breakfast</h3>
+                </div>
+              </div>
+        
+              <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="marbella-amenity-item">
+                  <div class="marbella-amenity-icon"><i class="fas fa-glass-cheers"></i></div>
+                  <h3>Refreshments</h3>
+                </div>
+              </div>
+        
+              <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="marbella-amenity-item">
+                  <div class="marbella-amenity-icon"><i class="fas fa-parking"></i></div>
+                  <h3>Parking</h3>
+                </div>
+              </div>
+        
+              <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="marbella-amenity-item">
+                  <div class="marbella-amenity-icon"><i class="fas fa-wifi"></i></div>
+                  <h3>Wi-Fi</h3>
+                </div>
+              </div>
+        
+              <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="marbella-amenity-item">
+                  <div class="marbella-amenity-icon"><i class="fas fa-user-shield"></i></div>
+                  <h3>Safety & Security</h3>
+                </div>
+              </div>
+        
+              <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="marbella-amenity-item">
+                  <div class="marbella-amenity-icon"><i class="fas fa-door-open"></i></div>
+                  <h3>Private Spaces</h3>
+                </div>
+              </div>
+        
+              <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="marbella-amenity-item">
+                  <div class="marbella-amenity-icon"><i class="fas fa-couch"></i></div>
+                  <h3>Lounge Area</h3>
+                </div>
+              </div>
+        
+              <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="marbella-amenity-item">
+                  <div class="marbella-amenity-icon"><i class="fas fa-tree"></i></div>
+                  <h3>Nature Spaces</h3>
+                </div>
+              </div>
+        
+              <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="marbella-amenity-item">
+                  <div class="marbella-amenity-icon"><i class="fas fa-glass-cheers"></i></div>
+                  <h3>Event-Friendly</h3>
+                </div>
+              </div>
+        
+              <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="marbella-amenity-item">
+                  <div class="marbella-amenity-icon"><i class="fas fa-clock"></i></div>
+                  <h3>Timely Support</h3>
+                </div>
+              </div>
+        
+              <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="marbella-amenity-item">
+                  <div class="marbella-amenity-icon"><i class="fas fa-heart"></i></div>
+                  <h3>Guest Care</h3>
+                </div>
+              </div>
+        
+            </div>
+          </div>
+        </section> -->
+        <section class="pbmit-sticky-section mb-3">
+          <div class="container">
+            <div class="row g-0">
+              <div class="col-md-12 col-xl-5">
+                <div class="pbmit-sticky-col">
+                  <div class="ihbox-six-left-area">
+                    <div class="pbmit-heading-subheading animation-style4">
+                      <h4 class="pbmit-subtitle">Why Stay With Marbella?</h4>
+                      <header class="msc-head text-start">
+                        <h2>
+                          A Destination Where Premium Comfort, Nature, And
+                          Memorable Hospitality Come Together
+                        </h2>
+                        <p class="fnt-style">
+                          Marbella offers more than just a stay. From elegant
+                          suites and peaceful resort spaces to curated
+                          experiences and warm service, every detail is designed
+                          to give guests comfort, convenience, and moments worth
+                          remembering.
+                        </p>
+                      </header>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12 col-xl-7">
+                <div class="ihbox-six-right-area">
+                  <div class="row">
+                    <article class="pbmit-miconheading-style-19 col-md-6">
+                      <div class="pbmit-ihbox-style-19">
+                        <div class="pbmit-ihbox-box">
+                          <div class="pbmit-ihbox-icon">
+                            <div
+                              class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon"
+                            >
+                              <i class="fas fa-bed"></i>
+                            </div>
+                          </div>
+                          <h2 class="pbmit-element-title">
+                            Elegant Stay Experience
+                          </h2>
+                          <div class="pbmit-heading-desc">
+                            Beautifully designed suites and rooms with
+                            comfort-focused interiors for a peaceful and premium
+                            stay.
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article class="pbmit-miconheading-style-19 col-md-6">
+                      <div class="pbmit-ihbox-style-19">
+                        <div class="pbmit-ihbox-box">
+                          <div class="pbmit-ihbox-icon">
+                            <div
+                              class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon"
+                            >
+                              <i class="fas fa-tree"></i>
+                            </div>
+                          </div>
+                          <h2 class="pbmit-element-title">
+                            Nature & Open Spaces
+                          </h2>
+                          <div class="pbmit-heading-desc">
+                            Relax in refreshing surroundings with greenery,
+                            open-air spaces, and a calm atmosphere away from
+                            city stress.
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article class="pbmit-miconheading-style-19 col-md-6">
+                      <div class="pbmit-ihbox-style-19">
+                        <div class="pbmit-ihbox-box">
+                          <div class="pbmit-ihbox-icon">
+                            <div
+                              class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon"
+                            >
+                              <i class="fas fa-concierge-bell"></i>
+                            </div>
+                          </div>
+                          <h2 class="pbmit-element-title">
+                            Warm Guest Hospitality
+                          </h2>
+                          <div class="pbmit-heading-desc">
+                            Friendly support, attentive care, and personalized
+                            service that make every guest feel welcomed and
+                            valued.
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article class="pbmit-miconheading-style-19 col-md-6">
+                      <div class="pbmit-ihbox-style-19">
+                        <div class="pbmit-ihbox-box">
+                          <div class="pbmit-ihbox-icon">
+                            <div
+                              class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon"
+                            >
+                              <i class="fas fa-glass-cheers"></i>
+                            </div>
+                          </div>
+                          <h2 class="pbmit-element-title">
+                            Perfect for Celebrations
+                          </h2>
+                          <div class="pbmit-heading-desc">
+                            Ideal spaces for family outings, private events,
+                            gatherings, and joyful celebrations in a premium
+                            setting.
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article class="pbmit-miconheading-style-19 col-md-6">
+                      <div class="pbmit-ihbox-style-19">
+                        <div class="pbmit-ihbox-box">
+                          <div class="pbmit-ihbox-icon">
+                            <div
+                              class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon"
+                            >
+                              <i class="fas fa-utensils"></i>
+                            </div>
+                          </div>
+                          <h2 class="pbmit-element-title">
+                            Curated Dining Comfort
+                          </h2>
+                          <div class="pbmit-heading-desc">
+                            Enjoy food-friendly spaces and guest-focused
+                            amenities that enhance the overall comfort of your
+                            stay.
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article class="pbmit-miconheading-style-19 col-md-6">
+                      <div class="pbmit-ihbox-style-19">
+                        <div class="pbmit-ihbox-box">
+                          <div class="pbmit-ihbox-icon">
+                            <div
+                              class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon"
+                            >
+                              <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                          </div>
+                          <h2 class="pbmit-element-title">
+                            Prime Hyderabad Location
+                          </h2>
+                          <div class="pbmit-heading-desc">
+                            Conveniently located for guests looking for
+                            accessibility, comfort, and a premium stay
+                            experience in Hyderabad.
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article class="pbmit-miconheading-style-19 col-md-6">
+                      <div class="pbmit-ihbox-style-19">
+                        <div class="pcrd">
+                          <div class="pbmit-ihbox-icon">
+                            <div
+                              class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon"
+                            >
+                              <i class="fas fa-camera-retro"></i>
+                            </div>
+                          </div>
+                          <h2 class="pbmit-element-title">
+                            Picture-Perfect Ambience
+                          </h2>
+                          <div class="pbmit-heading-desc">
+                            Elegant corners, scenic spaces, and beautiful
+                            surroundings create a visually memorable experience
+                            for every guest.
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article class="pbmit-miconheading-style-19 col-md-6">
+                      <div class="pbmit-ihbox-style-19">
+                        <div class="pbmit-ihbox-box">
+                          <div class="pbmit-ihbox-icon">
+                            <div
+                              class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon"
+                            >
+                              <i class="fas fa-heart"></i>
+                            </div>
+                          </div>
+                          <h2 class="pbmit-element-title">
+                            Moments Guests Remember
+                          </h2>
+                          <div class="pbmit-heading-desc">
+                            From peaceful stays to joyful gatherings, Marbella
+                            creates experiences guests love to revisit and
+                            recommend.
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Ihbox End -->
+        <section class="venue-premium-section pb-3">
+          <div class="venue-premium-container">
+            <div
+              class="pbmit-heading-subheading animation-style4 text-center mb-0"
+            >
+              <!--<h4 class="pbmit-subtitle">The Marbella</h4>-->
+              <div class="msc-head">
+                <h2>Marbella Farms and Resort</h2>
+                <!--<p class="fnt-style">-->
+                <!--  Where comfort, elegance, and thoughtful hospitality come-->
+                <!--  together to create truly memorable stays.-->
+                <!--</p>-->
+              </div>
+            </div>
+            <div class="venue-premium-layout mgn-minus mobile-mgn-top">
+              <div class="venue-premium-visual">
+                <div class="venue-premium-circle-wrap">
+                  <!--<div class="venue-premium-orbit orbit-one"></div>-->
+                  <div class="venue-premium-orbit orbit-two"></div>
+
+                  <div class="venue-premium-circle">
+                    <img
+                      src="images/index/circle-images/IMG_0140.JPG"
+                      alt="Marbella premium hospitality experience"
+                    />
+                  </div>
+
+                  <!-- left points -->
+                  <div class="venue-premium-point vp1">
+                    <span class="vp-dot"></span>
+                    <span class="vp-line"></span>
+                    <h2 class="pbmit-element-title2">8 Acre Property</h2>
+                  </div>
+
+                  <div class="venue-premium-point vp2">
+                    <span class="vp-dot"></span>
+                    <span class="vp-line"></span>
+                    <h2 class="pbmit-element-title2">4.7 Google Rating</h2>
+                  </div>
+
+                  <div class="venue-premium-point vp3">
+                    <span class="vp-dot"></span>
+                    <span class="vp-line"></span>
+                    <h2 class="pbmit-element-title2">500 Guest Capacity</h2>
+                  </div>
+
+                  <div class="venue-premium-point vp4">
+                    <span class="vp-dot"></span>
+                    <span class="vp-line"></span>
+                    <h2 class="pbmit-element-title2">
+                      Diverse Venues ( Poolside lawn, Banquet Hall, Utsav Lawn)
+                    </h2>
+                  </div>
+
+                  <!-- right points -->
+                  <div class="venue-premium-point vp5">
+                    <span class="vp-dot"></span>
+                    <span class="vp-line"></span>
+                    <h2 class="pbmit-element-title2">40 min from Gachibowli</h2>
+                  </div>
+
+                  <div class="venue-premium-point vp6">
+                    <span class="vp-dot"></span>
+                    <span class="vp-line"></span>
+                    <h2 class="pbmit-element-title2">
+                      Arcade Arena, Outdoor Sports, Kidsventure Arena, Horse
+                      riding
+                    </h2>
+                  </div>
+
+                  <div class="venue-premium-point vp7">
+                    <span class="vp-dot"></span>
+                    <span class="vp-line"></span>
+                    <h2 class="pbmit-element-title2">Taste of Marbella</h2>
+                  </div>
+
+                  <div class="venue-premium-point vp8">
+                    <span class="vp-dot"></span>
+                    <span class="vp-line"></span>
+                    <h2 class="pbmit-element-title2">
+                      A destination guests love to revisit, celebrate, and
+                      recommend
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--<section class="wild-hero-section">-->
+        <!--  <div class="wild-hero-bg">-->
+        <!--    <img-->
+        <!--      src="images/img/bg6.jpg"-->
+        <!--      alt="Marbella Farms and Suites Banner"-->
+        <!--    />-->
+        <!--  </div>-->
+
+        <!--  <div class="wild-hero-overlay"></div>-->
+
+        <!--  <div class="wild-hero-content">-->
+        <!--    <div class="pbmit-heading-subheading animation-style4 text-center">-->
+        <!--      <h4 class="pbmit-subtitle">WELCOME TO MARBELLA</h4>-->
+        <!--      <header class="msc-head text-center text-light">-->
+        <!--        <h2 class="text-light">Stay in Style, Celebrate in Elegance</h2>-->
+        <!--        <p class="fnt-style">-->
+        <!--          Experience Marbella Farms and Marbella Suites, where premium-->
+        <!--          hospitality, beautiful spaces, and unforgettable moments come-->
+        <!--          together for stays, getaways, and special celebrations.-->
+        <!--        </p>-->
+        <!--      </header>-->
+        <!--      <a class="pbmit-btn pbmit-btn-outline" href="contact-us.html">-->
+        <!--        <span class="pbmit-button-content-wrapper">-->
+        <!--          <span class="pbmit-button-text">Discover Marbella</span>-->
+        <!--        </span>-->
+        <!--      </a>-->
+                                    <!--    </div>-->
+                                    <!--  </div>-->
+                                    <!--</section>-->
+                                    <!-- Floating Icons -->
+
+                                    <!-- Testimonial Start -->
+                                    <style>
+                                        /* ===== Marbella Guest Reviews - New Slider Design ===== */
+
+                                        .marbella-guest-reviews {
+                                            --mgr-bg: #f8fafc;
+                                            --mgr-card: #ffffff;
+                                            --mgr-text: #0f172a;
+                                            --mgr-sub: #64748b;
+                                            --mgr-line: #e2e8f0;
+                                            --mgr-accent: #f6cf7a;
+                                            --mgr-star: #f59e0b;
+                                            --mgr-shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
+                                            padding: 70px 0;
+                                            background: var(--mgr-bg);
+                                            overflow: hidden;
+                                        }
+
+                                        .marbella-guest-reviews .container {
+                                            padding-left: 12px;
+                                            padding-right: 12px;
+                                        }
+
+                                        .fnt-style {
+                                            font-size: 16px !important;
+                                            line-height: 28px !important;
+                                            color: #475569;
+                                            max-width: 740px;
+                                            margin: 0 auto;
+                                        }
+
+                                        .msc-head {
+                                            text-align: center;
+                                            margin-bottom: 42px;
+                                        }
+
+                                        .msc-head h2 {
+                                            margin: 0 0 10px;
+                                            color: #0f172a;
+                                            font-size: clamp(26px, 4vw, 42px);
+                                            font-weight: 900;
+                                            letter-spacing: 0.2px;
+                                        }
+
+                                        .mgr-group+.mgr-group {
+                                            margin-top: 40px;
+                                        }
+
+                                        .mgr-flex {
+                                            display: flex;
+                                            gap: 28px;
+                                            align-items: stretch;
+                                        }
+
+                                        .mgr-left {
+                                            flex: 0 0 24%;
+                                            max-width: 24%;
+                                            min-width: 240px;
+                                        }
+
+                                        .mgr-left-title {
+                                            margin: 0 0 14px;
+                                            font-size: clamp(20px, 2vw, 28px);
+                                            font-weight: 800;
+                                            color: var(--mgr-text);
+                                        }
+
+                                        .mgr-thumb {
+                                            width: 100%;
+                                            height: 275px;
+                                            min-height: 275px;
+                                            border-radius: 18px;
+                                            overflow: hidden;
+                                            border: 1px solid var(--mgr-line);
+                                            box-shadow: var(--mgr-shadow);
+                                            background: #fff;
+                                        }
+
+                                        .mgr-thumb img {
+                                            display: block;
+                                            width: 100%;
+                                            height: 275px;
+                                            min-height: 275px;
+                                            object-fit: cover;
+                                        }
+
+                                        .mgr-right {
+                                            flex: 1 1 auto;
+                                            min-width: 0;
+                                        }
+
+                                        .mgr-slider-top {
+                                            display: flex;
+                                            justify-content: flex-end;
+                                            align-items: center;
+                                            margin-bottom: 16px;
+                                        }
+
+                                        .mgr-nav {
+                                            display: flex;
+                                            gap: 10px;
+                                        }
+
+                                        .mgr-nav-btn {
+                                            width: 46px;
+                                            height: 46px;
+                                            border-radius: 50%;
+                                            border: 1px solid var(--mgr-line);
+                                            background: #fff;
+                                            color: var(--mgr-text);
+                                            display: inline-flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            cursor: pointer;
+                                            transition: all 0.3s ease;
+                                            box-shadow: 0 8px 20px rgba(15, 23, 42, 0.06);
+                                            font-size: 18px;
+                                            font-weight: 700;
+                                        }
+
+                                        .mgr-nav-btn:hover {
+                                            background: #0f172a;
+                                            color: #fff;
+                                            border-color: #0f172a;
+                                            transform: translateY(-2px);
+                                        }
+
+                                        .mgr-review-slider {
+                                            position: relative;
+                                        }
+
+                                        .mgr-slider-window {
+                                            overflow: hidden;
+                                            width: 100%;
+                                        }
+
+                                        .mgr-track {
+                                            display: flex;
+                                            gap: 24px;
+                                            transition: transform 0.7s ease;
+                                            will-change: transform;
+                                        }
+
+                                        .mgr-card {
+                                            flex: 0 0 calc((100% - 24px) / 2);
+                                            min-width: calc((100% - 24px) / 2);
+                                            background: var(--mgr-card);
+                                            border: 1px solid var(--mgr-line);
+                                            border-radius: 18px;
+                                            box-shadow: var(--mgr-shadow);
+                                            padding: 24px;
+                                        }
+
+                                        .mgr-quote {
+                                            width: 40px;
+                                            height: 40px;
+                                            border-radius: 12px;
+                                            background: linear-gradient(135deg, var(--mgr-accent), #ffd978);
+                                            color: #fff;
+                                            display: grid;
+                                            place-items: center;
+                                            font-size: 22px;
+                                            font-weight: 900;
+                                            line-height: 1;
+                                            margin-bottom: 16px;
+                                        }
+
+                                        .mgr-card p {
+                                            margin: 0 0 20px;
+                                            color: var(--mgr-text);
+                                            line-height: 1.75;
+                                            font-size: 15px;
+                                        }
+
+                                        .mgr-meta {
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: space-between;
+                                            gap: 14px;
+                                            border-top: 1px solid #eef2f7;
+                                            padding-top: 16px;
+                                        }
+
+                                        .mgr-name {
+                                            margin: 0;
+                                            font-weight: 800;
+                                            font-size: 17px;
+                                            color: var(--mgr-text);
+                                        }
+
+                                        .mgr-role {
+                                            display: inline-block;
+                                            margin-top: 4px;
+                                            font-size: 13px;
+                                            color: var(--mgr-sub);
+                                        }
+
+                                        .mgr-stars {
+                                            display: inline-flex;
+                                            gap: 2px;
+                                            flex-shrink: 0;
+                                        }
+
+                                        .mgr-stars span,
+                                        .mgr-stars span.half {
+                                            width: 16px;
+                                            height: 16px;
+                                            display: inline-block;
+                                            position: relative;
+                                        }
+
+                                        .mgr-stars span::before,
+                                        .mgr-stars span.half::before {
+                                            content: "★";
+                                            color: var(--mgr-star);
+                                            font-size: 16px;
+                                            line-height: 16px;
+                                            position: absolute;
+                                            inset: 0;
+                                        }
+
+                                        .mgr-stars span.half::before {
+                                            background: linear-gradient(90deg, var(--mgr-star) 50%, transparent 50%);
+                                            -webkit-background-clip: text;
+                                            color: transparent;
+                                        }
+
+                                        @media (max-width: 991px) {
+                                            .mgr-flex {
+                                                flex-direction: column;
+                                            }
+                                            .mgr-left {
+                                                flex: 0 0 100%;
+                                                max-width: 100%;
+                                                min-width: 100%;
+                                            }
+                                            .mgr-thumb,
+                                            .mgr-thumb img {
+                                                min-height: 260px;
+                                            }
+                                            .mgr-card {
+                                                flex: 0 0 100%;
+                                                min-width: 100%;
+                                            }
+                                            .mgr-slider-top {
+                                                justify-content: center;
+                                            }
+                                        }
+                                    </style>
+
+                                    <section class="marbella-guest-reviews section-padding section-bg">
+                                        <div class="container text-center">
+                                            <h4 class="pbmit-subtitle">Moments our guests cherish.</h4>
+
+                                            <header class="msc-head">
+                                                <h2>Hear From Our Lovely Guests</h2>
+                                                <center>
+                                                    <p class="fnt-style" style="text-align: center;">Honest stories and experiences that reflect the warmth, comfort, and care we deliver.</p>
+                                                </center>
+                                            </header>
+
+                                            <!-- ===== BLOCK 1 ===== -->
+                                            <div class="mgr-group">
+                                                <div class="mgr-flex">
+                                                    <aside class="mgr-left">
+                                                        <h3 class="mgr-left-title">Marbella Farms & Resort</h3>
+                                                        <div class="mgr-thumb">
+                                                            <img src="images/index/r1.webp" alt="Marbella Farms & Resort">
+                                                        </div>
+                                                    </aside>
+
+                                                    <div class="mgr-right">
+                                                        <div class="mgr-review-slider">
+                                                            <div class="mgr-slider-top">
+                                                                <div class="mgr-nav">
+                                                                    <button class="mgr-nav-btn mgr-prev" type="button" aria-label="Previous review">&#8592;</button>
+                                                                    <button class="mgr-nav-btn mgr-next" type="button" aria-label="Next review">&#8594;</button>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="mgr-slider-window">
+                                                                <div class="mgr-track">
+                                                                    <article class="mgr-card">
+                                                                        <div class="mgr-quote">“</div>
+                                                                        <p>
+                                                                            A quiet countryside escape — birdsong at dawn, golden fields at dusk. The team planned a tractor ride and a cozy bonfire for us. Truly memorable.
+                                                                        </p>
+                                                                        <div class="mgr-meta">
+                                                                            <div>
+                                                                                <h6 class="mgr-name">Ananya R.</h6>
+                                                                                <span class="mgr-role">Couple Getaway</span>
+                                                                            </div>
+                                                                            <div class="mgr-stars">
+                                                                                <span></span><span></span><span></span><span></span><span></span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </article>
+
+                                                                    <article class="mgr-card">
+                                                                        <div class="mgr-quote">“</div>
+                                                                        <p>
+                                                                            The lawns are pristine and the sunrise deck became our morning ritual. Kids loved the open space, and we loved the silence. Perfect family break.
+                                                                        </p>
+                                                                        <div class="mgr-meta">
+                                                                            <div>
+                                                                                <h6 class="mgr-name">Harsh &amp; Nidhi</h6>
+                                                                                <span class="mgr-role">Family Stay</span>
+                                                                            </div>
+                                                                            <div class="mgr-stars">
+                                                                                <span></span><span></span><span></span><span></span><span></span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </article>
+
+                                                                    <article class="mgr-card">
+                                                                        <div class="mgr-quote">“</div>
+                                                                        <p>
+                                                                            Farm-to-table breakfast was delicious, and the curated activities were spot on. Trails in the morning, poolside by noon, and stargazing at night.
+                                                                        </p>
+                                                                        <div class="mgr-meta">
+                                                                            <div>
+                                                                                <h6 class="mgr-name">Ruhani S.</h6>
+                                                                                <span class="mgr-role">Weekend Escape</span>
+                                                                            </div>
+                                                                            <div class="mgr-stars">
+                                                                                <span></span><span></span><span></span><span></span><span></span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </article>
+
+                                                                    <article class="mgr-card">
+                                                                        <div class="mgr-quote">“</div>
+                                                                        <p>
+                                                                            The whole atmosphere felt refreshing and calm. Service was warm, the food was comforting, and every corner of the stay felt thoughtfully planned.
+                                                                        </p>
+                                                                        <div class="mgr-meta">
+                                                                            <div>
+                                                                                <h6 class="mgr-name">Dev &amp; Sneha</h6>
+                                                                                <span class="mgr-role">Nature Retreat</span>
+                                                                            </div>
+                                                                            <div class="mgr-stars">
+                                                                                <span></span><span></span><span></span><span></span><span></span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </article>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div style="height:48px;"></div>
+
+                                            <!-- ===== BLOCK 2 ===== -->
+                                            <div class="mgr-group">
+                                                <div class="mgr-flex">
+                                                    <aside class="mgr-left">
+                                                        <h3 class="mgr-left-title">Marbella Suites</h3>
+                                                        <div class="mgr-thumb">
+                                                            <img src="images/index/r2.webp" alt="Marbella Suites">
+                                                        </div>
+                                                    </aside>
+
+                                                    <div class="mgr-right">
+                                                        <div class="mgr-review-slider">
+                                                            <div class="mgr-slider-top">
+                                                                <div class="mgr-nav">
+                                                                    <button class="mgr-nav-btn mgr-prev" type="button" aria-label="Previous review">&#8592;</button>
+                                                                    <button class="mgr-nav-btn mgr-next" type="button" aria-label="Next review">&#8594;</button>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="mgr-slider-window">
+                                                                <div class="mgr-track">
+                                                                    <article class="mgr-card">
+                                                                        <div class="mgr-quote">“</div>
+                                                                        <p>
+                                                                            Premium finishes, spotless bathroom, and sunlight pouring in through large windows. We extended our stay because it truly felt like quiet luxury.
+                                                                        </p>
+                                                                        <div class="mgr-meta">
+                                                                            <div>
+                                                                                <h6 class="mgr-name">Siddharth K.</h6>
+                                                                                <span class="mgr-role">Premium Suite</span>
+                                                                            </div>
+                                                                            <div class="mgr-stars">
+                                                                                <span></span><span></span><span></span><span></span><span></span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </article>
+
+                                                                    <article class="mgr-card">
+                                                                        <div class="mgr-quote">“</div>
+                                                                        <p>
+                                                                            The private sit-out is a dream. Evenings with chai and a calming view of the fields made the experience feel extra special and peaceful.
+                                                                        </p>
+                                                                        <div class="mgr-meta">
+                                                                            <div>
+                                                                                <h6 class="mgr-name">Megha V.</h6>
+                                                                                <span class="mgr-role">Suite Guest</span>
+                                                                            </div>
+                                                                            <div class="mgr-stars">
+                                                                                <span></span><span></span><span></span><span></span><span></span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </article>
+
+                                                                    <article class="mgr-card">
+                                                                        <div class="mgr-quote">“</div>
+                                                                        <p>
+                                                                            Tasteful interiors and peaceful vibes. Check-in was smooth, service was fast, and the suite had the comfort and charm we were hoping for.
+                                                                        </p>
+                                                                        <div class="mgr-meta">
+                                                                            <div>
+                                                                                <h6 class="mgr-name">Tanya &amp; Ishan</h6>
+                                                                                <span class="mgr-role">Suite Weekend</span>
+                                                                            </div>
+                                                                            <div class="mgr-stars">
+                                                                                <span></span><span></span><span></span><span></span><span></span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </article>
+
+                                                                    <article class="mgr-card">
+                                                                        <div class="mgr-quote">“</div>
+                                                                        <p>
+                                                                            Beautifully maintained suite, soft lighting, elegant decor, and a very calm setting. It felt private, polished, and ideal for a relaxing weekend.
+                                                                        </p>
+                                                                        <div class="mgr-meta">
+                                                                            <div>
+                                                                                <h6 class="mgr-name">Aarav M.</h6>
+                                                                                <span class="mgr-role">Luxury Stay</span>
+                                                                            </div>
+                                                                            <div class="mgr-stars">
+                                                                                <span></span><span></span><span></span><span></span><span></span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </article>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </section>
+
+                                    <script>
+                                        document.addEventListener("DOMContentLoaded", function() {
+                                            const sliders = document.querySelectorAll(".mgr-review-slider");
+
+                                            sliders.forEach((slider) => {
+                                                const track = slider.querySelector(".mgr-track");
+                                                const cards = Array.from(track.querySelectorAll(".mgr-card"));
+                                                const prevBtn = slider.querySelector(".mgr-prev");
+                                                const nextBtn = slider.querySelector(".mgr-next");
+                                                const sliderWindow = slider.querySelector(".mgr-slider-window");
+
+                                                let currentIndex = 0;
+                                                let autoSlide;
+
+                                                function getVisibleCards() {
+                                                    return window.innerWidth <= 991 ? 1 : 2;
+                                                }
+
+                                                function getMaxIndex() {
+                                                    return Math.max(0, cards.length - getVisibleCards());
+                                                }
+
+                                                function updateSlider(animate = true) {
+                                                    track.style.transition = animate ? "transform 0.7s ease" : "none";
+
+                                                    if (cards[currentIndex]) {
+                                                        const moveX = cards[currentIndex].offsetLeft;
+                                                        track.style.transform = `translateX(-${moveX}px)`;
+                                                    }
+                                                }
+
+                                                function nextSlide() {
+                                                    const maxIndex = getMaxIndex();
+                                                    currentIndex = currentIndex >= maxIndex ? 0 : currentIndex + 1;
+                                                    updateSlider(true);
+                                                }
+
+                                                function prevSlide() {
+                                                    const maxIndex = getMaxIndex();
+                                                    currentIndex = currentIndex <= 0 ? maxIndex : currentIndex - 1;
+                                                    updateSlider(true);
+                                                }
+
+                                                function startAutoSlide() {
+                                                    stopAutoSlide();
+                                                    autoSlide = setInterval(() => {
+                                                        nextSlide();
+                                                    }, 10000); // 10 seconds
+                                                }
+
+                                                function stopAutoSlide() {
+                                                    if (autoSlide) {
+                                                        clearInterval(autoSlide);
+                                                    }
+                                                }
+
+                                                function restartAutoSlide() {
+                                                    stopAutoSlide();
+                                                    startAutoSlide();
+                                                }
+
+                                                nextBtn.addEventListener("click", function() {
+                                                    nextSlide();
+                                                    restartAutoSlide();
+                                                });
+
+                                                prevBtn.addEventListener("click", function() {
+                                                    prevSlide();
+                                                    restartAutoSlide();
+                                                });
+
+                                                slider.addEventListener("mouseenter", stopAutoSlide);
+                                                slider.addEventListener("mouseleave", startAutoSlide);
+
+                                                // Mobile swipe
+                                                let startX = 0;
+                                                let endX = 0;
+
+                                                sliderWindow.addEventListener("touchstart", function(e) {
+                                                    startX = e.touches[0].clientX;
+                                                    stopAutoSlide();
+                                                }, {
+                                                    passive: true
+                                                });
+
+                                                sliderWindow.addEventListener("touchmove", function(e) {
+                                                    endX = e.touches[0].clientX;
+                                                }, {
+                                                    passive: true
+                                                });
+
+                                                sliderWindow.addEventListener("touchend", function() {
+                                                    const diff = startX - endX;
+
+                                                    if (diff > 50) {
+                                                        nextSlide();
+                                                    } else if (diff < -50) {
+                                                        prevSlide();
+                                                    }
+
+                                                    startAutoSlide();
+                                                });
+
+                                                window.addEventListener("resize", function() {
+                                                    if (currentIndex > getMaxIndex()) {
+                                                        currentIndex = 0;
+                                                    }
+                                                    updateSlider(false);
+                                                });
+
+                                                updateSlider(false);
+                                                startAutoSlide();
+                                            });
+                                        });
+                                    </script>
+                                    <!-- Testimonial End -->
+                                    <!-- Contact Form star -->
+
+                                    <!-- Contact Form end-->
+                                </div>
+                                <!-- page content End -->
+                                <!-- footer -->
+                                <style>
+                                    .footer-container {
+                                        background-color: #333;
+                                        color: #fff;
+                                        padding: 40px 0;
+                                    }
+
+                                    .footer-row {
+                                        display: flex;
+                                        justify-content: space-between;
+                                        align-items: flex-start;
+                                        flex-wrap: wrap;
+                                    }
+
+                                    .footer-column {
+                                        flex: 1;
+                                        padding: 15px;
+                                    }
+
+                                    .footer-logo img {
+                                        max-width: 100%;
+                                        height: auto;
+                                    }
+
+                                    .footer-column h3 {
+                                        margin-bottom: 20px;
+                                        font-size: 18px;
+                                        color: #fff;
+                                    }
+
+                                    .footer-column ul {
+                                        list-style: none;
+                                        padding: 0;
+                                    }
+
+                                    .footer-column ul li {
+                                        margin: 10px 0;
+                                    }
+
+                                    .footer-column a {
+                                        color: #fff;
+                                        text-decoration: none;
+                                    }
+
+                                    .footer-column a:hover {
+                                        text-decoration: underline;
+                                    }
+
+                                    .footer-map-container {
+                                        display: flex;
+                                        justify-content: space-between;
+                                        flex-wrap: wrap;
+                                    }
+
+                                    .footer-map {
+                                        width: 100%;
+                                        height: 250px;
+                                        border: 1px solid #ddd;
+                                        margin-bottom: 20px;
+                                    }
+
+                                    .social-links {
+                                        display: flex;
+                                        justify-content: none;
+                                        margin-top: 15px;
+                                    }
+
+                                    .social-links a {
+                                        color: #fff;
+                                        font-size: 20px;
+                                        margin: 0 10px;
+                                    }
+
+                                    .social-links a:hover {
+                                        color: #ff6347;
+                                    }
+
+                                    /* Mobile footer layout */
+
+                                    @media (max-width: 768px) {
+                                        .footer-row {
+                                            flex-direction: column;
+                                            /* stack columns */
+                                        }
+                                        .footer-column {
+                                            flex: 0 0 100%;
+                                            width: 100%;
+                                            max-width: 100%;
+                                            padding: 10px 0;
+                                        }
+                                        .footer-map {
+                                            height: 220px;
+                                            /* optional: slightly shorter on mobile */
+                                            margin-bottom: 15px;
+                                        }
+                                        .footer-logo img {
+                                            margin-bottom: 10px;
+                                        }
+                                        .social-links {
+                                            justify-content: flex-start;
+                                            /* or center if you prefer */
+                                            margin-top: 10px;
+                                        }
+                                    }
+
+                                    .wild-hero-section {
+                                        position: relative;
+                                        width: 100%;
+                                        height: 440px;
+                                        overflow: hidden;
+                                        background: #2f2f2f;
+                                    }
+
+                                    .wild-hero-bg {
+                                        position: absolute;
+                                        inset: 0;
+                                        z-index: 1;
+                                    }
+
+                                    .wild-hero-bg img {
+                                        width: 100%;
+                                        height: 100%;
+                                        object-fit: cover;
+                                        display: block;
+                                    }
+
+                                    .wild-hero-overlay {
+                                        position: absolute;
+                                        inset: 0;
+                                        background: rgba(26, 26, 26, 0.52);
+                                        z-index: 2;
+                                    }
+
+                                    .wild-hero-content {
+                                        position: relative;
+                                        z-index: 3;
+                                        max-width: 1200px;
+                                        height: 100%;
+                                        margin: 0 auto;
+                                        padding: 0 20px;
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        text-align: center;
+                                    }
+
+                                    .wild-hero-btn {
+                                        display: inline-flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        min-width: 270px;
+                                        height: 66px;
+                                        padding: 0 34px;
+                                        background: #cfc4b4;
+                                        color: #111;
+                                        text-decoration: none;
+                                        font-size: 14px;
+                                        letter-spacing: 4px;
+                                        font-weight: 500;
+                                        text-transform: uppercase;
+                                        transition: all 0.35s ease;
+                                        border: 1px solid rgba(255, 255, 255, 0.12);
+                                    }
+
+                                    .wild-hero-btn:hover {
+                                        background: #dfd5c6;
+                                        color: #111;
+                                        transform: translateY(-2px);
+                                    }
+
+                                    .wild-float-call {
+                                        position: fixed;
+                                        left: 18px;
+                                        bottom: 35px;
+                                        z-index: 999;
+                                        display: inline-flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        gap: 10px;
+                                        height: 52px;
+                                        padding: 0 24px;
+                                        border-radius: 999px;
+                                        background: linear-gradient(135deg, #c8a35f, #e1c27a);
+                                        color: #fff;
+                                        text-decoration: none;
+                                        font-size: 14px;
+                                        font-weight: 600;
+                                        box-shadow: 0 10px 30px rgba(200, 163, 95, 0.25);
+                                        transition: all 0.35s ease;
+                                        overflow: hidden;
+                                    }
+
+                                    /* ICON */
+
+                                    .wild-float-call i {
+                                        font-size: 18px;
+                                        position: relative;
+                                        z-index: 2;
+                                        animation: callIconTilt 2.5s ease-in-out infinite;
+                                    }
+
+                                    /* TEXT */
+
+                                    .wild-float-call span {
+                                        position: relative;
+                                        z-index: 2;
+                                    }
+
+                                    /* SOFT GLOW BACKGROUND */
+
+                                    .wild-float-call::before {
+                                        content: "";
+                                        position: absolute;
+                                        inset: 0;
+                                        border-radius: 999px;
+                                        background: radial-gradient( circle at center, rgba(255, 255, 255, 0.25), transparent 70%);
+                                        opacity: 0;
+                                        animation: callSoftGlow 3s ease-in-out infinite;
+                                    }
+
+                                    /* SOUND WAVE EFFECT (premium subtle) */
+
+                                    .wild-float-call::after {
+                                        content: "";
+                                        position: absolute;
+                                        top: -6px;
+                                        left: -6px;
+                                        right: -6px;
+                                        bottom: -6px;
+                                        border-radius: 999px;
+                                        border: 2px solid rgba(200, 163, 95, 0.45);
+                                        opacity: 0;
+                                        transform: scale(1);
+                                        animation: callWave 2.4s infinite;
+                                    }
+
+                                    /* HOVER */
+
+                                    .wild-float-call:hover {
+                                        transform: translateY(-4px) scale(1.03);
+                                        box-shadow: 0 16px 40px rgba(200, 163, 95, 0.35);
+                                        color: #fff;
+                                    }
+
+                                    /* ANIMATIONS */
+
+                                    /* slight phone tilt (like ringing feel) */
+
+                                    @keyframes callIconTilt {
+                                        0%,
+                                        100% {
+                                            transform: rotate(0deg);
+                                        }
+                                        20% {
+                                            transform: rotate(-8deg);
+                                        }
+                                        40% {
+                                            transform: rotate(6deg);
+                                        }
+                                        60% {
+                                            transform: rotate(-4deg);
+                                        }
+                                        80% {
+                                            transform: rotate(3deg);
+                                        }
+                                    }
+
+                                    /* soft glow breathing */
+
+                                    @keyframes callSoftGlow {
+                                        0%,
+                                        100% {
+                                            opacity: 0;
+                                        }
+                                        50% {
+                                            opacity: 0.6;
+                                        }
+                                    }
+
+                                    /* wave ring */
+
+                                    @keyframes callWave {
+                                        0% {
+                                            opacity: 0.7;
+                                            transform: scale(1);
+                                        }
+                                        70% {
+                                            opacity: 0.2;
+                                            transform: scale(1.18);
+                                        }
+                                        100% {
+                                            opacity: 0;
+                                            transform: scale(1.28);
+                                        }
+                                    }
+
+                                    /* right side whatsapp */
+
+                                    .wild-float-whatsapp {
+                                        right: 18px;
+                                        background: linear-gradient(135deg, #25d366, #1faa52);
+                                    }
+
+                                    @media (max-width: 767px) {}
+
+                                    @media (max-width: 480px) {}
+
+                                    .wild-float-whatsapp {
+                                        position: fixed;
+                                        right: 18px;
+                                        bottom: 35px;
+                                        z-index: 999;
+                                        display: inline-flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        gap: 10px;
+                                        height: 52px;
+                                        padding: 0 24px;
+                                        border-radius: 999px;
+                                        background: linear-gradient(135deg, #25d366, #128c4a);
+                                        color: #fff;
+                                        text-decoration: none;
+                                        font-size: 14px;
+                                        font-weight: 600;
+                                        /* box-shadow: 0 10px 30px rgba(37, 211, 102, 0.28); */
+                                        transition: all 0.35s ease;
+                                        animation: wildWhatsappFloat 3s ease-in-out infinite;
+                                        overflow: visible;
+                                    }
+
+                                    .wild-float-whatsapp i,
+                                    .wild-float-whatsapp span {
+                                        position: relative;
+                                        z-index: 2;
+                                    }
+
+                                    .wild-float-whatsapp i {
+                                        font-size: 19px;
+                                        animation: wildWhatsappIconPulse 1.8s ease-in-out infinite;
+                                    }
+
+                                    .wild-float-whatsapp::before,
+                                    .wild-float-whatsapp::after {
+                                        content: "";
+                                        position: absolute;
+                                        top: -6px;
+                                        left: -6px;
+                                        right: -6px;
+                                        bottom: -6px;
+                                        border-radius: 999px;
+                                        border: 2px solid rgba(37, 211, 102, 0.38);
+                                        /* box-shadow: 0 0 0 2px rgba(37, 211, 102, 0.22); */
+                                        opacity: 0;
+                                        transform: scale(1);
+                                        pointer-events: none;
+                                    }
+
+                                    .wild-float-whatsapp::before {
+                                        animation: wildWhatsappRippleVisible 2.2s infinite;
+                                    }
+
+                                    .wild-float-whatsapp::after {
+                                        animation: wildWhatsappRippleVisible 2.2s 1.1s infinite;
+                                    }
+
+                                    .wild-float-whatsapp:hover {
+                                        transform: translateY(-4px) scale(1.03);
+                                        /* box-shadow: 0 16px 36px rgba(37, 211, 102, 0.38); */
+                                        color: #fff;
+                                    }
+
+                                    @keyframes wildWhatsappFloat {
+                                        0%,
+                                        100% {
+                                            transform: translateY(0);
+                                        }
+                                        50% {
+                                            transform: translateY(-4px);
+                                        }
+                                    }
+
+                                    @keyframes wildWhatsappIconPulse {
+                                        0%,
+                                        100% {
+                                            transform: scale(1);
+                                        }
+                                        50% {
+                                            transform: scale(1.12);
+                                        }
+                                    }
+
+                                    @keyframes wildWhatsappRippleVisible {
+                                        0% {
+                                            opacity: 0.85;
+                                            transform: scale(1);
+                                        }
+                                        70% {
+                                            opacity: 0.22;
+                                            transform: scale(1.16);
+                                        }
+                                        100% {
+                                            opacity: 0;
+                                            transform: scale(1.24);
+                                        }
+                                    }
+
+                                    @media (max-width: 767px) {
+                                        .wild-float-whatsapp {
+                                            right: 10px;
+                                            bottom: 20px;
+                                            height: 50px;
+                                            padding: 0 16px;
+                                            font-size: 13px;
+                                            gap: 8px;
+                                        }
+                                    }
+
+                                    @media (max-width: 480px) {
+                                        .wild-float-whatsapp {
+                                            width: 56px;
+                                            height: 56px;
+                                            padding: 0;
+                                            border-radius: 50%;
+                                        }
+                                        .wild-float-whatsapp span {
+                                            display: none;
+                                        }
+                                        .wild-float-whatsapp i {
+                                            font-size: 22px;
+                                        }
+                                        .wild-float-whatsapp::before,
+                                        .wild-float-whatsapp::after {
+                                            border-radius: 50%;
+                                        }
+                                    }
+                                </style>
+
+                                <footer class="footer-container">
+                                    <div class="container">
+                                        <div class="footer-row">
+                                            <!-- Left Section: Logo and Contact Info -->
+                                            <div class="footer-column">
+                                                <h3>Contact Information</h3>
+                                                <div class="footer-logo">
+                                                    <img src="images/logos/1.png" alt="Marbella Group" style="width: 100px;" />
+                                                </div>
+                                                <ul>
+                                                    <!--<li><strong>Address:</strong> 📍 Grandeur Residency, Whitefields, Hitech City, Hyderabad, Telangana 500084.</li>-->
+                                                    <li><strong>Email:</strong> <a href="mailto:marbellagroup8@gmail.com">📧 marbellagroup8@gmail.com</a></li>
+                                                    <li><strong>Phone:</strong> <a href="tel:+91 9000009921">📞 +91 9000009921</a></li>
+                                                </ul>
+
+                                                <!-- Social Links below phone number -->
+                                                <!--<div class="social-links">-->
+                                                <!--  <a href="#" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>-->
+
+                                                <!--  <a href="#" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>-->
+                                                <!--  <a href="#" target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a> -->
+                                                <!--  <a href="#" target="_blank" title="Airbnb"><i class="fab fa-airbnb"></i></a>-->
+                                                <!--</div>-->
+                                            </div>
+
+                                            <!-- Middle Section: Map 1 -->
+                                            <div class="footer-column">
+                                                <h3>Marbella Farms & Resort</h3>
+                                                <div class="footer-map-container">
+                                                    <div class="footer-map">
+                                                        <!-- Map 1 -->
+                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15238.673938895507!2d78.2175544855433!3d17.28326634630887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcbc125d1fddf0b%3A0xe006a66b5512cf02!2sMarbella%20Farms%20and%20Resort!5e0!3m2!1sen!2sin!4v1761395819026!5m2!1sen!2sin"
+                                                            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Right Section: Map 2 -->
+                                            <div class="footer-column">
+                                                <h3>Marbella Suites</h3>
+                                                <div class="footer-map-container">
+                                                    <div class="footer-map">
+                                                        <!-- Map 2 -->
+                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.093654209568!2d78.36706577369105!3d17.455231000850073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb930016ad3be7%3A0x9bb1ca2806a74cb1!2sMarbella%20Suites!5e0!3m2!1sen!2sin!4v1761395868880!5m2!1sen!2sin"
+                                                            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </footer>
+
+                                <!-- Call button -->
+                                <a href="tel:+919000009921" class="wild-float-call">
+                                    <!-- <i class="fas fa-phone-alt"></i> -->
+                                    <i class="fas fa-phone"></i>
+                                    <!--<span>Call Now</span>-->
+                                </a>
+
+                                <!-- WhatsApp button -->
+                                <a href="https://wa.me/919000009921" target="_blank" class="wild-float-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+          <span>WhatsApp</span>
+        </a>
+                                <!-- footer End -->
+                            </div>
+                            <!-- page wrapper End -->
+
+                            <!-- Search Box Start Here -->
+                            <div class="pbmit-search-overlay">
+                                <div class="pbmit-icon-close">
+                                    <svg class="qodef-svg--close qodef-m" xmlns="http://www.w3.org/2000/svg" width="28.163" height="28.163" viewBox="0 0 26.163 26.163">
+          <rect
+            width="36"
+            height="1"
+            transform="translate(0.707) rotate(45)"
+          ></rect>
+          <rect
+            width="36"
+            height="1"
+            transform="translate(0 25.456) rotate(-45)"
+          ></rect>
+        </svg>
+                                </div>
+                                <div class="pbmit-search-outer">
+                                    <form class="pbmit-site-searchform">
+                                        <input type="search" class="form-control field searchform-s" name="s" placeholder="Search …" />
+                                        <button type="submit"></button>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- Search Box End Here -->
+                            <!-- Scroll To Top -->
+                            <div class="pbmit-progress-wrap" style="display: none;">
+                                <svg class="pbmit-progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+      </svg>
+                            </div>
+                            <!-- Scroll To Top End -->
+
+                            <!-- jQuery JS -->
+                            <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                            <script src="js/jquery.min.js"></script>
+                            <!-- Popper JS -->
+                            <script src="js/popper.min.js"></script>
+                            <!-- Bootstrap JS -->
+                            <script src="js/bootstrap.min.js"></script>
+                            <!-- jquery Waypoints JS -->
+                            <script src="js/jquery.waypoints.min.js"></script>
+                            <!-- jquery Appear JS -->
+                            <script src="js/jquery.appear.js"></script>
+                            <!-- Numinate JS -->
+                            <script src="js/numinate.min.js"></script>
+                            <!-- Slick JS -->
+                            <script src="js/swiper.min.js"></script>
+                            <!-- Magnific JS -->
+                            <script src="js/jquery.magnific-popup.min.js"></script>
+                            <!-- Circle Progress JS -->
+                            <script src="js/circle-progress.js"></script>
+                            <!-- countdown JS -->
+                            <script src="js/jquery.countdown.min.js"></script>
+                            <!-- AOS -->
+                            <script src="js/aos.js"></script>
+                            <!-- GSAP -->
+                            <script src="js/gsap.js"></script>
+                            <!-- Scroll Trigger -->
+                            <script src="js/ScrollTrigger.js"></script>
+                            <!-- Split Text -->
+                            <script src="js/SplitText.js"></script>
+                            <!-- Magnetic -->
+                            <script src="js/magnetic.js"></script>
+                            <!-- Morphext JS -->
+                            <script src="js/morphext.min.js"></script>
+                            <script src="js/popper.min.js"></script>
+                            <!-- GSAP Animation -->
+                            <script src="js/gsap-animation.js"></script>
+                            <!-- Twentytwenty JS -->
+                            <script src="js/jquery.event.move.js"></script>
+                            <script src="js/jquery.twentytwenty.js"></script>
+                            <!-- Scripts JS -->
+                            <script src="js/scripts.js"></script>
+                            <script>
+                                (function() {
+                                    function c() {
+                                        var b = a.contentDocument || a.contentWindow.document;
+                                        if (b) {
+                                            var d = b.createElement("script");
+                                            d.innerHTML =
+                                                "window.__CF$cv$params={r:'93bed8f929113ae5',t:'MTc0NjYwMTMwMy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='../cdn-cgi/challenge-platform/h/b/scripts/jsd/701fd2559006/maind41d.js';document.getElementsByTagName('head')[0].appendChild(a);";
+                                            b.getElementsByTagName("head")[0].appendChild(d);
+                                        }
+                                    }
+                                    if (document.body) {
+                                        var a = document.createElement("iframe");
+                                        a.height = 1;
+                                        a.width = 1;
+                                        a.style.position = "absolute";
+                                        a.style.top = 0;
+                                        a.style.left = 0;
+                                        a.style.border = "none";
+                                        a.style.visibility = "hidden";
+                                        document.body.appendChild(a);
+                                        if ("loading" !== document.readyState) c();
+                                        else if (window.addEventListener)
+                                            document.addEventListener("DOMContentLoaded", c);
+                                        else {
+                                            var e = document.onreadystatechange || function() {};
+                                            document.onreadystatechange = function(b) {
+                                                e(b);
+                                                "loading" !== document.readyState &&
+                                                    ((document.onreadystatechange = e), c());
+                                            };
+                                        }
+                                    }
+                                })();
+                            </script>
+                            <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"93bed8f929113ae5","version":"2025.4.0-1-g37f21b1","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"125856bf84ab44059737e93b01aa0fef","b":1}'
+                                crossorigin="anonymous"></script>
+                            <script>
+                                const tabs = document.querySelectorAll(".ss-tabs li");
+                                const items = document.querySelectorAll(".s-s-item");
+                                const popup = document.getElementById("popup");
+                                const popupImg = document.getElementById("popup-img");
+                                const closeBtn = document.getElementById("close");
+                                const nextBtn = document.getElementById("next");
+                                const prevBtn = document.getElementById("prev");
+
+                                let currentIndex = 0;
+                                let galleryImages = [];
+
+                                // Tab filter
+                                tabs.forEach((tab) => {
+                                    tab.addEventListener("click", () => {
+                                        tabs.forEach((t) => t.classList.remove("active"));
+                                        tab.classList.add("active");
+
+                                        let filter = tab.getAttribute("data-filter");
+                                        galleryImages = [];
+
+                                        items.forEach((item, index) => {
+                                            if (filter === "all" || item.classList.contains(filter)) {
+                                                item.style.display = "block";
+                                                galleryImages.push(item.querySelector("img").src);
+                                            } else {
+                                                item.style.display = "none";
+                                            }
+                                        });
+                                    });
+                                });
+
+                                // Default load all images
+                                galleryImages = Array.from(items).map(
+                                    (item) => item.querySelector("img").src,
+                                );
+
+                                // Open popup
+                                items.forEach((item, index) => {
+                                    item.addEventListener("click", () => {
+                                        popup.classList.add("active");
+                                        popupImg.src = item.querySelector("img").src;
+                                        currentIndex = galleryImages.indexOf(popupImg.src);
+                                    });
+                                });
+
+                                // Close popup
+                                closeBtn.addEventListener("click", () => {
+                                    popup.classList.remove("active");
+                                });
+
+                                // Next & Prev
+                                nextBtn.addEventListener("click", () => {
+                                    currentIndex = (currentIndex + 1) % galleryImages.length;
+                                    popupImg.src = galleryImages[currentIndex];
+                                });
+
+                                prevBtn.addEventListener("click", () => {
+                                    currentIndex =
+                                        (currentIndex - 1 + galleryImages.length) % galleryImages.length;
+                                    popupImg.src = galleryImages[currentIndex];
+                                });
+
+                                // Close on background click
+                                popup.addEventListener("click", (e) => {
+                                    if (e.target === popup) popup.classList.remove("active");
+                                });
+                            </script>
+
+                            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+                            <script>
+                                // Swiper init
+                                const eventsSwiper = new Swiper(".events-swiper", {
+                                    loop: true,
+                                    speed: 800,
+                                    spaceBetween: 10,
+                                    centeredSlides: true,
+                                    autoplay: {
+                                        delay: 2800,
+                                        disableOnInteraction: false,
+                                    },
+                                    pagination: {
+                                        el: ".events-swiper .swiper-pagination",
+                                        clickable: true,
+                                    },
+                                    navigation: {
+                                        nextEl: ".events-swiper .swiper-button-next",
+                                        prevEl: ".events-swiper .swiper-button-prev",
+                                    },
+                                    // Make images adapt smoothly on resize
+                                    observer: true,
+                                    observeParents: true,
+                                });
+                            </script>
+                            <script>
+                                document.addEventListener("DOMContentLoaded", function() {
+                                    document
+                                        .querySelectorAll(".msc-image-slider")
+                                        .forEach(function(slider) {
+                                            new Swiper(slider, {
+                                                loop: true,
+                                                speed: 900,
+                                                autoplay: {
+                                                    delay: 2500,
+                                                    disableOnInteraction: false,
+                                                },
+                                                slidesPerView: 1,
+                                                spaceBetween: 0,
+                                                pagination: {
+                                                    el: slider.querySelector(".msc-slider-pagination"),
+                                                    clickable: true,
+                                                },
+                                            });
+                                        });
+                                });
+                            </script>
+</body>
+
+</html>
