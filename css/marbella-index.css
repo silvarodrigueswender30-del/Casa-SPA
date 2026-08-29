@@ -19,15 +19,13 @@
 
 /* 
  * Fade mask — mesma técnica do Aquinomar (section-divider.tsx / footer.tsx)
- * O mask-image apaga os pixels da borda via canal alfa do gradiente.
- * A cor do background (#14211C → forest → #10140F) já cobre a transição.
- * Sem filter:blur, sem stacking issue, sem jank em mobile.
+ * z-index: 0 → fica atrás dos cards (msc-media/swiper têm z-index: 1)
  */
 .staycation-showcase::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: var(--casa-forest); /* cor base da seção — vira a "cor da fumaça" */
+    background: var(--casa-forest);
     -webkit-mask-image: linear-gradient(
         to bottom,
         black 0%,
@@ -48,9 +46,32 @@
     mask-size: 100% 100%;
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
-    z-index: 5;
+    z-index: 0; /* atrás dos cards (z-index: 1) */
     pointer-events: none;
 }
+
+/* Mobile: reduz cobertura para não tampar a imagem dos cards */
+@media (max-width: 767px) {
+    .staycation-showcase::before {
+        -webkit-mask-image: linear-gradient(
+            to bottom,
+            black 0%,
+            rgba(0, 0, 0, 0.80) 6%,
+            rgba(0, 0, 0, 0.40) 14%,
+            rgba(0, 0, 0, 0.10) 20%,
+            transparent 28%
+        );
+        mask-image: linear-gradient(
+            to bottom,
+            black 0%,
+            rgba(0, 0, 0, 0.80) 6%,
+            rgba(0, 0, 0, 0.40) 14%,
+            rgba(0, 0, 0, 0.10) 20%,
+            transparent 28%
+        );
+    }
+}
+
 
 /* Decorative background */
 
