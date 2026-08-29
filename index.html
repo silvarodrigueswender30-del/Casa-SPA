@@ -152,11 +152,11 @@
                         <div class="pbmit-header-content d-flex justify-content-between align-items-center" style="background-color:;">
                             <div class="pbmit-logo-button-area d-flex justify-content-between align-items-center">
                                 <div class="site-branding">
-                                    <h1 class="site-title">
+                                    <div class="site-title">
                                         <a href="index.html">
 											<img class="logo-img" src="images/logos/1.png" alt="Marbella" width="85">
 										</a>
-                                    </h1>
+                                    </div>
                                     <div class="pbmit-sticky-corner  pbmit-top-right-corner">
                                         <svg width="20" height="20" viewBox="0 0 20 20" fill="" xmlns="http://www.w3.org/2000/svg">
 										   	<path d="M20 20V0C20 16 16 20 0 20H20Z" fill="red"></path>
@@ -245,7 +245,7 @@
 
         <!-- page content -->
         <div class="page-content">
-            <div class="pbmit-slider-area pbmit-slider-one">
+            <div class="pbmit-slider-area pbmit-slider-one hero-section">
                 <div class="swiper-slider" data-autoplay="true" data-loop="true" data-dots="true" data-arrows="false" data-columns="1" data-margin="0" data-effect="fade">
                     <div class="swiper-wrapper">
                         <!-- Slide1 -->
@@ -444,7 +444,83 @@
                         </div>
                     </div>
                 </div>
+                <div class="hero-caption-block">
+                    <h1 class="hero-caption-title">Casa SPA — refúgio de luxo tropical em Hyderabad</h1>
+                    <p class="hero-caption-subtitle">Uma estadia ideal para escapar da rotina agitada.</p>
+                </div>
             </div>
+
+            <section class="casa-points-marquee" aria-label="Pontos de interesse próximos à Casa SPA">
+                <div class="cpm-label">
+                    <span class="full">Pontos de Interesse</span>
+                    <span class="short">Interesse</span>
+                </div>
+                <div class="cpm-track">
+                    <ul class="cpm-list">
+                        <li>Centro Histórico de Paraty</li>
+                        <li>Praia Barra Grande do Corumbê</li>
+                        <li>Cachoeiras</li>
+                        <li>Passeios de Barco</li>
+                        <li>Gastronomia Local</li>
+                        <li>Costa Verde</li>
+                    </ul>
+                    <ul class="cpm-list" aria-hidden="true">
+                        <li>Centro Histórico de Paraty</li>
+                        <li>Praia Barra Grande do Corumbê</li>
+                        <li>Cachoeiras</li>
+                        <li>Passeios de Barco</li>
+                        <li>Gastronomia Local</li>
+                        <li>Costa Verde</li>
+                    </ul>
+                    <ul class="cpm-list" aria-hidden="true">
+                        <li>Centro Histórico de Paraty</li>
+                        <li>Praia Barra Grande do Corumbê</li>
+                        <li>Cachoeiras</li>
+                        <li>Passeios de Barco</li>
+                        <li>Gastronomia Local</li>
+                        <li>Costa Verde</li>
+                    </ul>
+                    <ul class="cpm-list" aria-hidden="true">
+                        <li>Centro Histórico de Paraty</li>
+                        <li>Praia Barra Grande do Corumbê</li>
+                        <li>Cachoeiras</li>
+                        <li>Passeios de Barco</li>
+                        <li>Gastronomia Local</li>
+                        <li>Costa Verde</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="casa-stats" aria-label="Destaques da Casa SPA">
+                <div class="casa-stats__grid">
+                    <div class="casa-stats__col">
+                        <svg class="casa-stats__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+                            <path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1" stroke-linecap="round"></path>
+                            <circle cx="12" cy="12" r="3.5"></circle>
+                        </svg>
+                        <span class="casa-stats__number" data-count="5.0" data-decimal="1">0.0</span>
+                        <span class="casa-stats__line" aria-hidden="true"></span>
+                        <span class="casa-stats__label">Avaliação Google</span>
+                    </div>
+                    <div class="casa-stats__col">
+                        <svg class="casa-stats__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+                            <path d="M4 11l8-6 8 6M6 10v9h12v-9" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                        <span class="casa-stats__number" data-count="6">0</span>
+                        <span class="casa-stats__line" aria-hidden="true"></span>
+                        <span class="casa-stats__label">Hóspedes</span>
+                    </div>
+                    <div class="casa-stats__col">
+                        <svg class="casa-stats__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+                            <circle cx="8" cy="12" r="4"></circle>
+                            <path d="M11.5 12H21M17 12v3M20 12v3" stroke-linecap="round"></path>
+                        </svg>
+                        <span class="casa-stats__number casa-stats__number--text">Casa Inteira</span>
+                        <span class="casa-stats__line" aria-hidden="true"></span>
+                        <span class="casa-stats__label">Privativa</span>
+                    </div>
+                </div>
+            </section>
 
             <section class="staycation-showcase" aria-label="Perfect staycation options" style="margin-top:">
                 <div class="msc-bg">
@@ -455,33 +531,25 @@
 
                 <div class="msc-container text-center">
                     <!--<h4 class="pbmit-subtitle">Your perfect break starts here.</h4>-->
-                    <header class="msc-head">
-                        <h2>The Ideal Staycation To Escape The Busy Schedules</h2>
-                        <!--<p class="fnt-style">-->
-                        <!--  Slow mornings, golden sunsets, and thoughtful comforts —-->
-                        <!--  discover your countryside pause with Marbella.-->
-                        <!--</p>-->
-                    </header>
-
                     <div class="msc-cards">
                         <!-- Card 1: Farms & Resort -->
                         <article class="msc-card">
-                            <div class="msc-media swiper msc-image-slider">
+                            <div class="msc-media swiper msc-image-slider casa-photo-frame">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
-                                        <img src="images/mf-images/villa1.png" alt="Marbella Farms & Resort" />
+                                        <img class="casa-photo" src="images/mf-images/villa1.png" alt="Marbella Farms & Resort" />
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="images/mf-images/open-air-theatre1.png" alt="Marbella Farms & Resort view 2" />
+                                        <img class="casa-photo" src="images/mf-images/open-air-theatre1.png" alt="Marbella Farms & Resort view 2" />
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="images/mf-images/pool-side-lawn1.png" alt="Marbella Farms & Resort view 3" />
+                                        <img class="casa-photo" src="images/mf-images/pool-side-lawn1.png" alt="Marbella Farms & Resort view 3" />
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="images/mf-images/jambore1.png" alt="Marbella Farms & Resort view 3" />
+                                        <img class="casa-photo" src="images/mf-images/jambore1.png" alt="Marbella Farms & Resort view 3" />
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="images/mf-images/utsav-lawn1.png" alt="Marbella Farms & Resort view 3" />
+                                        <img class="casa-photo" src="images/mf-images/utsav-lawn1.png" alt="Marbella Farms & Resort view 3" />
                                     </div>
                                 </div>
                                 <div class="msc-slider-pagination"></div>
@@ -529,40 +597,46 @@
 
               <!-- Card 2: Suites -->
               <article class="msc-card">
-                <div class="msc-media swiper msc-image-slider">
+                <div class="msc-media swiper msc-image-slider casa-photo-frame">
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
                       <img
+                        class="casa-photo"
                         src="images/ms-images/lounge5.jpeg"
                         alt="Marbella Suites"
                       />
                     </div>
                     <div class="swiper-slide">
                       <img
+                        class="casa-photo"
                         src="images/ms-images/living-room2.jpeg"
                         alt="Marbella Suites view 2"
                       />
                     </div>
                     <div class="swiper-slide">
                       <img
+                        class="casa-photo"
                         src="images/ms-images/master-bedroom1.jpeg"
                         alt="Marbella Suites view 3"
                       />
                     </div>
                     <div class="swiper-slide">
                       <img
+                        class="casa-photo"
                         src="images/ms-images/bedroom1.jpeg"
                         alt="Marbella Suites view 3"
                       />
                     </div>
                     <div class="swiper-slide">
                       <img
+                        class="casa-photo"
                         src="images/ms-images/kitchen3.jpeg"
                         alt="Marbella Suites view 3"
                       />
                     </div>
                     <div class="swiper-slide">
                       <img
+                        class="casa-photo"
                         src="images/ms-images/sunroom3.jpeg"
                         alt="Marbella Suites view 3"
                       />
@@ -754,19 +828,16 @@
             </div>
           </div>
         </section> -->
-        <section class="pbmit-sticky-section mb-3">
+        <section class="pbmit-sticky-section">
           <div class="container">
             <div class="row g-0">
               <div class="col-md-12 col-xl-5">
                 <div class="pbmit-sticky-col">
                   <div class="ihbox-six-left-area">
-                    <div class="pbmit-heading-subheading animation-style4">
+                    <div class="pbmit-heading-subheading">
                       <h4 class="pbmit-subtitle">Why Stay With Marbella?</h4>
                       <header class="msc-head text-start">
-                        <h2>
-                          A Destination Where Premium Comfort, Nature, And
-                          Memorable Hospitality Come Together
-                        </h2>
+                        <h2 class="casa-editorial-headline">A Destination Where Premium Comfort, Nature, And Memorable Hospitality Come Together</h2>
                         <p class="fnt-style">
                           Marbella offers more than just a stay. From elegant
                           suites and peaceful resort spaces to curated
@@ -1091,12 +1162,12 @@
                                         /* ===== Marbella Guest Reviews - New Slider Design ===== */
 
                                         .marbella-guest-reviews {
-                                            --mgr-bg: #f8fafc;
-                                            --mgr-card: #ffffff;
-                                            --mgr-text: #0f172a;
+                                            --mgr-bg: var(--casa-bg-light);
+                                            --mgr-card: var(--casa-ivory-soft);
+                                            --mgr-text: var(--casa-text-dark);
                                             --mgr-sub: #64748b;
                                             --mgr-line: #e2e8f0;
-                                            --mgr-accent: #f6cf7a;
+                                            --mgr-accent: var(--casa-accent);
                                             --mgr-star: #f59e0b;
                                             --mgr-shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
                                             padding: 70px 0;
@@ -1124,7 +1195,7 @@
 
                                         .msc-head h2 {
                                             margin: 0 0 10px;
-                                            color: #0f172a;
+                                            color: var(--casa-text-dark);
                                             font-size: clamp(26px, 4vw, 42px);
                                             font-weight: 900;
                                             letter-spacing: 0.2px;
@@ -1207,9 +1278,9 @@
                                         }
 
                                         .mgr-nav-btn:hover {
-                                            background: #0f172a;
+                                            background: var(--casa-bg-dark);
                                             color: #fff;
-                                            border-color: #0f172a;
+                                            border-color: var(--casa-bg-dark);
                                             transform: translateY(-2px);
                                         }
 
@@ -1352,8 +1423,8 @@
                                                 <div class="mgr-flex">
                                                     <aside class="mgr-left">
                                                         <h3 class="mgr-left-title">Marbella Farms & Resort</h3>
-                                                        <div class="mgr-thumb">
-                                                            <img src="images/index/r1.webp" alt="Marbella Farms & Resort">
+                                                        <div class="mgr-thumb casa-photo-frame">
+                                                            <img class="casa-photo" src="images/index/r1.webp" alt="Marbella Farms & Resort">
                                                         </div>
                                                     </aside>
 
@@ -1445,8 +1516,8 @@
                                                 <div class="mgr-flex">
                                                     <aside class="mgr-left">
                                                         <h3 class="mgr-left-title">Marbella Suites</h3>
-                                                        <div class="mgr-thumb">
-                                                            <img src="images/index/r2.webp" alt="Marbella Suites">
+                                                        <div class="mgr-thumb casa-photo-frame">
+                                                            <img class="casa-photo" src="images/index/r2.webp" alt="Marbella Suites">
                                                         </div>
                                                     </aside>
 
@@ -1839,7 +1910,7 @@
                                         height: 52px;
                                         padding: 0 24px;
                                         border-radius: 999px;
-                                        background: linear-gradient(135deg, #c8a35f, #e1c27a);
+                                        background: var(--casa-accent);
                                         color: #fff;
                                         text-decoration: none;
                                         font-size: 14px;
@@ -2219,6 +2290,7 @@
                             <script src="js/aos.js"></script>
                             <!-- GSAP -->
                             <script src="js/gsap.js"></script>
+                            <script src="js/casa-stats.js"></script>
                             <!-- Scroll Trigger -->
                             <script src="js/ScrollTrigger.js"></script>
                             <!-- Split Text -->

@@ -1,0 +1,4 @@
+.vercel/
+rewrite.py
+update_css.py
+css/marbella-index.corrupted-backup.css
