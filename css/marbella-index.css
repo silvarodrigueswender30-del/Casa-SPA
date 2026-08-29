@@ -17,6 +17,24 @@
         linear-gradient(180deg, #14211C 0%, var(--casa-forest) 55%, #10140F 100%);
 }
 
+/* Bruma de entrada: funde a borda superior da seção com a seção Stats acima */
+.staycation-showcase::before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: -5%;
+    right: -5%;
+    height: 130px;
+    background: linear-gradient(180deg,
+        rgba(16, 20, 15, 0.90) 0%,
+        rgba(20, 33, 28, 0.60) 40%,
+        rgba(20, 33, 28, 0.20) 75%,
+        transparent 100%);
+    filter: blur(22px);
+    z-index: 5;
+    pointer-events: none;
+}
+
 /* Decorative background */
 
 .msc-bg .msc-blob {
