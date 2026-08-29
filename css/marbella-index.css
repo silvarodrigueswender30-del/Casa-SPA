@@ -1439,18 +1439,29 @@ body {
 .casa-photo-frame::before {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 22%;
-    background: linear-gradient(180deg, rgba(16, 20, 15, 0.60) 0%, rgba(16, 20, 15, 0.25) 45%, transparent 100%);
+    top: -15%;
+    left: -8%;
+    right: -8%;
+    height: 40%;
+    background: linear-gradient(180deg,
+        rgba(16, 20, 15, 0.55) 0%,
+        rgba(41, 49, 38, 0.22) 55%,
+        transparent 100%);
+    filter: blur(18px);
     z-index: 2;
     pointer-events: none;
 }
 
 .casa-photo-frame--bright::before {
-    height: 30%;
-    background: linear-gradient(180deg, rgba(16, 20, 15, 0.68) 0%, rgba(41, 49, 38, 0.30) 50%, transparent 100%);
+    top: -20%;
+    left: -10%;
+    right: -10%;
+    height: 48%;
+    background: linear-gradient(180deg,
+        rgba(16, 20, 15, 0.68) 0%,
+        rgba(41, 49, 38, 0.30) 50%,
+        transparent 100%);
+    filter: blur(24px);
 }
 
 /* ===== CASA POINTS MARQUEE ===== */
@@ -1541,7 +1552,7 @@ body {
 /* ===== CASA STATS ===== */
 .casa-stats {
     position: relative;
-    overflow: hidden;
+    overflow: visible; /* allow blurred ::after to extend beyond bounds */
     padding: 72px 24px;
     background:
         radial-gradient(55% 65% at 6% 100%, rgba(98, 105, 77, 0.26) 0%, rgba(98, 105, 77, 0.10) 40%, transparent 65%),
@@ -1552,12 +1563,23 @@ body {
 .casa-stats::after {
     content: "";
     position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 64px;
-    background: linear-gradient(100deg, rgba(98, 105, 77, 0.20) 0%, rgba(16, 20, 15, 0.35) 35%, rgba(16, 20, 15, 0.35) 100%);
+    bottom: -20px;
+    left: -5%;
+    right: -5%;
+    height: 90px;
+    background: linear-gradient(100deg,
+        rgba(98, 105, 77, 0.20) 0%,
+        rgba(16, 20, 15, 0.35) 35%,
+        rgba(16, 20, 15, 0.35) 100%);
+    filter: blur(20px);
     pointer-events: none;
+}
+
+
+@media (max-width: 767px) {
+    .casa-photo-frame::before { filter: blur(10px); }
+    .casa-photo-frame--bright::before { filter: blur(14px); }
+    .casa-stats::after { filter: blur(12px); }
 }
 
 .casa-stats__grid {
