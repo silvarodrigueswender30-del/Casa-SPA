@@ -17,20 +17,37 @@
         linear-gradient(180deg, #14211C 0%, var(--casa-forest) 55%, #10140F 100%);
 }
 
-/* Bruma de entrada: funde a borda superior da seção com a seção Stats acima */
+/* 
+ * Fade mask — mesma técnica do Aquinomar (section-divider.tsx / footer.tsx)
+ * O mask-image apaga os pixels da borda via canal alfa do gradiente.
+ * A cor do background (#14211C → forest → #10140F) já cobre a transição.
+ * Sem filter:blur, sem stacking issue, sem jank em mobile.
+ */
 .staycation-showcase::before {
     content: "";
     position: absolute;
-    top: -30px;
-    left: -5%;
-    right: -5%;
-    height: 130px;
-    background: linear-gradient(180deg,
-        rgba(16, 20, 15, 0.90) 0%,
-        rgba(20, 33, 28, 0.60) 40%,
-        rgba(20, 33, 28, 0.20) 75%,
-        transparent 100%);
-    filter: blur(22px);
+    inset: 0;
+    background: var(--casa-forest); /* cor base da seção — vira a "cor da fumaça" */
+    -webkit-mask-image: linear-gradient(
+        to bottom,
+        black 0%,
+        rgba(0, 0, 0, 0.85) 8%,
+        rgba(0, 0, 0, 0.55) 18%,
+        rgba(0, 0, 0, 0.20) 32%,
+        transparent 48%
+    );
+    mask-image: linear-gradient(
+        to bottom,
+        black 0%,
+        rgba(0, 0, 0, 0.85) 8%,
+        rgba(0, 0, 0, 0.55) 18%,
+        rgba(0, 0, 0, 0.20) 32%,
+        transparent 48%
+    );
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
     z-index: 5;
     pointer-events: none;
 }
