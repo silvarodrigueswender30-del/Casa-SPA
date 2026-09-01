@@ -170,6 +170,32 @@
       .pbmit-tbar-title { font-size: 2.1rem; }
     }
   </style>
+
+    <style>
+      .site-header .site-branding,
+      .header-style-1 .site-branding {
+        background-color: transparent !important;
+        background: transparent !important;
+        box-shadow: none !important;
+        border: none !important;
+        padding: 10px 0 !important;
+        border-radius: 0 !important;
+      }
+      .pbmit-sticky-corner {
+        display: none !important;
+      }
+      .site-header .site-branding img.site-logo {
+        display: block;
+        height: 52px;
+        width: auto;
+      }
+      @media (max-width: 768px) {
+        .site-header .site-branding img.site-logo {
+          height: 38px;
+        }
+      }
+    </style>
+    
 </head>
 
 <body>
@@ -186,7 +212,7 @@
                 <div class="site-branding">
                   <div class="site-title">
                     <a href="index.html">
-                      <img class="logo-img site-logo" src="/images/brand/logo-casa-spa.webp" alt="Casa SPA Paraty">
+                      <img class="logo-img site-logo" src="images/brand/logo-casa-spa-branca.webp" alt="Casa SPA Paraty">
                     </a>
                   </div>
                 </div>
@@ -520,7 +546,7 @@
           <div class="footer-column">
             <h3>Casa SPA Paraty</h3>
             <div class="footer-logo">
-              <img src="/images/brand/logo-casa-spa.webp" alt="Casa SPA Paraty" style="height: 48px; width: auto; margin-bottom: 15px;" />
+              <img src="images/brand/logo-casa-spa-branca.webp" alt="Casa SPA Paraty" style="height: 48px; width: auto; margin-bottom: 15px;" />
             </div>
             <ul>
               <li>Um refúgio privativo em Paraty para viver alguns dias com mais calma, natureza e tempo para estar junto.</li>

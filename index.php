@@ -107,6 +107,32 @@
         }
     </style>
 
+
+    <style>
+      .site-header .site-branding,
+      .header-style-1 .site-branding {
+        background-color: transparent !important;
+        background: transparent !important;
+        box-shadow: none !important;
+        border: none !important;
+        padding: 10px 0 !important;
+        border-radius: 0 !important;
+      }
+      .pbmit-sticky-corner {
+        display: none !important;
+      }
+      .site-header .site-branding img.site-logo {
+        display: block;
+        height: 52px;
+        width: auto;
+      }
+      @media (max-width: 768px) {
+        .site-header .site-branding img.site-logo {
+          height: 38px;
+        }
+      }
+    </style>
+    
 </head>
 
 <body>
@@ -167,7 +193,7 @@
                                 <div class="site-branding">
                                     <h1 class="site-title">
                                         <a href="index.html">
-											<img class="logo-img site-logo" src="/images/brand/logo-casa-spa.webp" alt="Casa SPA Paraty">
+											<img class="logo-img site-logo" src="images/brand/logo-casa-spa-branca.webp" alt="Casa SPA Paraty">
 										</a>
                                     </h1>
                                     <div class="pbmit-sticky-corner  pbmit-top-right-corner">
@@ -2082,7 +2108,7 @@
                                             <div class="footer-column">
                                                 <h3>Contact Information</h3>
                                                 <div class="footer-logo">
-                                                    <img src="/images/brand/logo-casa-spa.webp" alt="Casa SPA Paraty" />
+                                                    <img src="images/brand/logo-casa-spa-branca.webp" alt="Casa SPA Paraty" />
                                                 </div>
                                                 <ul>
                                                     <!--<li><strong>Address:</strong> 📍 Grandeur Residency, Whitefields, Hitech City, Hyderabad, Telangana 500084.</li>-->
