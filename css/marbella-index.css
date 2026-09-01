@@ -298,12 +298,13 @@
 
 @media (max-width: 992px) {
     .msc-card {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto 1fr;
-        min-height: unset;
+        grid-template-columns: 1fr 1fr;
+        min-height: 250px;
     }
-    /* Reseta o zig-zag reverso no mobile */
     .msc-card--reverse {
+        direction: rtl;
+    }
+    .msc-card--reverse > * {
         direction: ltr;
     }
     .msc-media {
@@ -311,7 +312,16 @@
         min-height: unset;
     }
     .msc-body {
-        padding: 24px 20px 28px;
+        padding: 15px;
+    }
+    .pbmit-heading-title {
+        font-size: 1.2rem !important;
+        line-height: 1.2 !important;
+        margin-bottom: 10px;
+    }
+    .pbmit-heading-desc {
+        font-size: 0.85rem !important;
+        line-height: 1.4 !important;
     }
 }
 
@@ -2452,10 +2462,8 @@ body {
 
 /* Fix Mobile Menu Background Overlay */
 @media (max-width: 1199px) {
-    .main-menu .navbar-collapse, 
-    .pbmit-menu-wrap, 
-    #pbmit-menu {
-        background-color: rgba(16, 20, 15, 0.95) !important;
+    .pbmit-menu-wrap {
+        background-color: var(--casa-forest) !important;
         backdrop-filter: blur(10px) !important;
         -webkit-backdrop-filter: blur(10px) !important;
     }
