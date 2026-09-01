@@ -6,24 +6,24 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
     <!-- Title -->
-    <title>Marbella Group</title>
+    <title>Casa SPA Paraty</title>
 
     <!-- SEO Meta -->
     <meta name="robots" content="index, follow" />
-    <meta name="description" content="Marbella Group" />
-    <meta name="keywords" content="Marbella Group" />
+    <meta name="description" content="Casa SPA Paraty" />
+    <meta name="keywords" content="Casa SPA Paraty" />
 
-    <meta name="author" content="Marbella Group" />
+    <meta name="author" content="Casa SPA Paraty" />
 
-    <meta property="og:site_name" content="Marbella Group">
-    <meta name="application-name" content="Marbella Group">
+    <meta property="og:site_name" content="Casa SPA Paraty">
+    <meta name="application-name" content="Casa SPA Paraty">
 
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "WebSite",
-            "name": "Marbella Group",
-            "alternateName": "Marbella Group",
+            "name": "Casa SPA Paraty",
+            "alternateName": "Casa SPA Paraty",
             "url": "https://www.gspllp.com/"
         }
     </script>
@@ -31,13 +31,11 @@
     <!-- Mobile Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
     <!-- Favicons -->
-    <link rel="icon" type="image/png" sizes="48x48" href="/images/favicon.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/images/favicon.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png">
 
     <!-- CSS Files -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -106,6 +104,7 @@
                 height: 365px !important;
                 background-color: rgba(64, 50, 38, 0.2);
             }
+        }
     </style>
 
 </head>
@@ -142,6 +141,20 @@
                 margin-right: 20px;
                 background-color: transparent !important;
             }
+
+            .site-header .site-branding img.site-logo {
+                display: block;
+                height: 48px;
+                width: auto;
+                max-width: none;
+                max-height: none;
+            }
+
+            @media (max-width: 768px) {
+                .site-header .site-branding img.site-logo {
+                    height: 34px;
+                }
+            }
         </style>
 
 
@@ -154,7 +167,7 @@
                                 <div class="site-branding">
                                     <h1 class="site-title">
                                         <a href="index.html">
-											<img class="logo-img" src="images/logos/1.png" alt="Marbella" width="85">
+											<img class="logo-img site-logo" src="/images/brand/logo-casa-spa.webp" alt="Casa SPA Paraty">
 										</a>
                                     </h1>
                                     <div class="pbmit-sticky-corner  pbmit-top-right-corner">
@@ -1676,8 +1689,10 @@
                                     }
 
                                     .footer-logo img {
+                                        height: 48px;
+                                        width: auto;
                                         max-width: 100%;
-                                        height: auto;
+                                        opacity: 1;
                                     }
 
                                     .footer-column h3 {
@@ -1752,6 +1767,7 @@
                                             margin-bottom: 15px;
                                         }
                                         .footer-logo img {
+                                            height: 44px;
                                             margin-bottom: 10px;
                                         }
                                         .social-links {
@@ -2094,18 +2110,18 @@
                                     }
                                 </style>
 
-                                <footer class="footer-container">
+                                <footer id="site-footer" class="footer-container">
                                     <div class="container">
                                         <div class="footer-row">
                                             <!-- Left Section: Logo and Contact Info -->
                                             <div class="footer-column">
                                                 <h3>Contact Information</h3>
                                                 <div class="footer-logo">
-                                                    <img src="images/logos/1.png" alt="Marbella Group" style="width: 100px;" />
+                                                    <img src="/images/brand/logo-casa-spa.webp" alt="Casa SPA Paraty" />
                                                 </div>
                                                 <ul>
                                                     <!--<li><strong>Address:</strong> 📍 Grandeur Residency, Whitefields, Hitech City, Hyderabad, Telangana 500084.</li>-->
-                                                    <li><strong>Email:</strong> <a href="mailto:marbellagroup8@gmail.com">📧 marbellagroup8@gmail.com</a></li>
+                                                    <li><strong>Email:</strong> <a href="mailto:marbellagroup8@gmail.com">Enviar e-mail</a></li>
                                                     <li><strong>Phone:</strong> <a href="tel:+91 9000009921">📞 +91 9000009921</a></li>
                                                 </ul>
 
