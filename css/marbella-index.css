@@ -237,6 +237,8 @@
     gap: 10px;
     color: var(--msc-text);
     margin: 6px 0;
+    white-space: normal !important;
+    word-break: break-word;
 }
 
 .msc-points li::before {
@@ -1737,7 +1739,6 @@ body {
 
 
 .msc-media {
-    aspect-ratio: unset;
     background: transparent;
 }
 
@@ -1793,6 +1794,8 @@ body {
     font-weight: 300 !important;
     font-size: 13px !important;
     opacity: 0.65;
+    white-space: normal !important;
+    word-break: break-word;
 }
 .msc-points li::before {
     width: 5px;
@@ -1964,12 +1967,12 @@ body {
 }
 
 .pbmit-ihbox-style-19 .pbmit-heading-desc {
-    color: rgba(244, 239, 230, 0.6) !important;
+    color: var(--casa-ivory) !important;
     font-family: 'Manrope', sans-serif !important;
-    font-size: 13px !important;
+    font-size: 14px !important;
     font-weight: 300 !important;
-    line-height: 1.4 !important;
-    opacity: 0.8 !important;
+    line-height: 1.5 !important;
+    opacity: 0.9 !important;
 }
 
 /* 5. Property Circular (Venue Section) — Protagonismo Fotográfico & Sem Linha Divisória */
@@ -2435,5 +2438,28 @@ body {
 
     .cpm-label .short {
         display: inline;
+    }
+}
+
+/* Fix Mobile Menu Background Overlay */
+@media (max-width: 1199px) {
+    .main-menu .navbar-collapse, 
+    .pbmit-menu-wrap, 
+    #pbmit-menu {
+        background-color: rgba(16, 20, 15, 0.95) !important;
+        backdrop-filter: blur(10px) !important;
+        -webkit-backdrop-filter: blur(10px) !important;
+    }
+}
+/* Mobile Hero Image Override */
+@media (max-width: 767px) {
+    .hero-section .swiper-slide {
+        background-image: url('../images/index/hero-master-mobile.webp') !important;
+        background-position: center !important;
+    }
+    .hero-section, .hero-section .swiper-slider, .hero-section .swiper-slide {
+        height: auto !important;
+        aspect-ratio: 9/16 !important;
+        min-height: unset !important;
     }
 }

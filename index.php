@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="pt-BR">
 
 <head>
     <meta charset="utf-8" />
@@ -94,7 +94,7 @@
             display: flex;
             align-items: center;
             height: 575px !important;
-            background-color: rgba(64, 50, 38, 0.2);
+            background-color: rgba(22, 29, 25, 0.22);
         }
 
         @media (max-width: 991px) {
@@ -102,7 +102,7 @@
                 display: flex;
                 align-items: center;
                 height: 365px !important;
-                background-color: rgba(64, 50, 38, 0.2);
+                background-color: rgba(22, 29, 25, 0.22);
             }
         }
     </style>
@@ -191,11 +191,11 @@
                         <div class="pbmit-header-content d-flex justify-content-between align-items-center" style="background-color:;">
                             <div class="pbmit-logo-button-area d-flex justify-content-between align-items-center">
                                 <div class="site-branding">
-                                    <h1 class="site-title">
+                                    <div class="site-title">
                                         <a href="index.html">
 											<img class="logo-img site-logo" src="images/brand/logo-casa-spa-branca.webp" alt="Casa SPA Paraty">
 										</a>
-                                    </h1>
+                                    </div>
                                     <div class="pbmit-sticky-corner  pbmit-top-right-corner">
                                         <svg width="20" height="20" viewBox="0 0 20 20" fill="" xmlns="http://www.w3.org/2000/svg">
 										   	<path d="M20 20V0C20 16 16 20 0 20H20Z" fill="red"></path>
@@ -235,19 +235,19 @@
 											</span>
                                             <ul class="navigation clearfix">
                                                 <li class=" active">
-                                                    <a href="index.html">Home</a>
+                                                    <a href="index.html">Início</a>
                                                 </li>
 
                                                 <li class="">
-                                                    <a href="about-us.html">About</a>
+                                                    <a href="about-us.html">A Casa</a>
                                                 </li>
 
                                                 <li class="">
-                                                    <a href="marbella-farms-resort.html">Marbella Farms & Resorts</a>
+                                                    <a href="marbella-farms-resort.html">Comodidades</a>
                                                 </li>
 
                                                 <li class="">
-                                                    <a href="marbella-suites.html">Marbella Suites</a>
+                                                    <a href="marbella-suites.html">Paraty</a>
                                                 </li>
 
                                                 <!-- <li class="dropdown">
@@ -255,7 +255,11 @@
 											  </li> -->
 
                                                 <li class="">
-                                                    <a href="contact-us.html">Contact</a>
+                                                    <a href="#avaliacoes">Avaliações</a>
+                                                </li>
+
+                                                <li class="">
+                                                    <a href="contact-us.html">Reservar</a>
                                                 </li>
                                             </ul>
 
@@ -269,7 +273,7 @@
 								<div class="pbmit-button-box-second">
 									<a class="pbmit-btn" href="contact-us.html">
 										<span class="pbmit-button-content-wrapper">
-											<span class="pbmit-button-text">Book Consult</span>
+											<span class="pbmit-button-text">Consultar Disponibilidade</span>
 										</span>
 									</a>
 								</div>
@@ -284,14 +288,14 @@
 
         <!-- page content -->
         <div class="page-content">
-            <div class="pbmit-slider-area pbmit-slider-one">
+            <div class="pbmit-slider-area pbmit-slider-one hero-section">
                 <div class="swiper-slider" data-autoplay="true" data-loop="true" data-dots="true" data-arrows="false" data-columns="1" data-margin="0" data-effect="fade">
                     <div class="swiper-wrapper">
                         <!-- Slide1 -->
                         <div class="swiper-slide">
                             <div class="pbmit-slider-item">
                                 <div class="pbmit-slider-bg" style="
-                      background-image: url(images/slider-1.JPG);
+                      background-image: url(images/hero-master.webp);
                     "></div>
                                 <!--<div class="container">-->
                                 <!--  <div class="row text-center">-->
@@ -483,9 +487,85 @@
                         </div>
                     </div>
                 </div>
+                <div class="hero-caption-block">
+                    <h1 class="hero-caption-title">Um refúgio particular entre o verde e o mar.</h1>
+                    <p class="hero-caption-subtitle">Uma casa inteira em Paraty para viver sem pressa, com hidromassagem, privacidade e espaço para compartilhar.</p>
+                </div>
             </div>
 
-                        <section class="staycation-showcase" aria-label="Perfect staycation options" style="margin-top:">
+            <section class="casa-points-marquee" aria-label="Pontos de interesse próximos à Casa SPA">
+                <div class="cpm-label">
+                    <span class="full">Perto da Casa SPA</span>
+                    <span class="short">Interesse</span>
+                </div>
+                <div class="cpm-track">
+                    <ul class="cpm-list">
+                        <li>Centro Histórico de Paraty</li>
+                        <li>Praias de Corumbê</li>
+                        <li>Cachoeiras</li>
+                        <li>Passeios de Barco</li>
+                        <li>Gastronomia Local</li>
+                        <li>Costa Verde</li>
+                    </ul>
+                    <ul class="cpm-list" aria-hidden="true">
+                        <li>Centro Histórico de Paraty</li>
+                        <li>Praias de Corumbê</li>
+                        <li>Cachoeiras</li>
+                        <li>Passeios de Barco</li>
+                        <li>Gastronomia Local</li>
+                        <li>Costa Verde</li>
+                    </ul>
+                    <ul class="cpm-list" aria-hidden="true">
+                        <li>Centro Histórico de Paraty</li>
+                        <li>Praias de Corumbê</li>
+                        <li>Cachoeiras</li>
+                        <li>Passeios de Barco</li>
+                        <li>Gastronomia Local</li>
+                        <li>Costa Verde</li>
+                    </ul>
+                    <ul class="cpm-list" aria-hidden="true">
+                        <li>Centro Histórico de Paraty</li>
+                        <li>Praias de Corumbê</li>
+                        <li>Cachoeiras</li>
+                        <li>Passeios de Barco</li>
+                        <li>Gastronomia Local</li>
+                        <li>Costa Verde</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="casa-stats" aria-label="Destaques da Casa SPA">
+                <div class="casa-stats__grid">
+                    <div class="casa-stats__col">
+                        <svg class="casa-stats__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+                            <path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1" stroke-linecap="round"></path>
+                            <circle cx="12" cy="12" r="3.5"></circle>
+                        </svg>
+                        <span class="casa-stats__number" data-count="5.0" data-decimal="1">0.0</span>
+                        <span class="casa-stats__line" aria-hidden="true"></span>
+                        <span class="casa-stats__label">Avaliação dos hóspedes</span>
+                    </div>
+                    <div class="casa-stats__col">
+                        <svg class="casa-stats__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+                            <path d="M4 11l8-6 8 6M6 10v9h12v-9" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                        <span class="casa-stats__number" data-count="6">0</span>
+                        <span class="casa-stats__line" aria-hidden="true"></span>
+                        <span class="casa-stats__label">Hóspedes</span>
+                    </div>
+                    <div class="casa-stats__col">
+                        <svg class="casa-stats__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+                            <circle cx="8" cy="12" r="4"></circle>
+                            <path d="M11.5 12H21M17 12v3M20 12v3" stroke-linecap="round"></path>
+                        </svg>
+                        <span class="casa-stats__number casa-stats__number--text">Casa<br>Inteira</span>
+                        <span class="casa-stats__line" aria-hidden="true"></span>
+                        <span class="casa-stats__label">Privativa</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="staycation-showcase" aria-label="Perfect staycation options" style="margin-top:">
                 <div class="msc-bg">
                     <span class="msc-blob msc-blob-a" aria-hidden="true"></span>
                     <span class="msc-blob msc-blob-b" aria-hidden="true"></span>
@@ -758,25 +838,18 @@
             </div>
           </div>
         </section> -->
-        <section class="pbmit-sticky-section mb-3">
+        <section class="pbmit-sticky-section">
           <div class="container">
             <div class="row g-0">
               <div class="col-md-12 col-xl-5">
                 <div class="pbmit-sticky-col">
                   <div class="ihbox-six-left-area">
-                    <div class="pbmit-heading-subheading animation-style4">
-                      <h4 class="pbmit-subtitle">Why Stay With Marbella?</h4>
+                    <div class="pbmit-heading-subheading">
+                      <h4 class="pbmit-subtitle">Por que Casa SPA</h4>
                       <header class="msc-head text-start">
-                        <h2>
-                          A Destination Where Premium Comfort, Nature, And
-                          Memorable Hospitality Come Together
-                        </h2>
+                        <h2 class="casa-editorial-headline">Talvez luxo seja simplesmente ter tempo.</h2>
                         <p class="fnt-style">
-                          Marbella offers more than just a stay. From elegant
-                          suites and peaceful resort spaces to curated
-                          experiences and warm service, every detail is designed
-                          to give guests comfort, convenience, and moments worth
-                          remembering.
+                          Uma casa inteira para desacelerar em Paraty, com privacidade, natureza por perto e espaços pensados para estar junto sem pressa.
                         </p>
                       </header>
                     </div>
@@ -794,16 +867,54 @@
                             <div
                               class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon"
                             >
+                              <i class="fas fa-home"></i>
+                            </div>
+                          </div>
+                          <h2 class="pbmit-element-title">
+                            Uma casa só para vocês
+                          </h2>
+                          <div class="pbmit-heading-desc">
+                            Privacidade para viver os dias no próprio ritmo, sem compartilhar a experiência com outros hóspedes.
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article class="pbmit-miconheading-style-19 col-md-6">
+                      <div class="pbmit-ihbox-style-19">
+                        <div class="pbmit-ihbox-box">
+                          <div class="pbmit-ihbox-icon">
+                            <div
+                              class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon"
+                            >
+                              <i class="fas fa-water"></i>
+                            </div>
+                          </div>
+                          <h2 class="pbmit-element-title">
+                            Seu próprio ritual de pausa
+                          </h2>
+                          <div class="pbmit-heading-desc">
+                            A hidromassagem convida a desacelerar depois de um dia entre praias, ruas históricas e natureza.
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article class="pbmit-miconheading-style-19 col-md-6">
+                      <div class="pbmit-ihbox-style-19">
+                        <div class="pbmit-ihbox-box">
+                          <div class="pbmit-ihbox-icon">
+                            <div
+                              class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon"
+                            >
                               <i class="fas fa-bed"></i>
                             </div>
                           </div>
                           <h2 class="pbmit-element-title">
-                            Elegant Stay Experience
+                            Espaço para descansar
                           </h2>
                           <div class="pbmit-heading-desc">
-                            Beautifully designed suites and rooms with
-                            comfort-focused interiors for a peaceful and premium
-                            stay.
+                            Três quartos preparados para receber casais, famílias e pequenos grupos com conforto.
                           </div>
                         </div>
                       </div>
@@ -816,60 +927,14 @@
                             <div
                               class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon"
                             >
-                              <i class="fas fa-tree"></i>
+                              <i class="fas fa-users"></i>
                             </div>
                           </div>
                           <h2 class="pbmit-element-title">
-                            Nature & Open Spaces
+                            Feita para estar junto
                           </h2>
                           <div class="pbmit-heading-desc">
-                            Relax in refreshing surroundings with greenery,
-                            open-air spaces, and a calm atmosphere away from
-                            city stress.
-                          </div>
-                        </div>
-                      </div>
-                    </article>
-
-                    <article class="pbmit-miconheading-style-19 col-md-6">
-                      <div class="pbmit-ihbox-style-19">
-                        <div class="pbmit-ihbox-box">
-                          <div class="pbmit-ihbox-icon">
-                            <div
-                              class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon"
-                            >
-                              <i class="fas fa-concierge-bell"></i>
-                            </div>
-                          </div>
-                          <h2 class="pbmit-element-title">
-                            Warm Guest Hospitality
-                          </h2>
-                          <div class="pbmit-heading-desc">
-                            Friendly support, attentive care, and personalized
-                            service that make every guest feel welcomed and
-                            valued.
-                          </div>
-                        </div>
-                      </div>
-                    </article>
-
-                    <article class="pbmit-miconheading-style-19 col-md-6">
-                      <div class="pbmit-ihbox-style-19">
-                        <div class="pbmit-ihbox-box">
-                          <div class="pbmit-ihbox-icon">
-                            <div
-                              class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon"
-                            >
-                              <i class="fas fa-glass-cheers"></i>
-                            </div>
-                          </div>
-                          <h2 class="pbmit-element-title">
-                            Perfect for Celebrations
-                          </h2>
-                          <div class="pbmit-heading-desc">
-                            Ideal spaces for family outings, private events,
-                            gatherings, and joyful celebrations in a premium
-                            setting.
+                            Uma casa que transforma refeições, conversas e momentos simples em parte da viagem.
                           </div>
                         </div>
                       </div>
@@ -886,12 +951,10 @@
                             </div>
                           </div>
                           <h2 class="pbmit-element-title">
-                            Curated Dining Comfort
+                            Liberdade também à mesa
                           </h2>
                           <div class="pbmit-heading-desc">
-                            Enjoy food-friendly spaces and guest-focused
-                            amenities that enhance the overall comfort of your
-                            stay.
+                            Cozinha equipada para preparar o café sem pressa, uma refeição especial ou simplesmente ficar em casa.
                           </div>
                         </div>
                       </div>
@@ -908,12 +971,10 @@
                             </div>
                           </div>
                           <h2 class="pbmit-element-title">
-                            Prime Hyderabad Location
+                            Paraty por perto
                           </h2>
                           <div class="pbmit-heading-desc">
-                            Conveniently located for guests looking for
-                            accessibility, comfort, and a premium stay
-                            experience in Hyderabad.
+                            Uma base tranquila para descobrir o Centro Histórico, praias, cachoeiras e experiências da Costa Verde.
                           </div>
                         </div>
                       </div>
@@ -926,16 +987,14 @@
                             <div
                               class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon"
                             >
-                              <i class="fas fa-camera-retro"></i>
+                              <i class="fas fa-paw"></i>
                             </div>
                           </div>
                           <h2 class="pbmit-element-title">
-                            Picture-Perfect Ambience
+                            Eles também são bem-vindos
                           </h2>
                           <div class="pbmit-heading-desc">
-                            Elegant corners, scenic spaces, and beautiful
-                            surroundings create a visually memorable experience
-                            for every guest.
+                            Uma hospedagem pet friendly para que a viagem possa incluir todos que fazem parte da família.
                           </div>
                         </div>
                       </div>
@@ -952,12 +1011,10 @@
                             </div>
                           </div>
                           <h2 class="pbmit-element-title">
-                            Moments Guests Remember
+                            Dias para guardar
                           </h2>
                           <div class="pbmit-heading-desc">
-                            From peaceful stays to joyful gatherings, Marbella
-                            creates experiences guests love to revisit and
-                            recommend.
+                            Mais do que uma hospedagem, um lugar para criar lembranças que continuam depois da viagem.
                           </div>
                         </div>
                       </div>
@@ -976,7 +1033,7 @@
             >
               <!--<h4 class="pbmit-subtitle">The Marbella</h4>-->
               <div class="msc-head">
-                <h2>Marbella Farms and Resort</h2>
+                <h2>Casa SPA Paraty</h2>
                 <!--<p class="fnt-style">-->
                 <!--  Where comfort, elegance, and thoughtful hospitality come-->
                 <!--  together to create truly memorable stays.-->
@@ -992,7 +1049,7 @@
                   <div class="venue-premium-circle">
                     <img
                       src="images/mf-images/fachada-01.webp"
-                      alt="Marbella premium hospitality experience"
+                      alt="Casa SPA Paraty entre natureza e descanso"
                     />
                   </div>
 
@@ -1000,26 +1057,26 @@
                   <div class="venue-premium-point vp1">
                     <span class="vp-dot"></span>
                     <span class="vp-line"></span>
-                    <h2 class="pbmit-element-title2">8 Acre Property</h2>
+                    <h2 class="pbmit-element-title2">Uma casa inteira para vocês</h2>
                   </div>
 
                   <div class="venue-premium-point vp2">
                     <span class="vp-dot"></span>
                     <span class="vp-line"></span>
-                    <h2 class="pbmit-element-title2">4.7 Google Rating</h2>
+                    <h2 class="pbmit-element-title2">Até 6 hóspedes</h2>
                   </div>
 
                   <div class="venue-premium-point vp3">
                     <span class="vp-dot"></span>
                     <span class="vp-line"></span>
-                    <h2 class="pbmit-element-title2">500 Guest Capacity</h2>
+                    <h2 class="pbmit-element-title2">3 quartos para descansar com privacidade</h2>
                   </div>
 
                   <div class="venue-premium-point vp4">
                     <span class="vp-dot"></span>
                     <span class="vp-line"></span>
                     <h2 class="pbmit-element-title2">
-                      Diverse Venues ( Poolside lawn, Banquet Hall, Utsav Lawn)
+                      Hidromassagem para desacelerar
                     </h2>
                   </div>
 
@@ -1027,30 +1084,28 @@
                   <div class="venue-premium-point vp5">
                     <span class="vp-dot"></span>
                     <span class="vp-line"></span>
-                    <h2 class="pbmit-element-title2">40 min from Gachibowli</h2>
+                    <h2 class="pbmit-element-title2">Paraty entre natureza, história e mar</h2>
                   </div>
 
                   <div class="venue-premium-point vp6">
                     <span class="vp-dot"></span>
                     <span class="vp-line"></span>
                     <h2 class="pbmit-element-title2">
-                      Arcade Arena, Outdoor Sports, Kidsventure Arena, Horse
-                      riding
+                      Pet friendly para viajar sem deixar ninguém para trás
                     </h2>
                   </div>
 
                   <div class="venue-premium-point vp7">
                     <span class="vp-dot"></span>
                     <span class="vp-line"></span>
-                    <h2 class="pbmit-element-title2">Taste of Marbella</h2>
+                    <h2 class="pbmit-element-title2">Cozinha equipada para dias sem pressa</h2>
                   </div>
 
                   <div class="venue-premium-point vp8">
                     <span class="vp-dot"></span>
                     <span class="vp-line"></span>
                     <h2 class="pbmit-element-title2">
-                      A destination guests love to revisit, celebrate, and
-                      recommend
+                      Talvez luxo seja simplesmente ter tempo
                     </h2>
                   </div>
                 </div>
@@ -1095,12 +1150,12 @@
                                         /* ===== Marbella Guest Reviews - New Slider Design ===== */
 
                                         .marbella-guest-reviews {
-                                            --mgr-bg: #f8fafc;
-                                            --mgr-card: #ffffff;
-                                            --mgr-text: #0f172a;
+                                            --mgr-bg: var(--casa-bg-light);
+                                            --mgr-card: var(--casa-ivory-soft);
+                                            --mgr-text: var(--casa-text-dark);
                                             --mgr-sub: #64748b;
                                             --mgr-line: #e2e8f0;
-                                            --mgr-accent: #f6cf7a;
+                                            --mgr-accent: var(--casa-accent);
                                             --mgr-star: #f59e0b;
                                             --mgr-shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
                                             padding: 70px 0;
@@ -1128,7 +1183,7 @@
 
                                         .msc-head h2 {
                                             margin: 0 0 10px;
-                                            color: #0f172a;
+                                            color: var(--casa-text-dark);
                                             font-size: clamp(26px, 4vw, 42px);
                                             font-weight: 900;
                                             letter-spacing: 0.2px;
@@ -1211,9 +1266,9 @@
                                         }
 
                                         .mgr-nav-btn:hover {
-                                            background: #0f172a;
+                                            background: var(--casa-bg-dark);
                                             color: #fff;
-                                            border-color: #0f172a;
+                                            border-color: var(--casa-bg-dark);
                                             transform: translateY(-2px);
                                         }
 
@@ -1340,14 +1395,14 @@
                                         }
                                     </style>
 
-                                    <section class="marbella-guest-reviews section-padding section-bg">
+                                    <section id="avaliacoes" class="marbella-guest-reviews section-padding section-bg">
                                         <div class="container text-center">
-                                            <h4 class="pbmit-subtitle">Moments our guests cherish.</h4>
+                                            <h4 class="pbmit-subtitle">Histórias de quem já esteve aqui</h4>
 
                                             <header class="msc-head">
-                                                <h2>Hear From Our Lovely Guests</h2>
+                                                <h2>Quem viveu a Casa SPA conta melhor do que nós.</h2>
                                                 <center>
-                                                    <p class="fnt-style" style="text-align: center;">Honest stories and experiences that reflect the warmth, comfort, and care we deliver.</p>
+                                                    <p class="fnt-style" style="text-align: center;">Experiências reais de hóspedes que encontraram em Paraty um lugar para descansar, estar juntos e viver com menos pressa.</p>
                                                 </center>
                                             </header>
 
@@ -1355,9 +1410,9 @@
                                             <div class="mgr-group">
                                                 <div class="mgr-flex">
                                                     <aside class="mgr-left">
-                                                        <h3 class="mgr-left-title">Marbella Farms & Resort</h3>
-                                                        <div class="mgr-thumb">
-                                                            <img src="images/index/r1-exterior.webp" alt="Marbella Farms & Resort">
+                                                        <!-- <h3 class="mgr-left-title">Casa SPA</h3> -->
+                                                        <div class="mgr-thumb casa-photo-frame">
+                                                            <img class="casa-photo" src="images/index/r1-exterior.webp" alt="Casa SPA Paraty">
                                                         </div>
                                                     </aside>
 
@@ -1375,12 +1430,12 @@
                                                                     <article class="mgr-card">
                                                                         <div class="mgr-quote">“</div>
                                                                         <p>
-                                                                            A quiet countryside escape — birdsong at dawn, golden fields at dusk. The team planned a tractor ride and a cozy bonfire for us. Truly memorable.
+                                                                            Depoimento pendente de confirmação pelo proprietário da Casa SPA.
                                                                         </p>
                                                                         <div class="mgr-meta">
                                                                             <div>
-                                                                                <h6 class="mgr-name">Ananya R.</h6>
-                                                                                <span class="mgr-role">Couple Getaway</span>
+                                                                                <h6 class="mgr-name">Depoimento a confirmar</h6>
+                                                                                <span class="mgr-role">Hóspede</span>
                                                                             </div>
                                                                             <div class="mgr-stars">
                                                                                 <span></span><span></span><span></span><span></span><span></span>
@@ -1391,12 +1446,12 @@
                                                                     <article class="mgr-card">
                                                                         <div class="mgr-quote">“</div>
                                                                         <p>
-                                                                            The lawns are pristine and the sunrise deck became our morning ritual. Kids loved the open space, and we loved the silence. Perfect family break.
+                                                                            Depoimento pendente de confirmação pelo proprietário da Casa SPA.
                                                                         </p>
                                                                         <div class="mgr-meta">
                                                                             <div>
-                                                                                <h6 class="mgr-name">Harsh &amp; Nidhi</h6>
-                                                                                <span class="mgr-role">Family Stay</span>
+                                                                                <h6 class="mgr-name">Depoimento a confirmar</h6>
+                                                                                <span class="mgr-role">Hóspede</span>
                                                                             </div>
                                                                             <div class="mgr-stars">
                                                                                 <span></span><span></span><span></span><span></span><span></span>
@@ -1407,12 +1462,12 @@
                                                                     <article class="mgr-card">
                                                                         <div class="mgr-quote">“</div>
                                                                         <p>
-                                                                            Farm-to-table breakfast was delicious, and the curated activities were spot on. Trails in the morning, poolside by noon, and stargazing at night.
+                                                                            Depoimento pendente de confirmação pelo proprietário da Casa SPA.
                                                                         </p>
                                                                         <div class="mgr-meta">
                                                                             <div>
-                                                                                <h6 class="mgr-name">Ruhani S.</h6>
-                                                                                <span class="mgr-role">Weekend Escape</span>
+                                                                                <h6 class="mgr-name">Depoimento a confirmar</h6>
+                                                                                <span class="mgr-role">Hóspede</span>
                                                                             </div>
                                                                             <div class="mgr-stars">
                                                                                 <span></span><span></span><span></span><span></span><span></span>
@@ -1423,12 +1478,12 @@
                                                                     <article class="mgr-card">
                                                                         <div class="mgr-quote">“</div>
                                                                         <p>
-                                                                            The whole atmosphere felt refreshing and calm. Service was warm, the food was comforting, and every corner of the stay felt thoughtfully planned.
+                                                                            Depoimento pendente de confirmação pelo proprietário da Casa SPA.
                                                                         </p>
                                                                         <div class="mgr-meta">
                                                                             <div>
-                                                                                <h6 class="mgr-name">Dev &amp; Sneha</h6>
-                                                                                <span class="mgr-role">Nature Retreat</span>
+                                                                                <h6 class="mgr-name">Depoimento a confirmar</h6>
+                                                                                <span class="mgr-role">Hóspede</span>
                                                                             </div>
                                                                             <div class="mgr-stars">
                                                                                 <span></span><span></span><span></span><span></span><span></span>
@@ -1448,9 +1503,9 @@
                                             <div class="mgr-group">
                                                 <div class="mgr-flex">
                                                     <aside class="mgr-left">
-                                                        <h3 class="mgr-left-title">Marbella Suites</h3>
-                                                        <div class="mgr-thumb">
-                                                            <img src="images/index/r2-exterior.webp" alt="Marbella Suites">
+                                                        <!-- <h3 class="mgr-left-title">Paraty</h3> -->
+                                                        <div class="mgr-thumb casa-photo-frame">
+                                                            <img class="casa-photo" src="images/index/r2-exterior.webp" alt="Paraty e Casa SPA">
                                                         </div>
                                                     </aside>
 
@@ -1468,12 +1523,12 @@
                                                                     <article class="mgr-card">
                                                                         <div class="mgr-quote">“</div>
                                                                         <p>
-                                                                            Premium finishes, spotless bathroom, and sunlight pouring in through large windows. We extended our stay because it truly felt like quiet luxury.
+                                                                            Depoimento pendente de confirmação pelo proprietário da Casa SPA.
                                                                         </p>
                                                                         <div class="mgr-meta">
                                                                             <div>
-                                                                                <h6 class="mgr-name">Siddharth K.</h6>
-                                                                                <span class="mgr-role">Premium Suite</span>
+                                                                                <h6 class="mgr-name">Depoimento a confirmar</h6>
+                                                                                <span class="mgr-role">Hóspede</span>
                                                                             </div>
                                                                             <div class="mgr-stars">
                                                                                 <span></span><span></span><span></span><span></span><span></span>
@@ -1484,12 +1539,12 @@
                                                                     <article class="mgr-card">
                                                                         <div class="mgr-quote">“</div>
                                                                         <p>
-                                                                            The private sit-out is a dream. Evenings with chai and a calming view of the fields made the experience feel extra special and peaceful.
+                                                                            Depoimento pendente de confirmação pelo proprietário da Casa SPA.
                                                                         </p>
                                                                         <div class="mgr-meta">
                                                                             <div>
-                                                                                <h6 class="mgr-name">Megha V.</h6>
-                                                                                <span class="mgr-role">Suite Guest</span>
+                                                                                <h6 class="mgr-name">Depoimento a confirmar</h6>
+                                                                                <span class="mgr-role">Hóspede</span>
                                                                             </div>
                                                                             <div class="mgr-stars">
                                                                                 <span></span><span></span><span></span><span></span><span></span>
@@ -1500,12 +1555,12 @@
                                                                     <article class="mgr-card">
                                                                         <div class="mgr-quote">“</div>
                                                                         <p>
-                                                                            Tasteful interiors and peaceful vibes. Check-in was smooth, service was fast, and the suite had the comfort and charm we were hoping for.
+                                                                            Depoimento pendente de confirmação pelo proprietário da Casa SPA.
                                                                         </p>
                                                                         <div class="mgr-meta">
                                                                             <div>
-                                                                                <h6 class="mgr-name">Tanya &amp; Ishan</h6>
-                                                                                <span class="mgr-role">Suite Weekend</span>
+                                                                                <h6 class="mgr-name">Depoimento a confirmar</h6>
+                                                                                <span class="mgr-role">Hóspede</span>
                                                                             </div>
                                                                             <div class="mgr-stars">
                                                                                 <span></span><span></span><span></span><span></span><span></span>
@@ -1516,12 +1571,12 @@
                                                                     <article class="mgr-card">
                                                                         <div class="mgr-quote">“</div>
                                                                         <p>
-                                                                            Beautifully maintained suite, soft lighting, elegant decor, and a very calm setting. It felt private, polished, and ideal for a relaxing weekend.
+                                                                            Depoimento pendente de confirmação pelo proprietário da Casa SPA.
                                                                         </p>
                                                                         <div class="mgr-meta">
                                                                             <div>
-                                                                                <h6 class="mgr-name">Aarav M.</h6>
-                                                                                <span class="mgr-role">Luxury Stay</span>
+                                                                                <h6 class="mgr-name">Depoimento a confirmar</h6>
+                                                                                <span class="mgr-role">Hóspede</span>
                                                                             </div>
                                                                             <div class="mgr-stars">
                                                                                 <span></span><span></span><span></span><span></span><span></span>
@@ -1846,7 +1901,7 @@
                                         height: 52px;
                                         padding: 0 24px;
                                         border-radius: 999px;
-                                        background: linear-gradient(135deg, #c8a35f, #e1c27a);
+                                        background: var(--casa-accent);
                                         color: #fff;
                                         text-decoration: none;
                                         font-size: 14px;
@@ -2106,14 +2161,15 @@
                                         <div class="footer-row">
                                             <!-- Left Section: Logo and Contact Info -->
                                             <div class="footer-column">
-                                                <h3>Contact Information</h3>
+                                                <h3>Casa SPA Paraty</h3>
                                                 <div class="footer-logo">
                                                     <img src="images/brand/logo-casa-spa-branca.webp" alt="Casa SPA Paraty" />
                                                 </div>
                                                 <ul>
                                                     <!--<li><strong>Address:</strong> 📍 Grandeur Residency, Whitefields, Hitech City, Hyderabad, Telangana 500084.</li>-->
-                                                    <li><strong>Email:</strong> <a href="mailto:marbellagroup8@gmail.com">Enviar e-mail</a></li>
-                                                    <li><strong>Phone:</strong> <a href="tel:+5524998144912">📞 +55 24 99814-4912</a></li>
+                                                    <li>Um refúgio privativo em Paraty para viver alguns dias com mais calma, natureza e tempo para estar junto.</li>
+                                                    <li><strong>E-mail:</strong> <a href="mailto:marbellagroup8@gmail.com">Enviar e-mail</a></li>
+                                                    <li><strong>WhatsApp:</strong> <a href="tel:+5524998144912">+55 24 99814-4912</a></li>
                                                 </ul>
 
                                                 <!-- Social Links below phone number -->
@@ -2128,7 +2184,15 @@
 
                                             <!-- Middle Section: Map 1 -->
                                             <div class="footer-column">
-                                                <h3>Marbella Farms & Resort</h3>
+                                                <h3>Descubra Paraty</h3>
+                                                <ul>
+                                                    <li>Centro Histórico</li>
+                                                    <li>Praias</li>
+                                                    <li>Cachoeiras</li>
+                                                    <li>Passeios de Barco</li>
+                                                    <li>Gastronomia</li>
+                                                    <li>Corumbê</li>
+                                                </ul>
                                                 <div class="footer-map-container">
                                                     <div class="footer-map">
                                                         <!-- Map 1 -->
@@ -2140,7 +2204,10 @@
 
                                             <!-- Right Section: Map 2 -->
                                             <div class="footer-column">
-                                                <h3>Marbella Suites</h3>
+                                                <h3>Localização</h3>
+                                                <ul>
+                                                    <li>Corumbê · Paraty · RJ</li>
+                                                </ul>
                                                 <div class="footer-map-container">
                                                     <div class="footer-map">
                                                         <!-- Map 2 -->
@@ -2226,6 +2293,7 @@
                             <script src="js/aos.js"></script>
                             <!-- GSAP -->
                             <script src="js/gsap.js"></script>
+                            <script src="js/casa-stats.js"></script>
                             <!-- Scroll Trigger -->
                             <script src="js/ScrollTrigger.js"></script>
                             <!-- Split Text -->
