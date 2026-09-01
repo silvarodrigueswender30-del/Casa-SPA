@@ -472,21 +472,24 @@
                         <!-- Card 1: A Casa - imagem a esquerda, texto a direita -->
                         <article class="msc-card">
                             <div class="msc-media swiper msc-image-slider casa-photo-frame casa-photo-frame--bright">
-                                <div class="swiper-wrapper">
+                                                                <div class="swiper-wrapper">
                                     <div class="swiper-slide">
-                                        <img class="casa-photo" src="images/mf-images/villa1.png" alt="Casa SPA Paraty" />
+                                        <img class="casa-photo" src="images/mf-images/fachada-01.webp" alt="Fachada da Casa SPA Paraty ao entardecer" />
                                     </div>
                                     <div class="swiper-slide">
-                                        <img class="casa-photo" src="images/mf-images/open-air-theatre1.png" alt="Area de convivencia da Casa SPA" />
+                                        <img class="casa-photo" src="images/mf-images/quarto-01.webp" alt="Quarto principal com cama de casal e decoração refinada" />
                                     </div>
                                     <div class="swiper-slide">
-                                        <img class="casa-photo" src="images/mf-images/pool-side-lawn1.png" alt="Area externa da Casa SPA" />
+                                        <img class="casa-photo" src="images/mf-images/sala-01.webp" alt="Sala de estar ampla com TV e sofás confortáveis" />
                                     </div>
                                     <div class="swiper-slide">
-                                        <img class="casa-photo" src="images/mf-images/jambore1.png" alt="Espaco para estar junto na Casa SPA" />
+                                        <img class="casa-photo" src="images/mf-images/cozinha-01.webp" alt="Cozinha inteiramente equipada com geladeira e forno" />
                                     </div>
                                     <div class="swiper-slide">
-                                        <img class="casa-photo" src="images/mf-images/utsav-lawn1.png" alt="Natureza ao redor da Casa SPA" />
+                                        <img class="casa-photo" src="images/mf-images/quarto-03.webp" alt="Quarto privativo com vista panorâmica para a natureza" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img class="casa-photo" src="images/mf-images/banheiro-02.webp" alt="Banheiro moderno com box blindex e espelho iluminado" />
                                     </div>
                                 </div>
                                 <div class="msc-slider-pagination"></div>
@@ -534,24 +537,21 @@
                         <!-- Card 2: Experiencia SPA - texto a esquerda, imagem a direita -->
                         <article class="msc-card msc-card--reverse">
                             <div class="msc-media swiper msc-image-slider casa-photo-frame">
-                                <div class="swiper-wrapper">
+                                                                <div class="swiper-wrapper">
                                     <div class="swiper-slide">
-                                        <img class="casa-photo" src="images/ms-images/lounge5.jpeg" alt="Experiencia SPA da Casa SPA" />
+                                        <img class="casa-photo" src="images/ms-images/spa-02.webp" alt="Deck privativo de hidromassagem ao entardecer" />
                                     </div>
                                     <div class="swiper-slide">
-                                        <img class="casa-photo" src="images/ms-images/living-room2.jpeg" alt="Ambiente interno da Casa SPA" />
+                                        <img class="casa-photo" src="images/ms-images/spa-03.webp" alt="Área de hidromassagem iluminada à noite para momentos de relaxamento" />
                                     </div>
                                     <div class="swiper-slide">
-                                        <img class="casa-photo" src="images/ms-images/master-bedroom1.jpeg" alt="Quarto da Casa SPA" />
+                                        <img class="casa-photo" src="images/ms-images/spa-04.webp" alt="Hidromassagem externa cercada por vegetação tropical durante o dia" />
                                     </div>
                                     <div class="swiper-slide">
-                                        <img class="casa-photo" src="images/ms-images/bedroom1.jpeg" alt="Quarto privativo da Casa SPA" />
+                                        <img class="casa-photo" src="images/ms-images/spa-01.webp" alt="Hidromassagem aquecida no deck de madeira com área de descanso" />
                                     </div>
                                     <div class="swiper-slide">
-                                        <img class="casa-photo" src="images/ms-images/kitchen3.jpeg" alt="Cozinha equipada da Casa SPA" />
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <img class="casa-photo" src="images/ms-images/sunroom3.jpeg" alt="Espaco de descanso da Casa SPA" />
+                                        <img class="casa-photo" src="images/ms-images/exterior-01.webp" alt="Área de descanso ao ar livre integrada ao deck da hidromassagem" />
                                     </div>
                                 </div>
                                 <div class="msc-slider-pagination"></div>
@@ -965,7 +965,7 @@
 
                   <div class="venue-premium-circle">
                     <img
-                      src="images/index/circle-images/IMG_0140.JPG"
+                      src="images/mf-images/fachada-01.webp"
                       alt="Marbella premium hospitality experience"
                     />
                   </div>
@@ -1331,7 +1331,7 @@
                                                     <aside class="mgr-left">
                                                         <h3 class="mgr-left-title">Marbella Farms & Resort</h3>
                                                         <div class="mgr-thumb">
-                                                            <img src="images/index/r1.webp" alt="Marbella Farms & Resort">
+                                                            <img src="images/index/r1-exterior.webp" alt="Marbella Farms & Resort">
                                                         </div>
                                                     </aside>
 
@@ -1424,7 +1424,7 @@
                                                     <aside class="mgr-left">
                                                         <h3 class="mgr-left-title">Marbella Suites</h3>
                                                         <div class="mgr-thumb">
-                                                            <img src="images/index/r2.webp" alt="Marbella Suites">
+                                                            <img src="images/index/r2-exterior.webp" alt="Marbella Suites">
                                                         </div>
                                                     </aside>
 
