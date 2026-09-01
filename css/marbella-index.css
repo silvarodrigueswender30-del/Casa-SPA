@@ -2272,6 +2272,15 @@ body {
 
 .footer-logo img {
     opacity: 0.82;
+    height: 48px;
+    width: auto;
+    max-width: 100%;
+}
+
+.site-title img {
+    max-height: 54px;
+    width: auto;
+    max-width: 100%;
 }
 
 .footer-map {

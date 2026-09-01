@@ -1,674 +1,674 @@
-<!DOCTYPE html>
-<html class="no-js" lang="pt-BR">
-
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-
-    <!-- Title -->
-    <title>Comodidades | Casa SPA Paraty</title>
-
-    <!-- SEO Meta -->
-    <meta name="robots" content="index, follow" />
-    <meta name="description" content="Casa SPA Paraty" />
-    <meta name="keywords" content="Casa SPA Paraty" />
-
-    <meta name="author" content="Casa SPA Paraty" />
-
-    <meta property="og:site_name" content="Casa SPA Paraty">
-    <meta name="application-name" content="Casa SPA Paraty">
-
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "name": "Casa SPA Paraty",
-            "alternateName": "Casa SPA Paraty",
-            "url": "https://www.gspllp.com/"
-        }
-    </script>
-
-    <!-- Mobile Meta -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-    <!-- Favicons -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png">
-
-    <!-- CSS Files -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/fontawesome.css" />
-    <link rel="stylesheet" href="css/flaticon.css" />
-    <link rel="stylesheet" href="css/pbminfotech-base-icons.css" />
-    <link rel="stylesheet" href="css/themify-icons.css" />
-    <link rel="stylesheet" href="css/swiper.min.css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" />
-    <link rel="stylesheet" href="css/twentytwenty.css" />
-    <link rel="stylesheet" href="css/aos.css" />
-    <link rel="stylesheet" href="css/shortcode.css" />
-    <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="stylesheet" href="css/marbella-index.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
-    <!-- Font Awesome (icons) -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" />
-
-    <style>
-        @media (max-width: 767.98px) {
-            h2 {
-                line-height: 35px !important;
-            }
-        }
-
-        .pbmit-slider-one .swiper-horizontal>.swiper-pagination-bullets {
-            display: block;
-            width: 200px;
-            height: 0px;
-            line-height: 100px;
-            right: 0;
-            left: auto;
-            bottom: 0;
-            border-radius: 20px 0 0;
-            background-color: #fff;
-        }
-
-        @media (min-width: 1201px) {
-            .pbmit-slider-one .pbmit-slider-dots-corner {
-                position: absolute;
-                width: 200px;
-                height: 0px;
-                right: 0;
-                bottom: 0;
-                background-color: var(--pbmit-white-color);
-                display: block;
-                border-radius: 20px 0 0;
-                z-index: 1;
-            }
-        }
-
-        .pbmit-slider-one .pbmit-slider-item {
-            display: flex;
-            align-items: center;
-            height: 575px !important;
-            background-color: rgba(22, 29, 25, 0.22);
-        }
-
-        @media (max-width: 991px) {
-            .pbmit-slider-one .pbmit-slider-item {
-                display: flex;
-                align-items: center;
-                height: 365px !important;
-                background-color: rgba(22, 29, 25, 0.22);
-            }
-        }
-    </style>
-
-
-    <style>
-      .site-header .site-branding,
-      .header-style-1 .site-branding {
-        background-color: transparent !important;
-        background: transparent !important;
-        box-shadow: none !important;
-        border: none !important;
-        padding: 10px 0 !important;
-        border-radius: 0 !important;
-      }
-      .pbmit-sticky-corner {
-        display: none !important;
-      }
-      .site-header .site-branding img.site-logo {
-        display: block;
-        height: 52px;
-        width: auto;
-      }
-      @media (max-width: 768px) {
-        .site-header .site-branding img.site-logo {
-          height: 38px;
-        }
-      }
-    </style>
-    
-</head>
-
-<body>
-    <!-- page wrapper -->
-    <div class="page-wrapper" id="page">
-        <!-- Header Main Area -->
-
-        <style type="text/css">
-            @media (min-width: 1201px) {
-                .header-style-1 {
-                    position: relative;
-                    margin: 0px 0px 0;
-                }
-            }
-
-            .header-style-1 .site-branding {
-                border-radius: 0 0 20px;
-                position: relative;
-                padding: 0 0px;
-                margin-right: 20px;
-                background-color: var(--pbmit-white-color);
-            }
-
-            .pbmit-sticky-corner svg path {
-                fill: transparent;
-            }
-
-            .header-style-1 .site-branding {
-                border-radius: 0 0 20px;
-                position: relative;
-                padding: 15px 0px 0px 0px;
-                margin-right: 20px;
-                background-color: transparent !important;
-            }
-
-            .site-header .site-branding img.site-logo {
-                display: block;
-                height: 48px;
-                width: auto;
-                max-width: none;
-                max-height: none;
-            }
-
-            @media (max-width: 768px) {
-                .site-header .site-branding img.site-logo {
-                    height: 34px;
-                }
-            }
-        </style>
-
-
-        <header class="site-header header-style-1">
-            <div class="pbmit-header-overlay">
-                <div class="pbmit-main-header-area">
-                    <div class="container">
-                        <div class="pbmit-header-content d-flex justify-content-between align-items-center" style="background-color:;">
-                            <div class="pbmit-logo-button-area d-flex justify-content-between align-items-center">
-                                <div class="site-branding">
-                                    <div class="site-title">
-                                        <a href="index.html">
-											<img class="logo-img site-logo" src="images/brand/logo-casa-spa-branca.webp" alt="Casa SPA Paraty">
-										</a>
-                                    </div>
-                                    <div class="pbmit-sticky-corner  pbmit-top-right-corner">
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="" xmlns="http://www.w3.org/2000/svg">
-										   	<path d="M20 20V0C20 16 16 20 0 20H20Z" fill="red"></path>
-										</svg>
-                                    </div>
-                                    <div class="pbmit-sticky-corner pbmit-bottom-left-corner">
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-										   	<path d="M20 20V0C20 12 12 20 0 20H20Z" fill="red"></path>
-										</svg>
-                                    </div>
-                                </div>
-                                <!-- <div class="pbmit-button-box">
-									<div class="pbmit-header-button">
-										<a href="tel:+1(212)%20255-511">
-											<span class="pbmit-header-button-text-1">+1(212) 255-511</span>			
-											<span class="pbmit-header-button-text-2">tel:+1(212) 255-511</span>		
-										</a>
-									</div>
-								</div> -->
-                            </div>
-                            <div class="site-navigation">
-                                <nav class="main-menu navbar-expand-xl navbar-light">
-                                    <div class="navbar-header">
-                                        <!-- Toggle Button -->
-                                        <button class="navbar-toggler" type="button">
-											<i class="pbmit-base-icon-menu-1"></i>
-										</button>
-                                    </div>
-                                    <div class="pbmit-mobile-menu-bg"></div>
-                                    <div class="collapse navbar-collapse clearfix show" id="pbmit-menu">
-                                        <div class="pbmit-menu-wrap">
-                                            <span class="closepanel">
-												<svg class="qodef-svg--close qodef-m" xmlns="http://www.w3.org/2000/svg" width="20.163" height="20.163" viewBox="0 0 26.163 26.163">
-													<rect width="36" height="1" transform="translate(0.707) rotate(45)"></rect>
-													<rect width="36" height="1" transform="translate(0 25.456) rotate(-45)"></rect>
-												</svg>
-											</span>
-                                            <ul class="navigation clearfix">
-                                                <li class="">
-                                                    <a href="index.html">Início</a>
-                                                </li>
-
-                                                <li class="">
-                                                    <a href="about-us.html">A Casa</a>
-                                                </li>
-
-                                                <li class="">
-                                                    <a href="marbella-farms-resort.html" style="color:var(--casa-champagne)">Comodidades</a>
-                                                </li>
-
-                                                <li class="">
-                                                    <a href="marbella-suites.html">Paraty</a>
-                                                </li>
-
-                                                <!-- <li class="dropdown">
-											    <a href="gallery.html">Gallery</a>
-											  </li> -->
-
-                                                <li class="">
-                                                    <a href="#avaliacoes">Avaliações</a>
-                                                </li>
-
-                                                <li class="">
-                                                    <a href="contact-us.html">Reservar</a>
-                                                </li>
-                                            </ul>
-
-
-                                        </div>
-                                    </div>
-                                </nav>
-                            </div>
-                            <!-- <div class="pbmit-right-box d-flex align-items-center">
-							
-								<div class="pbmit-button-box-second">
-									<a class="pbmit-btn" href="contact-us.html">
-										<span class="pbmit-button-content-wrapper">
-											<span class="pbmit-button-text">Consultar Disponibilidade</span>
-										</span>
-									</a>
-								</div>
-							</div> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </header>
-        <!-- Header Main Area End Here -->
-
-        <!-- page content -->
-  <div class="page-content">
-
-    <!-- Inner Hero -->
-    <div class="pbmit-title-bar-wrapper" style="background-image: url('images/index/r1-exterior.webp'); background-size: cover; background-position: center;">
-      <div class="container">
-        <div class="pbmit-title-bar-content">
-          <div class="pbmit-title-bar-content-inner">
-            <div class="pbmit-tbar-title">
-              <h1 class="pbmit-tbar-title">Comodidades</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <section class="section-md" style="background: var(--casa-forest-light);">
-      <div class="container">
-        <div class="text-center mb-5">
-            <h4 class="pbmit-subtitle">Conforto</h4>
-            <h2>O que a Casa SPA oferece</h2>
-        </div>
-        <div class="row">
-          <div class="col-md-4 mb-4">
-            <div class="p-4 rounded" style="background: var(--casa-forest); border: 1px solid rgba(255,255,255,0.05); height: 100%;">
-              <i class="fas fa-bed fa-2x mb-3" style="color: var(--casa-champagne);"></i>
-              <h4 style="color: var(--casa-ivory);">3 Quartos Climatizados</h4>
-              <p style="color: rgba(255,255,255,0.7); font-size: 14px;">Espaços tranquilos e confortáveis com ar-condicionado para um sono reparador, acomodando até 6 hóspedes confortavelmente.</p>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="p-4 rounded" style="background: var(--casa-forest); border: 1px solid rgba(255,255,255,0.05); height: 100%;">
-              <i class="fas fa-water fa-2x mb-3" style="color: var(--casa-champagne);"></i>
-              <h4 style="color: var(--casa-ivory);">SPA / Hidromassagem</h4>
-              <p style="color: rgba(255,255,255,0.7); font-size: 14px;">Deck privativo com hidromassagem planejada para relaxar, com vista e atmosfera de refúgio.</p>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="p-4 rounded" style="background: var(--casa-forest); border: 1px solid rgba(255,255,255,0.05); height: 100%;">
-              <i class="fas fa-utensils fa-2x mb-3" style="color: var(--casa-champagne);"></i>
-              <h4 style="color: var(--casa-ivory);">Cozinha Equipada</h4>
-              <p style="color: rgba(255,255,255,0.7); font-size: 14px;">Estrutura completa para preparar suas próprias refeições com liberdade e sem pressa.</p>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="p-4 rounded" style="background: var(--casa-forest); border: 1px solid rgba(255,255,255,0.05); height: 100%;">
-              <i class="fas fa-bath fa-2x mb-3" style="color: var(--casa-champagne);"></i>
-              <h4 style="color: var(--casa-ivory);">3 Banheiros</h4>
-              <p style="color: rgba(255,255,255,0.7); font-size: 14px;">Conforto e conveniência garantidos para todos os hóspedes com ampla disponibilidade de banheiros.</p>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="p-4 rounded" style="background: var(--casa-forest); border: 1px solid rgba(255,255,255,0.05); height: 100%;">
-              <i class="fas fa-tree fa-2x mb-3" style="color: var(--casa-champagne);"></i>
-              <h4 style="color: var(--casa-ivory);">Área Externa</h4>
-              <p style="color: rgba(255,255,255,0.7); font-size: 14px;">Um amplo espaço aberto, cercado de verde e natureza, perfeito para reunir os amigos ou a família ao ar livre.</p>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="p-4 rounded" style="background: var(--casa-forest); border: 1px solid rgba(255,255,255,0.05); height: 100%;">
-              <i class="fas fa-wifi fa-2x mb-3" style="color: var(--casa-champagne);"></i>
-              <h4 style="color: var(--casa-ivory);">Wi-Fi de Alta Velocidade</h4>
-              <p style="color: rgba(255,255,255,0.7); font-size: 14px;">Conectividade garantida para quem precisa estar online, mesmo longe da cidade.</p>
-            </div>
-          </div>
-        </div>
-        
-        <div class="mt-5 text-center">
-            <img src="images/ms-images/spa-01.webp" alt="SPA" class="img-fluid rounded shadow mx-2" style="max-height: 250px; width: auto; display: inline-block; object-fit: cover;">
-            <img src="images/mf-images/cozinha-03.webp" alt="Cozinha" class="img-fluid rounded shadow mx-2" style="max-height: 250px; width: auto; display: inline-block; object-fit: cover;">
-            <img src="images/ms-images/quarto1-01.webp" alt="Quarto" class="img-fluid rounded shadow mx-2" style="max-height: 250px; width: auto; display: inline-block; object-fit: cover;">
-        </div>
-      </div>
-    </section>
-
-  </div>
-  <footer id="site-footer" class="footer-container">
-                                    <div class="container">
-                                        <div class="footer-row">
-                                            <!-- Left Section: Logo and Contact Info -->
-                                            <div class="footer-column">
-                                                <h3>Casa SPA Paraty</h3>
-                                                <div class="footer-logo">
-                                                    <img src="images/brand/logo-casa-spa-branca.webp" alt="Casa SPA Paraty" />
-                                                </div>
-                                                <ul>
-                                                    <!--<li><strong>Address:</strong> 📍 Grandeur Residency, Whitefields, Hitech City, Hyderabad, Telangana 500084.</li>-->
-                                                    <li>Um refúgio privativo em Paraty para viver alguns dias com mais calma, natureza e tempo para estar junto.</li>
-                                                    <li><strong>E-mail:</strong> <a href="mailto:marbellagroup8@gmail.com">Enviar e-mail</a></li>
-                                                    <li><strong>WhatsApp:</strong> <a href="tel:+5524998144912">+55 24 99814-4912</a></li>
-                                                </ul>
-
-                                                <!-- Social Links below phone number -->
-                                                <!--<div class="social-links">-->
-                                                <!--  <a href="#" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>-->
-
-                                                <!--  <a href="#" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>-->
-                                                <!--  <a href="#" target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a> -->
-                                                <!--  <a href="#" target="_blank" title="Airbnb"><i class="fab fa-airbnb"></i></a>-->
-                                                <!--</div>-->
-                                            </div>
-
-                                            <!-- Middle Section: Map 1 -->
-                                            <div class="footer-column">
-                                                <h3>Descubra Paraty</h3>
-                                                <ul>
-                                                    <li>Centro Histórico</li>
-                                                    <li>Praias</li>
-                                                    <li>Cachoeiras</li>
-                                                    <li>Passeios de Barco</li>
-                                                    <li>Gastronomia</li>
-                                                    <li>Corumbê</li>
-                                                </ul>
-                                                <div class="footer-map-container">
-                                                    <div class="footer-map">
-                                                        <!-- Map 1 -->
-                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15238.673938895507!2d78.2175544855433!3d17.28326634630887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcbc125d1fddf0b%3A0xe006a66b5512cf02!2sMarbella%20Farms%20and%20Resort!5e0!3m2!1sen!2sin!4v1761395819026!5m2!1sen!2sin"
-                                                            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- Right Section: Map 2 -->
-                                            <div class="footer-column">
-                                                <h3>Localização</h3>
-                                                <ul>
-                                                    <li>Corumbê · Paraty · RJ</li>
-                                                </ul>
-                                                <div class="footer-map-container">
-                                                    <div class="footer-map">
-                                                        <!-- Map 2 -->
-                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.093654209568!2d78.36706577369105!3d17.455231000850073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb930016ad3be7%3A0x9bb1ca2806a74cb1!2sMarbella%20Suites!5e0!3m2!1sen!2sin!4v1761395868880!5m2!1sen!2sin"
-                                                            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </footer>
-
-                                <!-- Call button -->
-                                <a href="tel:+5524998144912" class="wild-float-call">
-                                    <!-- <i class="fas fa-phone-alt"></i> -->
-                                    <i class="fas fa-phone"></i>
-                                    <!--<span>Call Now</span>-->
-                                </a>
-
-                                <!-- WhatsApp button -->
-                                <a href="https://wa.me/5524998144912" target="_blank" class="wild-float-whatsapp">
-          <i class="fab fa-whatsapp"></i>
-          <span>WhatsApp</span>
-        </a>
-                                <!-- footer End -->
-                            </div>
-                            <!-- page wrapper End -->
-
-                            <!-- Search Box Start Here -->
-                            <div class="pbmit-search-overlay">
-                                <div class="pbmit-icon-close">
-                                    <svg class="qodef-svg--close qodef-m" xmlns="http://www.w3.org/2000/svg" width="28.163" height="28.163" viewBox="0 0 26.163 26.163">
-          <rect
-            width="36"
-            height="1"
-            transform="translate(0.707) rotate(45)"
-          ></rect>
-          <rect
-            width="36"
-            height="1"
-            transform="translate(0 25.456) rotate(-45)"
-          ></rect>
-        </svg>
-                                </div>
-                                <div class="pbmit-search-outer">
-                                    <form class="pbmit-site-searchform">
-                                        <input type="search" class="form-control field searchform-s" name="s" placeholder="Search …" />
-                                        <button type="submit"></button>
-                                    </form>
-                                </div>
-                            </div>
-                            <!-- Search Box End Here -->
-                            <!-- Scroll To Top -->
-                            <div class="pbmit-progress-wrap" style="display: none;">
-                                <svg class="pbmit-progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
-      </svg>
-                            </div>
-                            <!-- Scroll To Top End -->
-
-                            <!-- jQuery JS -->
-                            <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-                            <script src="js/jquery.min.js"></script>
-                            <!-- Popper JS -->
-                            <script src="js/popper.min.js"></script>
-                            <!-- Bootstrap JS -->
-                            <script src="js/bootstrap.min.js"></script>
-                            <!-- jquery Waypoints JS -->
-                            <script src="js/jquery.waypoints.min.js"></script>
-                            <!-- jquery Appear JS -->
-                            <script src="js/jquery.appear.js"></script>
-                            <!-- Numinate JS -->
-                            <script src="js/numinate.min.js"></script>
-                            <!-- Slick JS -->
-                            <script src="js/swiper.min.js"></script>
-                            <!-- Magnific JS -->
-                            <script src="js/jquery.magnific-popup.min.js"></script>
-                            <!-- Circle Progress JS -->
-                            <script src="js/circle-progress.js"></script>
-                            <!-- countdown JS -->
-                            <script src="js/jquery.countdown.min.js"></script>
-                            <!-- AOS -->
-                            <script src="js/aos.js"></script>
-                            <!-- GSAP -->
-                            <script src="js/gsap.js"></script>
-                            <script src="js/casa-stats.js"></script>
-                            <!-- Scroll Trigger -->
-                            <script src="js/ScrollTrigger.js"></script>
-                            <!-- Split Text -->
-                            <script src="js/SplitText.js"></script>
-                            <!-- Magnetic -->
-                            <script src="js/magnetic.js"></script>
-                            <!-- Morphext JS -->
-                            <script src="js/morphext.min.js"></script>
-                            <script src="js/popper.min.js"></script>
-                            <!-- GSAP Animation -->
-                            <script src="js/gsap-animation.js"></script>
-                            <!-- Twentytwenty JS -->
-                            <script src="js/jquery.event.move.js"></script>
-                            <script src="js/jquery.twentytwenty.js"></script>
-                            <!-- Scripts JS -->
-                            <script src="js/scripts.js"></script>
-                            <script>
-                                (function() {
-                                    function c() {
-                                        var b = a.contentDocument || a.contentWindow.document;
-                                        if (b) {
-                                            var d = b.createElement("script");
-                                            d.innerHTML =
-                                                "window.__CF$cv$params={r:'93bed8f929113ae5',t:'MTc0NjYwMTMwMy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='../cdn-cgi/challenge-platform/h/b/scripts/jsd/701fd2559006/maind41d.js';document.getElementsByTagName('head')[0].appendChild(a);";
-                                            b.getElementsByTagName("head")[0].appendChild(d);
-                                        }
-                                    }
-                                    if (document.body) {
-                                        var a = document.createElement("iframe");
-                                        a.height = 1;
-                                        a.width = 1;
-                                        a.style.position = "absolute";
-                                        a.style.top = 0;
-                                        a.style.left = 0;
-                                        a.style.border = "none";
-                                        a.style.visibility = "hidden";
-                                        document.body.appendChild(a);
-                                        if ("loading" !== document.readyState) c();
-                                        else if (window.addEventListener)
-                                            document.addEventListener("DOMContentLoaded", c);
-                                        else {
-                                            var e = document.onreadystatechange || function() {};
-                                            document.onreadystatechange = function(b) {
-                                                e(b);
-                                                "loading" !== document.readyState &&
-                                                    ((document.onreadystatechange = e), c());
-                                            };
-                                        }
-                                    }
-                                })();
-                            </script>
-                            <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"93bed8f929113ae5","version":"2025.4.0-1-g37f21b1","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"125856bf84ab44059737e93b01aa0fef","b":1}'
-                                crossorigin="anonymous"></script>
-                            <script>
-                                const tabs = document.querySelectorAll(".ss-tabs li");
-                                const items = document.querySelectorAll(".s-s-item");
-                                const popup = document.getElementById("popup");
-                                const popupImg = document.getElementById("popup-img");
-                                const closeBtn = document.getElementById("close");
-                                const nextBtn = document.getElementById("next");
-                                const prevBtn = document.getElementById("prev");
-
-                                let currentIndex = 0;
-                                let galleryImages = [];
-
-                                // Tab filter
-                                tabs.forEach((tab) => {
-                                    tab.addEventListener("click", () => {
-                                        tabs.forEach((t) => t.classList.remove("active"));
-                                        tab.classList.add("active");
-
-                                        let filter = tab.getAttribute("data-filter");
-                                        galleryImages = [];
-
-                                        items.forEach((item, index) => {
-                                            if (filter === "all" || item.classList.contains(filter)) {
-                                                item.style.display = "block";
-                                                galleryImages.push(item.querySelector("img").src);
-                                            } else {
-                                                item.style.display = "none";
-                                            }
-                                        });
-                                    });
-                                });
-
-                                // Default load all images
-                                galleryImages = Array.from(items).map(
-                                    (item) => item.querySelector("img").src,
-                                );
-
-                                // Open popup
-                                items.forEach((item, index) => {
-                                    item.addEventListener("click", () => {
-                                        popup.classList.add("active");
-                                        popupImg.src = item.querySelector("img").src;
-                                        currentIndex = galleryImages.indexOf(popupImg.src);
-                                    });
-                                });
-
-                                // Close popup
-                                closeBtn.addEventListener("click", () => {
-                                    popup.classList.remove("active");
-                                });
-
-                                // Next & Prev
-                                nextBtn.addEventListener("click", () => {
-                                    currentIndex = (currentIndex + 1) % galleryImages.length;
-                                    popupImg.src = galleryImages[currentIndex];
-                                });
-
-                                prevBtn.addEventListener("click", () => {
-                                    currentIndex =
-                                        (currentIndex - 1 + galleryImages.length) % galleryImages.length;
-                                    popupImg.src = galleryImages[currentIndex];
-                                });
-
-                                // Close on background click
-                                popup.addEventListener("click", (e) => {
-                                    if (e.target === popup) popup.classList.remove("active");
-                                });
-                            </script>
-
-                            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-                            <script>
-                                // Swiper init
-                                const eventsSwiper = new Swiper(".events-swiper", {
-                                    loop: true,
-                                    speed: 800,
-                                    spaceBetween: 10,
-                                    centeredSlides: true,
-                                    autoplay: {
-                                        delay: 2800,
-                                        disableOnInteraction: false,
-                                    },
-                                    pagination: {
-                                        el: ".events-swiper .swiper-pagination",
-                                        clickable: true,
-                                    },
-                                    navigation: {
-                                        nextEl: ".events-swiper .swiper-button-next",
-                                        prevEl: ".events-swiper .swiper-button-prev",
-                                    },
-                                    // Make images adapt smoothly on resize
-                                    observer: true,
-                                    observeParents: true,
-                                });
-                            </script>
-                            <script>
-                                document.addEventListener("DOMContentLoaded", function() {
-                                    document
-                                        .querySelectorAll(".msc-image-slider")
-                                        .forEach(function(slider) {
-                                            new Swiper(slider, {
-                                                loop: true,
-                                                speed: 900,
-                                                autoplay: {
-                                                    delay: 2500,
-                                                    disableOnInteraction: false,
-                                                },
-                                                slidesPerView: 1,
-                                                spaceBetween: 0,
-                                                pagination: {
-                                                    el: slider.querySelector(".msc-slider-pagination"),
-                                                    clickable: true,
-                                                },
-                                            });
-                                        });
-                                });
-                            </script>
-</body>
-
-</html>
+<!DOCTYPE html>
+<html class="no-js" lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <!-- Title -->
+    <title>Comodidades | Casa SPA Paraty</title>
+
+    <!-- SEO Meta -->
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="Casa SPA Paraty" />
+    <meta name="keywords" content="Casa SPA Paraty" />
+
+    <meta name="author" content="Casa SPA Paraty" />
+
+    <meta property="og:site_name" content="Casa SPA Paraty">
+    <meta name="application-name" content="Casa SPA Paraty">
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Casa SPA Paraty",
+            "alternateName": "Casa SPA Paraty",
+            "url": "https://www.gspllp.com/"
+        }
+    </script>
+
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.css" />
+    <link rel="stylesheet" href="css/flaticon.css" />
+    <link rel="stylesheet" href="css/pbminfotech-base-icons.css" />
+    <link rel="stylesheet" href="css/themify-icons.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/twentytwenty.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/shortcode.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/marbella-index.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Font Awesome (icons) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" />
+
+    <style>
+        @media (max-width: 767.98px) {
+            h2 {
+                line-height: 35px !important;
+            }
+        }
+
+        .pbmit-slider-one .swiper-horizontal>.swiper-pagination-bullets {
+            display: block;
+            width: 200px;
+            height: 0px;
+            line-height: 100px;
+            right: 0;
+            left: auto;
+            bottom: 0;
+            border-radius: 20px 0 0;
+            background-color: #fff;
+        }
+
+        @media (min-width: 1201px) {
+            .pbmit-slider-one .pbmit-slider-dots-corner {
+                position: absolute;
+                width: 200px;
+                height: 0px;
+                right: 0;
+                bottom: 0;
+                background-color: var(--pbmit-white-color);
+                display: block;
+                border-radius: 20px 0 0;
+                z-index: 1;
+            }
+        }
+
+        .pbmit-slider-one .pbmit-slider-item {
+            display: flex;
+            align-items: center;
+            height: 575px !important;
+            background-color: rgba(22, 29, 25, 0.22);
+        }
+
+        @media (max-width: 991px) {
+            .pbmit-slider-one .pbmit-slider-item {
+                display: flex;
+                align-items: center;
+                height: 365px !important;
+                background-color: rgba(22, 29, 25, 0.22);
+            }
+        }
+    </style>
+
+
+    <style>
+      .site-header .site-branding,
+      .header-style-1 .site-branding {
+        background-color: transparent !important;
+        background: transparent !important;
+        box-shadow: none !important;
+        border: none !important;
+        padding: 10px 0 !important;
+        border-radius: 0 !important;
+      }
+      .pbmit-sticky-corner {
+        display: none !important;
+      }
+      .site-header .site-branding img.site-logo {
+        display: block;
+        height: 52px;
+        width: auto;
+      }
+      @media (max-width: 768px) {
+        .site-header .site-branding img.site-logo {
+          height: 38px;
+        }
+      }
+    </style>
+    
+</head>
+
+<body>
+    <!-- page wrapper -->
+    <div class="page-wrapper" id="page">
+        <!-- Header Main Area -->
+
+        <style type="text/css">
+            @media (min-width: 1201px) {
+                .header-style-1 {
+                    position: relative;
+                    margin: 0px 0px 0;
+                }
+            }
+
+            .header-style-1 .site-branding {
+                border-radius: 0 0 20px;
+                position: relative;
+                padding: 0 0px;
+                margin-right: 20px;
+                background-color: var(--pbmit-white-color);
+            }
+
+            .pbmit-sticky-corner svg path {
+                fill: transparent;
+            }
+
+            .header-style-1 .site-branding {
+                border-radius: 0 0 20px;
+                position: relative;
+                padding: 15px 0px 0px 0px;
+                margin-right: 20px;
+                background-color: transparent !important;
+            }
+
+            .site-header .site-branding img.site-logo {
+                display: block;
+                height: 48px;
+                width: auto;
+                max-width: none;
+                max-height: none;
+            }
+
+            @media (max-width: 768px) {
+                .site-header .site-branding img.site-logo {
+                    height: 34px;
+                }
+            }
+        </style>
+
+
+        <header class="site-header header-style-1">
+            <div class="pbmit-header-overlay">
+                <div class="pbmit-main-header-area">
+                    <div class="container">
+                        <div class="pbmit-header-content d-flex justify-content-between align-items-center" style="background-color:;">
+                            <div class="pbmit-logo-button-area d-flex justify-content-between align-items-center">
+                                <div class="site-branding">
+                                    <div class="site-title">
+                                        <a href="index.html">
+											<img class="logo-img site-logo" src="images/brand/logo-casa-spa-branca.webp" alt="Casa SPA Paraty">
+										</a>
+                                    </div>
+                                    <div class="pbmit-sticky-corner  pbmit-top-right-corner">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="" xmlns="http://www.w3.org/2000/svg">
+										   	<path d="M20 20V0C20 16 16 20 0 20H20Z" fill="red"></path>
+										</svg>
+                                    </div>
+                                    <div class="pbmit-sticky-corner pbmit-bottom-left-corner">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										   	<path d="M20 20V0C20 12 12 20 0 20H20Z" fill="red"></path>
+										</svg>
+                                    </div>
+                                </div>
+                                <!-- <div class="pbmit-button-box">
+									<div class="pbmit-header-button">
+										<a href="tel:+1(212)%20255-511">
+											<span class="pbmit-header-button-text-1">+1(212) 255-511</span>			
+											<span class="pbmit-header-button-text-2">tel:+1(212) 255-511</span>		
+										</a>
+									</div>
+								</div> -->
+                            </div>
+                            <div class="site-navigation">
+                                <nav class="main-menu navbar-expand-xl navbar-light">
+                                    <div class="navbar-header">
+                                        <!-- Toggle Button -->
+                                        <button class="navbar-toggler" type="button">
+											<i class="pbmit-base-icon-menu-1"></i>
+										</button>
+                                    </div>
+                                    <div class="pbmit-mobile-menu-bg"></div>
+                                    <div class="collapse navbar-collapse clearfix show" id="pbmit-menu">
+                                        <div class="pbmit-menu-wrap">
+                                            <span class="closepanel">
+												<svg class="qodef-svg--close qodef-m" xmlns="http://www.w3.org/2000/svg" width="20.163" height="20.163" viewBox="0 0 26.163 26.163">
+													<rect width="36" height="1" transform="translate(0.707) rotate(45)"></rect>
+													<rect width="36" height="1" transform="translate(0 25.456) rotate(-45)"></rect>
+												</svg>
+											</span>
+                                            <ul class="navigation clearfix">
+                                                <li class="">
+                                                    <a href="index.html">Início</a>
+                                                </li>
+
+                                                <li class="">
+                                                    <a href="about-us.html">A Casa</a>
+                                                </li>
+
+                                                <li class="">
+                                                    <a href="marbella-farms-resort.html" style="color:var(--casa-champagne)">Comodidades</a>
+                                                </li>
+
+                                                <li class="">
+                                                    <a href="marbella-suites.html">Paraty</a>
+                                                </li>
+
+                                                <!-- <li class="dropdown">
+											    <a href="gallery.html">Gallery</a>
+											  </li> -->
+
+                                                <li class="">
+                                                    <a href="#avaliacoes">Avaliações</a>
+                                                </li>
+
+                                                <li class="">
+                                                    <a href="contact-us.html">Reservar</a>
+                                                </li>
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+                            <!-- <div class="pbmit-right-box d-flex align-items-center">
+							
+								<div class="pbmit-button-box-second">
+									<a class="pbmit-btn" href="contact-us.html">
+										<span class="pbmit-button-content-wrapper">
+											<span class="pbmit-button-text">Consultar Disponibilidade</span>
+										</span>
+									</a>
+								</div>
+							</div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <!-- Header Main Area End Here -->
+
+        <!-- page content -->
+  <div class="page-content">
+
+    <!-- Inner Hero -->
+    <div class="pbmit-title-bar-wrapper" style="background-image: url('images/index/r1-exterior.webp'); background-size: cover; background-position: center;">
+      <div class="container">
+        <div class="pbmit-title-bar-content">
+          <div class="pbmit-title-bar-content-inner">
+            <div class="pbmit-tbar-title">
+              <h1 class="pbmit-tbar-title">Comodidades</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <section class="section-md" style="background: var(--casa-forest-light);">
+      <div class="container">
+        <div class="text-center mb-5">
+            <h4 class="pbmit-subtitle">Conforto</h4>
+            <h2>O que a Casa SPA oferece</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="p-4 rounded" style="background: var(--casa-forest); border: 1px solid rgba(255,255,255,0.05); height: 100%;">
+              <i class="fas fa-bed fa-2x mb-3" style="color: var(--casa-champagne);"></i>
+              <h4 style="color: var(--casa-ivory);">3 Quartos Climatizados</h4>
+              <p style="color: rgba(255,255,255,0.7); font-size: 14px;">Espaços tranquilos e confortáveis com ar-condicionado para um sono reparador, acomodando até 6 hóspedes confortavelmente.</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="p-4 rounded" style="background: var(--casa-forest); border: 1px solid rgba(255,255,255,0.05); height: 100%;">
+              <i class="fas fa-water fa-2x mb-3" style="color: var(--casa-champagne);"></i>
+              <h4 style="color: var(--casa-ivory);">SPA / Hidromassagem</h4>
+              <p style="color: rgba(255,255,255,0.7); font-size: 14px;">Deck privativo com hidromassagem planejada para relaxar, com vista e atmosfera de refúgio.</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="p-4 rounded" style="background: var(--casa-forest); border: 1px solid rgba(255,255,255,0.05); height: 100%;">
+              <i class="fas fa-utensils fa-2x mb-3" style="color: var(--casa-champagne);"></i>
+              <h4 style="color: var(--casa-ivory);">Cozinha Equipada</h4>
+              <p style="color: rgba(255,255,255,0.7); font-size: 14px;">Estrutura completa para preparar suas próprias refeições com liberdade e sem pressa.</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="p-4 rounded" style="background: var(--casa-forest); border: 1px solid rgba(255,255,255,0.05); height: 100%;">
+              <i class="fas fa-bath fa-2x mb-3" style="color: var(--casa-champagne);"></i>
+              <h4 style="color: var(--casa-ivory);">3 Banheiros</h4>
+              <p style="color: rgba(255,255,255,0.7); font-size: 14px;">Conforto e conveniência garantidos para todos os hóspedes com ampla disponibilidade de banheiros.</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="p-4 rounded" style="background: var(--casa-forest); border: 1px solid rgba(255,255,255,0.05); height: 100%;">
+              <i class="fas fa-tree fa-2x mb-3" style="color: var(--casa-champagne);"></i>
+              <h4 style="color: var(--casa-ivory);">Área Externa</h4>
+              <p style="color: rgba(255,255,255,0.7); font-size: 14px;">Um amplo espaço aberto, cercado de verde e natureza, perfeito para reunir os amigos ou a família ao ar livre.</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="p-4 rounded" style="background: var(--casa-forest); border: 1px solid rgba(255,255,255,0.05); height: 100%;">
+              <i class="fas fa-wifi fa-2x mb-3" style="color: var(--casa-champagne);"></i>
+              <h4 style="color: var(--casa-ivory);">Wi-Fi de Alta Velocidade</h4>
+              <p style="color: rgba(255,255,255,0.7); font-size: 14px;">Conectividade garantida para quem precisa estar online, mesmo longe da cidade.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="mt-5 text-center">
+            <img src="images/ms-images/spa-01.webp" alt="SPA" class="img-fluid rounded shadow mx-2" style="max-height: 250px; width: auto; display: inline-block; object-fit: cover;">
+            <img src="images/mf-images/cozinha-02.webp" alt="Cozinha" class="img-fluid rounded shadow mx-2" style="max-height: 250px; width: auto; display: inline-block; object-fit: cover;">
+            <img src="images/mf-images/quarto-01.webp" alt="Quarto" class="img-fluid rounded shadow mx-2" style="max-height: 250px; width: auto; display: inline-block; object-fit: cover;">
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <footer id="site-footer" class="footer-container">
+                                    <div class="container">
+                                        <div class="footer-row">
+                                            <!-- Left Section: Logo and Contact Info -->
+                                            <div class="footer-column">
+                                                <h3>Casa SPA Paraty</h3>
+                                                <div class="footer-logo">
+                                                    <img src="images/brand/logo-casa-spa-branca.webp" alt="Casa SPA Paraty" />
+                                                </div>
+                                                <ul>
+                                                    <!--<li><strong>Address:</strong> 📍 Grandeur Residency, Whitefields, Hitech City, Hyderabad, Telangana 500084.</li>-->
+                                                    <li>Um refúgio privativo em Paraty para viver alguns dias com mais calma, natureza e tempo para estar junto.</li>
+                                                    <li><strong>E-mail:</strong> <a href="mailto:marbellagroup8@gmail.com">Enviar e-mail</a></li>
+                                                    <li><strong>WhatsApp:</strong> <a href="tel:+5524998144912">+55 24 99814-4912</a></li>
+                                                </ul>
+
+                                                <!-- Social Links below phone number -->
+                                                <!--<div class="social-links">-->
+                                                <!--  <a href="#" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>-->
+
+                                                <!--  <a href="#" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>-->
+                                                <!--  <a href="#" target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a> -->
+                                                <!--  <a href="#" target="_blank" title="Airbnb"><i class="fab fa-airbnb"></i></a>-->
+                                                <!--</div>-->
+                                            </div>
+
+                                            <!-- Middle Section: Map 1 -->
+                                            <div class="footer-column">
+                                                <h3>Descubra Paraty</h3>
+                                                <ul>
+                                                    <li>Centro Histórico</li>
+                                                    <li>Praias</li>
+                                                    <li>Cachoeiras</li>
+                                                    <li>Passeios de Barco</li>
+                                                    <li>Gastronomia</li>
+                                                    <li>Corumbê</li>
+                                                </ul>
+                                                <div class="footer-map-container">
+                                                    <div class="footer-map">
+                                                        <!-- Map 1 -->
+                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15238.673938895507!2d78.2175544855433!3d17.28326634630887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcbc125d1fddf0b%3A0xe006a66b5512cf02!2sMarbella%20Farms%20and%20Resort!5e0!3m2!1sen!2sin!4v1761395819026!5m2!1sen!2sin"
+                                                            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Right Section: Map 2 -->
+                                            <div class="footer-column">
+                                                <h3>Localização</h3>
+                                                <ul>
+                                                    <li>Corumbê · Paraty · RJ</li>
+                                                </ul>
+                                                <div class="footer-map-container">
+                                                    <div class="footer-map">
+                                                        <!-- Map 2 -->
+                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.093654209568!2d78.36706577369105!3d17.455231000850073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb930016ad3be7%3A0x9bb1ca2806a74cb1!2sMarbella%20Suites!5e0!3m2!1sen!2sin!4v1761395868880!5m2!1sen!2sin"
+                                                            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </footer>
+
+                                <!-- Call button -->
+                                <a href="tel:+5524998144912" class="wild-float-call">
+                                    <!-- <i class="fas fa-phone-alt"></i> -->
+                                    <i class="fas fa-phone"></i>
+                                    <!--<span>Call Now</span>-->
+                                </a>
+
+                                <!-- WhatsApp button -->
+                                <a href="https://wa.me/5524998144912" target="_blank" class="wild-float-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+          <span>WhatsApp</span>
+        </a>
+                                <!-- footer End -->
+                            </div>
+                            <!-- page wrapper End -->
+
+                            <!-- Search Box Start Here -->
+                            <div class="pbmit-search-overlay">
+                                <div class="pbmit-icon-close">
+                                    <svg class="qodef-svg--close qodef-m" xmlns="http://www.w3.org/2000/svg" width="28.163" height="28.163" viewBox="0 0 26.163 26.163">
+          <rect
+            width="36"
+            height="1"
+            transform="translate(0.707) rotate(45)"
+          ></rect>
+          <rect
+            width="36"
+            height="1"
+            transform="translate(0 25.456) rotate(-45)"
+          ></rect>
+        </svg>
+                                </div>
+                                <div class="pbmit-search-outer">
+                                    <form class="pbmit-site-searchform">
+                                        <input type="search" class="form-control field searchform-s" name="s" placeholder="Search …" />
+                                        <button type="submit"></button>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- Search Box End Here -->
+                            <!-- Scroll To Top -->
+                            <div class="pbmit-progress-wrap" style="display: none;">
+                                <svg class="pbmit-progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+      </svg>
+                            </div>
+                            <!-- Scroll To Top End -->
+
+                            <!-- jQuery JS -->
+                            <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                            <script src="js/jquery.min.js"></script>
+                            <!-- Popper JS -->
+                            <script src="js/popper.min.js"></script>
+                            <!-- Bootstrap JS -->
+                            <script src="js/bootstrap.min.js"></script>
+                            <!-- jquery Waypoints JS -->
+                            <script src="js/jquery.waypoints.min.js"></script>
+                            <!-- jquery Appear JS -->
+                            <script src="js/jquery.appear.js"></script>
+                            <!-- Numinate JS -->
+                            <script src="js/numinate.min.js"></script>
+                            <!-- Slick JS -->
+                            <script src="js/swiper.min.js"></script>
+                            <!-- Magnific JS -->
+                            <script src="js/jquery.magnific-popup.min.js"></script>
+                            <!-- Circle Progress JS -->
+                            <script src="js/circle-progress.js"></script>
+                            <!-- countdown JS -->
+                            <script src="js/jquery.countdown.min.js"></script>
+                            <!-- AOS -->
+                            <script src="js/aos.js"></script>
+                            <!-- GSAP -->
+                            <script src="js/gsap.js"></script>
+                            <script src="js/casa-stats.js"></script>
+                            <!-- Scroll Trigger -->
+                            <script src="js/ScrollTrigger.js"></script>
+                            <!-- Split Text -->
+                            <script src="js/SplitText.js"></script>
+                            <!-- Magnetic -->
+                            <script src="js/magnetic.js"></script>
+                            <!-- Morphext JS -->
+                            <script src="js/morphext.min.js"></script>
+                            <script src="js/popper.min.js"></script>
+                            <!-- GSAP Animation -->
+                            <script src="js/gsap-animation.js"></script>
+                            <!-- Twentytwenty JS -->
+                            <script src="js/jquery.event.move.js"></script>
+                            <script src="js/jquery.twentytwenty.js"></script>
+                            <!-- Scripts JS -->
+                            <script src="js/scripts.js"></script>
+                            <script>
+                                (function() {
+                                    function c() {
+                                        var b = a.contentDocument || a.contentWindow.document;
+                                        if (b) {
+                                            var d = b.createElement("script");
+                                            d.innerHTML =
+                                                "window.__CF$cv$params={r:'93bed8f929113ae5',t:'MTc0NjYwMTMwMy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='../cdn-cgi/challenge-platform/h/b/scripts/jsd/701fd2559006/maind41d.js';document.getElementsByTagName('head')[0].appendChild(a);";
+                                            b.getElementsByTagName("head")[0].appendChild(d);
+                                        }
+                                    }
+                                    if (document.body) {
+                                        var a = document.createElement("iframe");
+                                        a.height = 1;
+                                        a.width = 1;
+                                        a.style.position = "absolute";
+                                        a.style.top = 0;
+                                        a.style.left = 0;
+                                        a.style.border = "none";
+                                        a.style.visibility = "hidden";
+                                        document.body.appendChild(a);
+                                        if ("loading" !== document.readyState) c();
+                                        else if (window.addEventListener)
+                                            document.addEventListener("DOMContentLoaded", c);
+                                        else {
+                                            var e = document.onreadystatechange || function() {};
+                                            document.onreadystatechange = function(b) {
+                                                e(b);
+                                                "loading" !== document.readyState &&
+                                                    ((document.onreadystatechange = e), c());
+                                            };
+                                        }
+                                    }
+                                })();
+                            </script>
+                            <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"93bed8f929113ae5","version":"2025.4.0-1-g37f21b1","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"125856bf84ab44059737e93b01aa0fef","b":1}'
+                                crossorigin="anonymous"></script>
+                            <script>
+                                const tabs = document.querySelectorAll(".ss-tabs li");
+                                const items = document.querySelectorAll(".s-s-item");
+                                const popup = document.getElementById("popup");
+                                const popupImg = document.getElementById("popup-img");
+                                const closeBtn = document.getElementById("close");
+                                const nextBtn = document.getElementById("next");
+                                const prevBtn = document.getElementById("prev");
+
+                                let currentIndex = 0;
+                                let galleryImages = [];
+
+                                // Tab filter
+                                tabs.forEach((tab) => {
+                                    tab.addEventListener("click", () => {
+                                        tabs.forEach((t) => t.classList.remove("active"));
+                                        tab.classList.add("active");
+
+                                        let filter = tab.getAttribute("data-filter");
+                                        galleryImages = [];
+
+                                        items.forEach((item, index) => {
+                                            if (filter === "all" || item.classList.contains(filter)) {
+                                                item.style.display = "block";
+                                                galleryImages.push(item.querySelector("img").src);
+                                            } else {
+                                                item.style.display = "none";
+                                            }
+                                        });
+                                    });
+                                });
+
+                                // Default load all images
+                                galleryImages = Array.from(items).map(
+                                    (item) => item.querySelector("img").src,
+                                );
+
+                                // Open popup
+                                items.forEach((item, index) => {
+                                    item.addEventListener("click", () => {
+                                        popup.classList.add("active");
+                                        popupImg.src = item.querySelector("img").src;
+                                        currentIndex = galleryImages.indexOf(popupImg.src);
+                                    });
+                                });
+
+                                // Close popup
+                                closeBtn.addEventListener("click", () => {
+                                    popup.classList.remove("active");
+                                });
+
+                                // Next & Prev
+                                nextBtn.addEventListener("click", () => {
+                                    currentIndex = (currentIndex + 1) % galleryImages.length;
+                                    popupImg.src = galleryImages[currentIndex];
+                                });
+
+                                prevBtn.addEventListener("click", () => {
+                                    currentIndex =
+                                        (currentIndex - 1 + galleryImages.length) % galleryImages.length;
+                                    popupImg.src = galleryImages[currentIndex];
+                                });
+
+                                // Close on background click
+                                popup.addEventListener("click", (e) => {
+                                    if (e.target === popup) popup.classList.remove("active");
+                                });
+                            </script>
+
+                            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+                            <script>
+                                // Swiper init
+                                const eventsSwiper = new Swiper(".events-swiper", {
+                                    loop: true,
+                                    speed: 800,
+                                    spaceBetween: 10,
+                                    centeredSlides: true,
+                                    autoplay: {
+                                        delay: 2800,
+                                        disableOnInteraction: false,
+                                    },
+                                    pagination: {
+                                        el: ".events-swiper .swiper-pagination",
+                                        clickable: true,
+                                    },
+                                    navigation: {
+                                        nextEl: ".events-swiper .swiper-button-next",
+                                        prevEl: ".events-swiper .swiper-button-prev",
+                                    },
+                                    // Make images adapt smoothly on resize
+                                    observer: true,
+                                    observeParents: true,
+                                });
+                            </script>
+                            <script>
+                                document.addEventListener("DOMContentLoaded", function() {
+                                    document
+                                        .querySelectorAll(".msc-image-slider")
+                                        .forEach(function(slider) {
+                                            new Swiper(slider, {
+                                                loop: true,
+                                                speed: 900,
+                                                autoplay: {
+                                                    delay: 2500,
+                                                    disableOnInteraction: false,
+                                                },
+                                                slidesPerView: 1,
+                                                spaceBetween: 0,
+                                                pagination: {
+                                                    el: slider.querySelector(".msc-slider-pagination"),
+                                                    clickable: true,
+                                                },
+                                            });
+                                        });
+                                });
+                            </script>
+</body>
+
+</html>
