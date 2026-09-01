@@ -10,68 +10,42 @@
     --msc-accent-2: var(--casa-terracotta);
     --msc-ghost: transparent;
     position: relative;
+    isolation: isolate;
     overflow: clip;
     padding: 100px 0 120px;
-    background:
-        radial-gradient(120% 100% at 15% 5%, rgba(52, 78, 108, 0.34) 0%, transparent 50%),
-        linear-gradient(180deg, #14211C 0%, var(--casa-forest) 55%, #10140F 100%);
+    background: var(--casa-forest);
 }
 
-/* 
- * Fade mask — mesma técnica do Aquinomar (section-divider.tsx / footer.tsx)
- * z-index: 0 → fica atrás dos cards (msc-media/swiper têm z-index: 1)
- */
 .staycation-showcase::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: var(--casa-forest);
-    -webkit-mask-image: linear-gradient(
-        to bottom,
-        black 0%,
-        rgba(0, 0, 0, 0.85) 8%,
-        rgba(0, 0, 0, 0.55) 18%,
-        rgba(0, 0, 0, 0.20) 32%,
-        transparent 48%
-    );
-    mask-image: linear-gradient(
-        to bottom,
-        black 0%,
-        rgba(0, 0, 0, 0.85) 8%,
-        rgba(0, 0, 0, 0.55) 18%,
-        rgba(0, 0, 0, 0.20) 32%,
-        transparent 48%
-    );
-    -webkit-mask-size: 100% 100%;
-    mask-size: 100% 100%;
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-    z-index: 0; /* atrás dos cards (z-index: 1) */
+    background-image: url("../images/sessao-quarto.webp");
+    background-size: cover;
+    background-position: center 35%;
+    opacity: 0.60;
+    filter: saturate(1.04) contrast(1.07) brightness(0.92) blur(0.3px);
+    transform: scale(1.015);
+    z-index: 0;
     pointer-events: none;
 }
 
-/* Mobile: reduz cobertura para não tampar a imagem dos cards */
-@media (max-width: 767px) {
-    .staycation-showcase::before {
-        -webkit-mask-image: linear-gradient(
-            to bottom,
-            black 0%,
-            rgba(0, 0, 0, 0.80) 6%,
-            rgba(0, 0, 0, 0.40) 14%,
-            rgba(0, 0, 0, 0.10) 20%,
-            transparent 28%
-        );
-        mask-image: linear-gradient(
-            to bottom,
-            black 0%,
-            rgba(0, 0, 0, 0.80) 6%,
-            rgba(0, 0, 0, 0.40) 14%,
-            rgba(0, 0, 0, 0.10) 20%,
-            transparent 28%
-        );
-    }
+.staycation-showcase::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(180deg, rgba(16, 20, 15, 0.48) 0%, rgba(16, 20, 15, 0.18) 18%, transparent 42%),
+        radial-gradient(120% 100% at 15% 5%, rgba(52, 78, 108, 0.19) 0%, transparent 50%),
+        linear-gradient(180deg, rgba(20, 33, 28, 0.52) 0%, rgba(22, 29, 25, 0.55) 55%, rgba(16, 20, 15, 0.66) 100%);
+    z-index: 1;
+    pointer-events: none;
 }
 
+.staycation-showcase > * {
+    position: relative;
+    z-index: 2;
+}
 
 /* Decorative background */
 
@@ -147,17 +121,19 @@
     font-size: clamp(14px, 1.8vw, 18px);
 }
 
-/* Cards grid */
+/* Cards grid — empilhado full-width */
 
 .msc-cards {
-    display: grid;
-    gap: 22px;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
+/* Card base: layout interno zig-zag (imagem | texto) */
 .msc-card {
     display: grid;
-    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: none;
     background: var(--msc-card);
     backdrop-filter: none;
     border: 1px solid var(--msc-line);
@@ -165,6 +141,15 @@
     box-shadow: none;
     overflow: hidden;
     transition: transform .4s ease, border-color .4s ease;
+    min-height: 420px;
+}
+
+/* Card reverso: texto à esquerda, imagem à direita */
+.msc-card--reverse {
+    direction: rtl;
+}
+.msc-card--reverse > * {
+    direction: ltr;
 }
 
 .msc-card:hover {
@@ -177,8 +162,9 @@
 .msc-media {
     position: relative;
     overflow: hidden;
-    aspect-ratio: 16/9;
-    background: #fff;
+    aspect-ratio: unset;
+    background: #000;
+    min-height: 320px;
 }
 
 .msc-media img {
@@ -217,8 +203,12 @@
 /* Body */
 
 .msc-body {
-    padding: 18px 18px 20px;
+    padding: 40px 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
 
 .msc-body h3 {
     margin: 4px 0 8px;
@@ -301,13 +291,29 @@
     background: #fff;
 }
 
-/* Responsive */
+
+/* Responsive — mobile: cada card empilha (imagem em cima, texto embaixo) */
 
 @media (max-width: 992px) {
-    .msc-cards {
+    .msc-card {
         grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+        min-height: unset;
+    }
+    /* Reseta o zig-zag reverso no mobile */
+    .msc-card--reverse {
+        direction: ltr;
+    }
+    .msc-media {
+        aspect-ratio: 16/9;
+        min-height: unset;
+    }
+    .msc-body {
+        padding: 24px 20px 28px;
     }
 }
+
+
 
 .msc-image-slider {
     position: relative;
@@ -1713,23 +1719,28 @@ body {
 /* 2. Staycation Cards (Almost Invisible, Photography Dominant) */
 .msc-card {
     display: grid;
-    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: none;
     background: rgba(255, 255, 255, 0.008) !important;
     border: 1px solid rgba(244, 239, 230, 0.025) !important;
     border-radius: 4px !important;
     box-shadow: none !important;
     overflow: hidden;
     transition: transform .4s ease, border-color .4s ease;
+    min-height: 420px;
 }
 .msc-card:hover {
     transform: translateY(-4px);
     border-color: rgba(195, 154, 91, 0.2) !important;
 }
 
+
+
 .msc-media {
-    aspect-ratio: 4/3;
+    aspect-ratio: unset;
     background: transparent;
 }
+
 .msc-card:hover .msc-media img {
     transform: scale(1.04);
 }
@@ -1748,7 +1759,11 @@ body {
 }
 
 .msc-body {
-    padding: 24px 20px 30px;
+    padding: 40px 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .msc-body h3 {

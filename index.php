@@ -459,7 +459,7 @@
                 </div>
             </div>
 
-            <section class="staycation-showcase" aria-label="Perfect staycation options" style="margin-top:">
+                        <section class="staycation-showcase" aria-label="Perfect staycation options" style="margin-top:">
                 <div class="msc-bg">
                     <span class="msc-blob msc-blob-a" aria-hidden="true"></span>
                     <span class="msc-blob msc-blob-b" aria-hidden="true"></span>
@@ -467,168 +467,133 @@
                 </div>
 
                 <div class="msc-container text-center">
-                    <!--<h4 class="pbmit-subtitle">Your perfect break starts here.</h4>-->
-                    <header class="msc-head">
-                        <h2>The Ideal Staycation To Escape The Busy Schedules</h2>
-                        <!--<p class="fnt-style">-->
-                        <!--  Slow mornings, golden sunsets, and thoughtful comforts —-->
-                        <!--  discover your countryside pause with Marbella.-->
-                        <!--</p>-->
-                    </header>
-
                     <div class="msc-cards">
-                        <!-- Card 1: Farms & Resort -->
+
+                        <!-- Card 1: A Casa - imagem a esquerda, texto a direita -->
                         <article class="msc-card">
-                            <div class="msc-media swiper msc-image-slider">
+                            <div class="msc-media swiper msc-image-slider casa-photo-frame casa-photo-frame--bright">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
-                                        <img src="images/mf-images/villa1.png" alt="Marbella Farms & Resort" />
+                                        <img class="casa-photo" src="images/mf-images/villa1.png" alt="Casa SPA Paraty" />
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="images/mf-images/open-air-theatre1.png" alt="Marbella Farms & Resort view 2" />
+                                        <img class="casa-photo" src="images/mf-images/open-air-theatre1.png" alt="Area de convivencia da Casa SPA" />
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="images/mf-images/pool-side-lawn1.png" alt="Marbella Farms & Resort view 3" />
+                                        <img class="casa-photo" src="images/mf-images/pool-side-lawn1.png" alt="Area externa da Casa SPA" />
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="images/mf-images/jambore1.png" alt="Marbella Farms & Resort view 3" />
+                                        <img class="casa-photo" src="images/mf-images/jambore1.png" alt="Espaco para estar junto na Casa SPA" />
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="images/mf-images/utsav-lawn1.png" alt="Marbella Farms & Resort view 3" />
+                                        <img class="casa-photo" src="images/mf-images/utsav-lawn1.png" alt="Natureza ao redor da Casa SPA" />
                                     </div>
                                 </div>
                                 <div class="msc-slider-pagination"></div>
-                                <span class="msc-badge">Nature • Calm • Space</span>
+                                <span class="msc-badge">A Casa</span>
                             </div>
                             <div class="msc-body">
-                                <h3 class="text-start">MARBELLA FARMS & RESORT</h3>
+                                <h3 class="text-start">Seu espaço em Paraty</h3>
                                 <p class="fnt-style text-start">
-                                    Escape into a refreshing farm retreat where nature, comfort, and calm come together effortlessly. Marbella Farms & Resort offers the perfect countryside getaway for families and special gatherings looking to slow down, reconnect, and unwind in a serene
-                                    natural setting.
+                                    Ambientes pensados para compartilhar os dias com conforto e privacidade. Três quartos, áreas de convivência e tudo o que você precisa para se sentir em casa, só que longe da rotina.
                                 </p>
                                 <ul class="msc-points">
-                                    <li>Farm-style experiences with a relaxing resort feel</li>
-                                    <li>Peaceful outdoor spaces for leisure and group gatherings</li>
-                                    <li>Ideal for family stays, celebrations, and large get-togethers</li>
+                                    <li>Até 6 hóspedes</li>
+                                    <li>3 quartos</li>
+                                    <li>3 banheiros</li>
+                                    <li>Cozinha equipada</li>
                                 </ul>
                                 <div class="msc-actions">
-                                    <a class="msc-btn msc-btn-primary" href="marbella-farms-resort.html">Explore Farmstay</a
-                    >
-                    <a
-                      class="msc-btn msc-btn-ghost"
-                      href="tel:+91 90000 09921"
-                      aria-label="Call Marbella Farms & Resort"
-                      >Call Us</a
-                    >
-                    <a
-                      class="msc-btn msc-btn-ghost"
-                      href="https://www.instagram.com/_marbella_resort/"
-                      target="_blank"
-                      aria-label="Call Marbella Farms & Resort"
-                      ><i class="fab fa-instagram" aria-hidden="true"></i>
-                      Instagram</a
-                    >
-                    <a
-                      class="msc-btn msc-btn-ghost"
-                      href="http://airbnb.com/h/marbellafarmsandresort"
-                      target="_blank"
-                      aria-label="Call Marbella Farms & Resort"
-                      ><i class="fab fa-airbnb" aria-hidden="true"></i>
-                      Airbnb</a
-                    >
-                  </div>
-                </div>
-              </article>
+                                    <a
+                                      class="msc-btn msc-btn-primary"
+                                      href="https://wa.me/5524998144912"
+                                      target="_blank"
+                                      aria-label="Consultar disponibilidade via WhatsApp"
+                                    ><i class="fab fa-whatsapp" aria-hidden="true"></i> Consultar Disponibilidade</a>
+                                    <a
+                                      class="msc-btn msc-btn-ghost"
+                                      href="gallery.html"
+                                      aria-label="Ver galeria da Casa SPA"
+                                    >Galeria</a>
+                                    <a
+                                      class="msc-btn msc-btn-ghost"
+                                      href="https://www.instagram.com/_marbella_resort/"
+                                      target="_blank"
+                                      aria-label="Instagram da Casa SPA"
+                                    ><i class="fab fa-instagram" aria-hidden="true"></i> Instagram</a>
+                                    <a
+                                      class="msc-btn msc-btn-ghost"
+                                      href="http://airbnb.com/h/marbellafarmsandresort"
+                                      target="_blank"
+                                      aria-label="Reservar a Casa SPA pelo Airbnb"
+                                    ><i class="fab fa-airbnb" aria-hidden="true"></i> Reservar</a>
+                                </div>
+                            </div>
+                        </article>
 
-              <!-- Card 2: Suites -->
-              <article class="msc-card">
-                <div class="msc-media swiper msc-image-slider">
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                      <img
-                        src="images/ms-images/lounge5.jpeg"
-                        alt="Marbella Suites"
-                      />
-                    </div>
-                    <div class="swiper-slide">
-                      <img
-                        src="images/ms-images/living-room2.jpeg"
-                        alt="Marbella Suites view 2"
-                      />
-                    </div>
-                    <div class="swiper-slide">
-                      <img
-                        src="images/ms-images/master-bedroom1.jpeg"
-                        alt="Marbella Suites view 3"
-                      />
-                    </div>
-                    <div class="swiper-slide">
-                      <img
-                        src="images/ms-images/bedroom1.jpeg"
-                        alt="Marbella Suites view 3"
-                      />
-                    </div>
-                    <div class="swiper-slide">
-                      <img
-                        src="images/ms-images/kitchen3.jpeg"
-                        alt="Marbella Suites view 3"
-                      />
-                    </div>
-                    <div class="swiper-slide">
-                      <img
-                        src="images/ms-images/sunroom3.jpeg"
-                        alt="Marbella Suites view 3"
-                      />
-                    </div>
-                  </div>
-                  <div class="msc-slider-pagination"></div>
-                  <span class="msc-badge">Quiet • Premium • Light</span>
-                </div>
-                <div class="msc-body">
-                  <h3 class="text-start">MARBELLA SUITES</h3>
-                  <p class="fnt-style text-start">
-                    Step into a stay defined by comfort, elegance, and privacy. Marbella Suites is designed for guests who appreciate refined interiors, restful spaces, and a seamless hospitality experience — making it ideal for both short escapes and extended relaxing stays.
-                  </p>
-                  <ul class="msc-points">
-                    <li>Elegant suite with spacious and comfortable interiors</li>
-                    <li>Private, peaceful setting for a restful stay</li>
-                    <li>Thoughtful service with a premium hospitality touch</li>
-                  </ul>
-                  <div class="msc-actions">
-                    <a
-                      class="msc-btn msc-btn-primary"
-                      href="marbella-suites.html"
-                      >Explore Suites</a
-                    >
-                    <a
-                      class="msc-btn msc-btn-ghost"
-                      href="tel:+91 8341029953"
-                      aria-label="Email Marbella Suites"
-                      >Enquire</a
-                    >
+                        <!-- Card 2: Experiencia SPA - texto a esquerda, imagem a direita -->
+                        <article class="msc-card msc-card--reverse">
+                            <div class="msc-media swiper msc-image-slider casa-photo-frame">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img class="casa-photo" src="images/ms-images/lounge5.jpeg" alt="Experiencia SPA da Casa SPA" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img class="casa-photo" src="images/ms-images/living-room2.jpeg" alt="Ambiente interno da Casa SPA" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img class="casa-photo" src="images/ms-images/master-bedroom1.jpeg" alt="Quarto da Casa SPA" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img class="casa-photo" src="images/ms-images/bedroom1.jpeg" alt="Quarto privativo da Casa SPA" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img class="casa-photo" src="images/ms-images/kitchen3.jpeg" alt="Cozinha equipada da Casa SPA" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img class="casa-photo" src="images/ms-images/sunroom3.jpeg" alt="Espaco de descanso da Casa SPA" />
+                                    </div>
+                                </div>
+                                <div class="msc-slider-pagination"></div>
+                                <span class="msc-badge">Experiência SPA</span>
+                            </div>
+                            <div class="msc-body">
+                                <h3 class="text-start">Tempo para desacelerar</h3>
+                                <p class="fnt-style text-start">
+                                    Água, silêncio e natureza fazem parte da estadia. A hidromassagem transforma o fim do dia em um ritual particular de pausa, depois de explorar Paraty.
+                                </p>
+                                <ul class="msc-points">
+                                    <li>Hidromassagem</li>
+                                    <li>Área externa</li>
+                                    <li>Privacidade</li>
+                                    <li>Atmosfera de refúgio</li>
+                                </ul>
+                                <div class="msc-actions">
+                                    <a
+                                      class="msc-btn msc-btn-primary"
+                                      href="https://wa.me/5524998144912"
+                                      target="_blank"
+                                      aria-label="Consultar disponibilidade via WhatsApp"
+                                    ><i class="fab fa-whatsapp" aria-hidden="true"></i> Consultar Disponibilidade</a>
+                                    <a
+                                      class="msc-btn msc-btn-ghost"
+                                      href="https://www.instagram.com/marbella_suites/"
+                                      target="_blank"
+                                      aria-label="Instagram da Casa SPA Suites"
+                                    ><i class="fab fa-instagram" aria-hidden="true"></i> Instagram</a>
+                                    <a
+                                      class="msc-btn msc-btn-ghost"
+                                      href="https://www.airbnb.co.in/rooms/1034646254288359498?locale=en&_set_bev_on_new_domain=1719899747_EAOWZlMWJkNDhkOW&source_impression_id=p3_1719899748_P3h_WBTEqRjWwi7e&modal=PHOTO_TOUR_SCROLLABLE"
+                                      target="_blank"
+                                      aria-label="Reservar a Casa SPA pelo Airbnb"
+                                    ><i class="fab fa-airbnb" aria-hidden="true"></i> Airbnb</a>
+                                </div>
+                            </div>
+                        </article>
 
-                    <a
-                      class="msc-btn msc-btn-ghost"
-                      href="https://www.instagram.com/marbella_suites/"
-                      target="_blank"
-                      aria-label="Call Marbella Farms & Resort"
-                      ><i class="fab fa-instagram" aria-hidden="true"></i>
-                      Instagram</a
-                    >
-                    <a
-                      class="msc-btn msc-btn-ghost"
-                      href="https://www.airbnb.co.in/rooms/1034646254288359498?locale=en&_set_bev_on_new_domain=1719899747_EAOWZlMWJkNDhkOW&source_impression_id=p3_1719899748_P3h_WBTEqRjWwi7e&modal=PHOTO_TOUR_SCROLLABLE"
-                      target="_blank"
-                      aria-label="Call Marbella Farms & Resort"
-                      ><i class="fab fa-airbnb" aria-hidden="true"></i>
-                      Airbnb</a
-                    >
-                  </div>
+                    </div>
                 </div>
-              </article>
-            </div>
-          </div>
-        </section>
+            </section>
         <!-- <section class="marbella-amenities-section">
           <div class="container">
 
@@ -2122,7 +2087,7 @@
                                                 <ul>
                                                     <!--<li><strong>Address:</strong> 📍 Grandeur Residency, Whitefields, Hitech City, Hyderabad, Telangana 500084.</li>-->
                                                     <li><strong>Email:</strong> <a href="mailto:marbellagroup8@gmail.com">Enviar e-mail</a></li>
-                                                    <li><strong>Phone:</strong> <a href="tel:+91 9000009921">📞 +91 9000009921</a></li>
+                                                    <li><strong>Phone:</strong> <a href="tel:+5524998144912">📞 +55 24 99814-4912</a></li>
                                                 </ul>
 
                                                 <!-- Social Links below phone number -->
@@ -2163,14 +2128,14 @@
                                 </footer>
 
                                 <!-- Call button -->
-                                <a href="tel:+919000009921" class="wild-float-call">
+                                <a href="tel:+5524998144912" class="wild-float-call">
                                     <!-- <i class="fas fa-phone-alt"></i> -->
                                     <i class="fas fa-phone"></i>
                                     <!--<span>Call Now</span>-->
                                 </a>
 
                                 <!-- WhatsApp button -->
-                                <a href="https://wa.me/919000009921" target="_blank" class="wild-float-whatsapp">
+                                <a href="https://wa.me/5524998144912" target="_blank" class="wild-float-whatsapp">
           <i class="fab fa-whatsapp"></i>
           <span>WhatsApp</span>
         </a>
