@@ -14,7 +14,7 @@
 
     <!-- Title -->
 
-    <title>A Casa | Casa SPA Paraty</title>
+    <title>Paraty | Casa SPA Paraty</title>
 
 
 
@@ -483,7 +483,7 @@
 
                                                 <li class="">
 
-                                                    <a href="about-us.html" style="color:var(--casa-champagne)">A Casa</a>
+                                                    <a href="about-us.html">A Casa</a>
 
                                                 </li>
 
@@ -499,7 +499,7 @@
 
                                                 <li class="">
 
-                                                    <a href="paraty.html">Paraty</a>
+                                                    <a href="paraty.html" style="color:var(--casa-champagne)">Paraty</a>
 
                                                 </li>
 
@@ -595,7 +595,7 @@
 
             <div class="pbmit-tbar-title">
 
-              <h1 class="pbmit-tbar-title">A Casa</h1>
+              <h1 class="pbmit-tbar-title">Paraty</h1>
 
             </div>
 
@@ -615,31 +615,39 @@
 
         <div class="row align-items-center">
 
-          <div class="col-lg-6">
+          <div class="col-lg-6 order-lg-2">
 
-            <img src="images/mf-images/sala-02.webp" alt="Sala da Casa SPA" class="img-fluid rounded shadow" style="margin-bottom: 20px;">
-
-            <img src="images/mf-images/quarto-02.webp" alt="Quarto Casa SPA" class="img-fluid rounded shadow">
+            <img src="images/ms-images/exterior-01.webp" alt="Jardim e Área Externa" class="img-fluid rounded shadow">
 
           </div>
 
-          <div class="col-lg-6 mt-4 mt-lg-0">
+          <div class="col-lg-6 mt-4 mt-lg-0 order-lg-1">
 
-            <h4 class="pbmit-subtitle">A Casa</h4>
+            <h4 class="pbmit-subtitle">A Região</h4>
 
-            <h2>Seu espaço em Paraty</h2>
+            <h2>Descubra Paraty e Corumbê</h2>
 
-            <p>Ambientes pensados para compartilhar os dias com conforto e privacidade. Três quartos, áreas de convivência e tudo o que você precisa para se sentir em casa, só que longe da rotina.</p>
+            <p>Paraty é um Patrimônio Histórico e Natural que preserva séculos de história em suas ruas de pedra, em meio a um ecossistema exuberante e vivo.</p>
 
-            <p>Um refúgio particular entre o verde e o mar, concebido para desacelerar, brindar ao pôr do sol e viver o momento presente com quem se ama.</p>
+            <ul class="list-unstyled mt-4" style="color: var(--casa-ivory-soft);">
 
-            <!-- REVISAR: confirmar história/conceito da casa com o proprietário -->
+                <li class="mb-3"><i class="fas fa-map-marker-alt" style="color: var(--casa-champagne); width: 24px;"></i> <strong>Centro Histórico:</strong> Cultura, charme, lojas e casarões coloniais a poucos minutos.</li>
+
+                <li class="mb-3"><i class="fas fa-umbrella-beach" style="color: var(--casa-champagne); width: 24px;"></i> <strong>Praias de Corumbê:</strong> Águas tranquilas e a brisa leve do mar bem perto de você.</li>
+
+                <li class="mb-3"><i class="fas fa-water" style="color: var(--casa-champagne); width: 24px;"></i> <strong>Cachoeiras:</strong> A Mata Atlântica presenteando com quedas d'água cristalinas.</li>
+
+                <li class="mb-3"><i class="fas fa-ship" style="color: var(--casa-champagne); width: 24px;"></i> <strong>Passeios de Barco:</strong> Explore ilhas paradisíacas e recantos inesquecíveis da baía.</li>
+
+                <li class="mb-3"><i class="fas fa-utensils" style="color: var(--casa-champagne); width: 24px;"></i> <strong>Gastronomia Local:</strong> Sabores que misturam a tradição caiçara com a alta culinária.</li>
+
+            </ul>
 
             <br>
 
             <a class="pbmit-btn pbmit-btn-global" href="https://wa.me/5524998144912" target="_blank">
 
-                <span>Consultar Disponibilidade</span>
+                <span>Planeje sua viagem (WhatsApp)</span>
 
             </a>
 

@@ -8,15 +8,26 @@
     <!-- Title -->
     <title>Casa SPA Paraty</title>
 
-    <!-- SEO Meta -->
+        <!-- SEO Meta -->
     <meta name="robots" content="index, follow" />
-    <meta name="description" content="Casa SPA Paraty" />
-    <meta name="keywords" content="Casa SPA Paraty" />
-
+    <meta name="description" content="Casa SPA Paraty - Um refúgio particular entre o verde e o mar. Hospedagem de luxo em Paraty, RJ com spa, hidromassagem e máximo conforto." />
+    <meta name="keywords" content="Casa SPA Paraty, Hospedagem Paraty, Aluguel temporada Paraty, Casa de luxo Paraty, Casa com SPA" />
     <meta name="author" content="Casa SPA Paraty" />
-
     <meta property="og:site_name" content="Casa SPA Paraty">
     <meta name="application-name" content="Casa SPA Paraty">
+    
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://site-casa-spa.vercel.app/">
+    <meta property="og:title" content="Casa SPA Paraty - Refúgio Exclusivo">
+    <meta property="og:description" content="Um refúgio particular entre o verde e o mar em Paraty.">
+    <meta property="og:image" content="https://site-casa-spa.vercel.app/images/mf-images/fachada-01.webp">
+    
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://site-casa-spa.vercel.app/">
+    <meta property="twitter:title" content="Casa SPA Paraty - Refúgio Exclusivo">
+    <meta property="twitter:description" content="Um refúgio particular entre o verde e o mar em Paraty.">
+    <meta property="twitter:image" content="https://site-casa-spa.vercel.app/images/mf-images/fachada-01.webp">
 
     <script type="application/ld+json">
         {
@@ -24,7 +35,7 @@
             "@type": "WebSite",
             "name": "Casa SPA Paraty",
             "alternateName": "Casa SPA Paraty",
-            "url": "https://www.gspllp.com/"
+            "url": "https://site-casa-spa.vercel.app/"
         }
     </script>
 
@@ -51,7 +62,7 @@
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="stylesheet" href="css/marbella-index.css" />
+    <link rel="stylesheet" href="css/casa-spa-index.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
     <!-- Font Awesome (icons) -->
@@ -243,11 +254,11 @@
                                                 </li>
 
                                                 <li class="">
-                                                    <a href="marbella-farms-resort.html">Comodidades</a>
+                                                    <a href="comodidades.html">Comodidades</a>
                                                 </li>
 
                                                 <li class="">
-                                                    <a href="marbella-suites.html">Paraty</a>
+                                                    <a href="paraty.html">Paraty</a>
                                                 </li>
 
                                                 <!-- <li class="dropdown">
@@ -305,7 +316,7 @@
                                 <!--          class="pbmit-title transform-bottom-1 transform-delay-2"-->
                                 <!--        >-->
                                 <!--          Welcome To Our <br />-->
-                                <!--          Marbella-->
+                                <!--          Casa SPA-->
                                 <!--        </h2>-->
                                 <!--        <h5-->
                                 <!--          class="pbmit-sub-title transform-top transform-delay-1"-->
@@ -351,7 +362,7 @@
                         <!--              class="pbmit-title transform-bottom-1 transform-delay-2"-->
                         <!--            >-->
                         <!--              Welcome To Our <br />-->
-                        <!--              Marbella-->
+                        <!--              Casa SPA-->
                         <!--            </h2>-->
                         <!--            <h5-->
                         <!--              class="pbmit-sub-title transform-top transform-delay-1"-->
@@ -626,13 +637,13 @@
                                     >Galeria</a>
                                     <a
                                       class="msc-btn msc-btn-ghost"
-                                      href="https://www.instagram.com/_marbella_resort/"
+                                      href="https://www.instagram.com/_casa-spa_resort/"
                                       target="_blank"
                                       aria-label="Instagram da Casa SPA"
                                     ><i class="fab fa-instagram" aria-hidden="true"></i> Instagram</a>
                                     <a
                                       class="msc-btn msc-btn-ghost"
-                                      href="http://airbnb.com/h/marbellafarmsandresort"
+                                      href="http://airbnb.com/h/casa-spafarmsandresort"
                                       target="_blank"
                                       aria-label="Reservar a Casa SPA pelo Airbnb"
                                     ><i class="fab fa-airbnb" aria-hidden="true"></i> Reservar</a>
@@ -683,7 +694,7 @@
                                     ><i class="fab fa-whatsapp" aria-hidden="true"></i> Consultar Disponibilidade</a>
                                     <a
                                       class="msc-btn msc-btn-ghost"
-                                      href="https://www.instagram.com/marbella_suites/"
+                                      href="https://www.instagram.com/casa-spa_suites/"
                                       target="_blank"
                                       aria-label="Instagram da Casa SPA Suites"
                                     ><i class="fab fa-instagram" aria-hidden="true"></i> Instagram</a>
@@ -700,137 +711,137 @@
                     </div>
                 </div>
             </section>
-        <!-- <section class="marbella-amenities-section">
+        <!-- <section class="casa-spa-amenities-section">
           <div class="container">
 
             <div class="pbmit-heading-subheading animation-style4 text-center">
               <h4 class="pbmit-subtitle">OUR AMENITIES</h4>
               <h2 class="pbmit-title">Comforts Designed for Every Stay</h2>
             </div>
-            <div class="row g-4 marbella-amenities-grid">
+            <div class="row g-4 casa-spa-amenities-grid">
         
               <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                <div class="marbella-amenity-item">
-                  <div class="marbella-amenity-icon"><i class="fas fa-concierge-bell"></i></div>
+                <div class="casa-spa-amenity-item">
+                  <div class="casa-spa-amenity-icon"><i class="fas fa-concierge-bell"></i></div>
                   <h3>Reception</h3>
                 </div>
               </div>
         
               <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                <div class="marbella-amenity-item">
-                  <div class="marbella-amenity-icon"><i class="fas fa-key"></i></div>
+                <div class="casa-spa-amenity-item">
+                  <div class="casa-spa-amenity-icon"><i class="fas fa-key"></i></div>
                   <h3>Room Access</h3>
                 </div>
               </div>
         
               <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                <div class="marbella-amenity-item">
-                  <div class="marbella-amenity-icon"><i class="fas fa-bed"></i></div>
+                <div class="casa-spa-amenity-item">
+                  <div class="casa-spa-amenity-icon"><i class="fas fa-bed"></i></div>
                   <h3>Luxury Rooms</h3>
                 </div>
               </div>
         
               <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                <div class="marbella-amenity-item">
-                  <div class="marbella-amenity-icon"><i class="fas fa-shower"></i></div>
+                <div class="casa-spa-amenity-item">
+                  <div class="casa-spa-amenity-icon"><i class="fas fa-shower"></i></div>
                   <h3>Modern Bathrooms</h3>
                 </div>
               </div>
         
               <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                <div class="marbella-amenity-item">
-                  <div class="marbella-amenity-icon"><i class="fas fa-wind"></i></div>
+                <div class="casa-spa-amenity-item">
+                  <div class="casa-spa-amenity-icon"><i class="fas fa-wind"></i></div>
                   <h3>Air Conditioning</h3>
                 </div>
               </div>
         
               <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                <div class="marbella-amenity-item">
-                  <div class="marbella-amenity-icon"><i class="fas fa-broom"></i></div>
+                <div class="casa-spa-amenity-item">
+                  <div class="casa-spa-amenity-icon"><i class="fas fa-broom"></i></div>
                   <h3>Housekeeping</h3>
                 </div>
               </div>
         
               <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                <div class="marbella-amenity-item">
-                  <div class="marbella-amenity-icon"><i class="fas fa-utensils"></i></div>
+                <div class="casa-spa-amenity-item">
+                  <div class="casa-spa-amenity-icon"><i class="fas fa-utensils"></i></div>
                   <h3>Dining</h3>
                 </div>
               </div>
         
               <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                <div class="marbella-amenity-item">
-                  <div class="marbella-amenity-icon"><i class="fas fa-mug-hot"></i></div>
+                <div class="casa-spa-amenity-item">
+                  <div class="casa-spa-amenity-icon"><i class="fas fa-mug-hot"></i></div>
                   <h3>Breakfast</h3>
                 </div>
               </div>
         
               <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                <div class="marbella-amenity-item">
-                  <div class="marbella-amenity-icon"><i class="fas fa-glass-cheers"></i></div>
+                <div class="casa-spa-amenity-item">
+                  <div class="casa-spa-amenity-icon"><i class="fas fa-glass-cheers"></i></div>
                   <h3>Refreshments</h3>
                 </div>
               </div>
         
               <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                <div class="marbella-amenity-item">
-                  <div class="marbella-amenity-icon"><i class="fas fa-parking"></i></div>
+                <div class="casa-spa-amenity-item">
+                  <div class="casa-spa-amenity-icon"><i class="fas fa-parking"></i></div>
                   <h3>Parking</h3>
                 </div>
               </div>
         
               <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                <div class="marbella-amenity-item">
-                  <div class="marbella-amenity-icon"><i class="fas fa-wifi"></i></div>
+                <div class="casa-spa-amenity-item">
+                  <div class="casa-spa-amenity-icon"><i class="fas fa-wifi"></i></div>
                   <h3>Wi-Fi</h3>
                 </div>
               </div>
         
               <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                <div class="marbella-amenity-item">
-                  <div class="marbella-amenity-icon"><i class="fas fa-user-shield"></i></div>
+                <div class="casa-spa-amenity-item">
+                  <div class="casa-spa-amenity-icon"><i class="fas fa-user-shield"></i></div>
                   <h3>Safety & Security</h3>
                 </div>
               </div>
         
               <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                <div class="marbella-amenity-item">
-                  <div class="marbella-amenity-icon"><i class="fas fa-door-open"></i></div>
+                <div class="casa-spa-amenity-item">
+                  <div class="casa-spa-amenity-icon"><i class="fas fa-door-open"></i></div>
                   <h3>Private Spaces</h3>
                 </div>
               </div>
         
               <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                <div class="marbella-amenity-item">
-                  <div class="marbella-amenity-icon"><i class="fas fa-couch"></i></div>
+                <div class="casa-spa-amenity-item">
+                  <div class="casa-spa-amenity-icon"><i class="fas fa-couch"></i></div>
                   <h3>Lounge Area</h3>
                 </div>
               </div>
         
               <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                <div class="marbella-amenity-item">
-                  <div class="marbella-amenity-icon"><i class="fas fa-tree"></i></div>
+                <div class="casa-spa-amenity-item">
+                  <div class="casa-spa-amenity-icon"><i class="fas fa-tree"></i></div>
                   <h3>Nature Spaces</h3>
                 </div>
               </div>
         
               <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                <div class="marbella-amenity-item">
-                  <div class="marbella-amenity-icon"><i class="fas fa-glass-cheers"></i></div>
+                <div class="casa-spa-amenity-item">
+                  <div class="casa-spa-amenity-icon"><i class="fas fa-glass-cheers"></i></div>
                   <h3>Event-Friendly</h3>
                 </div>
               </div>
         
               <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                <div class="marbella-amenity-item">
-                  <div class="marbella-amenity-icon"><i class="fas fa-clock"></i></div>
+                <div class="casa-spa-amenity-item">
+                  <div class="casa-spa-amenity-icon"><i class="fas fa-clock"></i></div>
                   <h3>Timely Support</h3>
                 </div>
               </div>
         
               <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                <div class="marbella-amenity-item">
-                  <div class="marbella-amenity-icon"><i class="fas fa-heart"></i></div>
+                <div class="casa-spa-amenity-item">
+                  <div class="casa-spa-amenity-icon"><i class="fas fa-heart"></i></div>
                   <h3>Guest Care</h3>
                 </div>
               </div>
@@ -1031,7 +1042,7 @@
             <div
               class="pbmit-heading-subheading animation-style4 text-center mb-0"
             >
-              <!--<h4 class="pbmit-subtitle">The Marbella</h4>-->
+              <!--<h4 class="pbmit-subtitle">A Casa SPA</h4>-->
               <div class="msc-head">
                 <h2>Casa SPA Paraty</h2>
                 <!--<p class="fnt-style">-->
@@ -1118,7 +1129,7 @@
         <!--  <div class="wild-hero-bg">-->
         <!--    <img-->
         <!--      src="images/img/bg6.jpg"-->
-        <!--      alt="Marbella Farms and Suites Banner"-->
+        <!--      alt="Casa SPA Paraty Banner"-->
         <!--    />-->
         <!--  </div>-->
 
@@ -1126,18 +1137,18 @@
 
         <!--  <div class="wild-hero-content">-->
         <!--    <div class="pbmit-heading-subheading animation-style4 text-center">-->
-        <!--      <h4 class="pbmit-subtitle">WELCOME TO MARBELLA</h4>-->
+        <!--      <h4 class="pbmit-subtitle">WELCOME TO Casa SPA</h4>-->
         <!--      <header class="msc-head text-center text-light">-->
         <!--        <h2 class="text-light">Stay in Style, Celebrate in Elegance</h2>-->
         <!--        <p class="fnt-style">-->
-        <!--          Experience Marbella Farms and Marbella Suites, where premium-->
+        <!--          Experience Casa SPA Farms and Casa SPA Paraty, where premium-->
         <!--          hospitality, beautiful spaces, and unforgettable moments come-->
         <!--          together for stays, getaways, and special celebrations.-->
         <!--        </p>-->
         <!--      </header>-->
         <!--      <a class="pbmit-btn pbmit-btn-outline" href="contact-us.html">-->
         <!--        <span class="pbmit-button-content-wrapper">-->
-        <!--          <span class="pbmit-button-text">Discover Marbella</span>-->
+        <!--          <span class="pbmit-button-text">Discover Casa SPA</span>-->
         <!--        </span>-->
         <!--      </a>-->
                                     <!--    </div>-->
@@ -1147,9 +1158,9 @@
 
                                     <!-- Testimonial Start -->
                                     <style>
-                                        /* ===== Marbella Guest Reviews - New Slider Design ===== */
+                                        /* ===== Casa SPA Guest Reviews - New Slider Design ===== */
 
-                                        .marbella-guest-reviews {
+                                        .casa-spa-guest-reviews {
                                             --mgr-bg: var(--casa-bg-light);
                                             --mgr-card: var(--casa-ivory-soft);
                                             --mgr-text: var(--casa-text-dark);
@@ -1163,7 +1174,7 @@
                                             overflow: hidden;
                                         }
 
-                                        .marbella-guest-reviews .container {
+                                        .casa-spa-guest-reviews .container {
                                             padding-left: 12px;
                                             padding-right: 12px;
                                         }
@@ -1395,7 +1406,7 @@
                                         }
                                     </style>
 
-                                    <section id="avaliacoes" class="marbella-guest-reviews section-padding section-bg">
+                                    <section id="avaliacoes" class="casa-spa-guest-reviews section-padding section-bg">
                                         <div class="container text-center">
                                             <h4 class="pbmit-subtitle">Histórias de quem já esteve aqui</h4>
 
@@ -2166,9 +2177,9 @@
                                                     <img src="images/brand/logo-casa-spa-branca.webp" alt="Casa SPA Paraty" />
                                                 </div>
                                                 <ul>
-                                                    <!--<li><strong>Address:</strong> 📍 Grandeur Residency, Whitefields, Hitech City, Hyderabad, Telangana 500084.</li>-->
+                                                    <!--<li><strong>Address:</strong> 📍 Grandeur Residency, Whitefields, Hitech City, Paraty, Rio de Janeiro 23970-000.</li>-->
                                                     <li>Um refúgio privativo em Paraty para viver alguns dias com mais calma, natureza e tempo para estar junto.</li>
-                                                    <li><strong>E-mail:</strong> <a href="mailto:marbellagroup8@gmail.com">Enviar e-mail</a></li>
+                                                    <li><strong>E-mail:</strong> <a href="mailto:casa-spagroup8@gmail.com">Enviar e-mail</a></li>
                                                     <li><strong>WhatsApp:</strong> <a href="tel:+5524998144912">+55 24 99814-4912</a></li>
                                                 </ul>
 
@@ -2196,7 +2207,7 @@
                                                 <div class="footer-map-container">
                                                     <div class="footer-map">
                                                         <!-- Map 1 -->
-                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15238.673938895507!2d78.2175544855433!3d17.28326634630887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcbc125d1fddf0b%3A0xe006a66b5512cf02!2sMarbella%20Farms%20and%20Resort!5e0!3m2!1sen!2sin!4v1761395819026!5m2!1sen!2sin"
+                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117565.34444322967!2d-44.8213601550787!3d-23.181822763261274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9d72111c6d3283%3A0xc3afbf688f244199!2sParaty%2C%20RJ!5e0!3m2!1spt-BR!2sbr!4v1714486536340!5m2!1spt-BR!2sbr"
                                                             width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                                     </div>
                                                 </div>
@@ -2211,7 +2222,7 @@
                                                 <div class="footer-map-container">
                                                     <div class="footer-map">
                                                         <!-- Map 2 -->
-                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.093654209568!2d78.36706577369105!3d17.455231000850073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb930016ad3be7%3A0x9bb1ca2806a74cb1!2sMarbella%20Suites!5e0!3m2!1sen!2sin!4v1761395868880!5m2!1sen!2sin"
+                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117565.34444322967!2d-44.8213601550787!3d-23.181822763261274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9d72111c6d3283%3A0xc3afbf688f244199!2sParaty%2C%20RJ!5e0!3m2!1spt-BR!2sbr!4v1714486536340!5m2!1spt-BR!2sbr"
                                                             width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                                     </div>
                                                 </div>

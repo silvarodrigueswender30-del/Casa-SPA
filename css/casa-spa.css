@@ -251,7 +251,7 @@
 
 
 
-      /* Contact cards – Marbella Suites */
+      /* Contact cards – Casa SPA Paraty */
 .mfr-card {
   position: relative;
   border: 1px solid rgba(0,0,0,.06);
@@ -506,9 +506,9 @@
   .mfr-airbnb:hover{ background: rgba(255,90,95,.08); }  
 
 
-  /* ===== Scoped: MARBELLA REVIEWS BLOCK ===== */
-      /* ===== Scoped: Marbella Guest Reviews ===== */
-      .marbella-guest-reviews {
+  /* ===== Scoped: Casa SPA REVIEWS BLOCK ===== */
+      /* ===== Scoped: Casa SPA Guest Reviews ===== */
+      .casa-spa-guest-reviews {
         --mgr-bg: #f8fafc;
         --mgr-card: #ffffff;
         --mgr-text: #0f172a;
@@ -520,7 +520,7 @@
         background: var(--mgr-bg);
       }
 
-      .marbella-guest-reviews .container { padding-left: 12px; padding-right: 12px; }
+      .casa-spa-guest-reviews .container { padding-left: 12px; padding-right: 12px; }
 
       .mgr-main {
         text-align: center;

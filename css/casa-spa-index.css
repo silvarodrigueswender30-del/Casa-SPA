@@ -1156,17 +1156,17 @@
     color: #f1d28f;
 }
 
-.marbella-amenities-section {
+.casa-spa-amenities-section {
     padding: 90px 0;
     background: #f7f5f2;
 }
 
-.marbella-amenities-heading {
+.casa-spa-amenities-heading {
     max-width: 780px;
     margin: 0 auto 55px;
 }
 
-.marbella-amenities-subtitle {
+.casa-spa-amenities-subtitle {
     display: inline-block;
     font-size: 14px;
     font-weight: 500;
@@ -1176,7 +1176,7 @@
     margin-bottom: 12px;
 }
 
-.marbella-amenities-title {
+.casa-spa-amenities-title {
     font-size: 46px;
     line-height: 1.15;
     font-weight: 500;
@@ -1184,25 +1184,25 @@
     margin-bottom: 14px;
 }
 
-.marbella-amenities-desc {
+.casa-spa-amenities-desc {
     font-size: 17px;
     line-height: 1.8;
     color: #6f6b67;
     margin: 0;
 }
 
-.marbella-amenities-grid {
+.casa-spa-amenities-grid {
     justify-content: center;
 }
 
-.marbella-amenity-item {
+.casa-spa-amenity-item {
     text-align: center;
     padding: 1px 10px;
     height: 100%;
     transition: all 0.3s ease;
 }
 
-.marbella-amenity-icon {
+.casa-spa-amenity-icon {
     width: 95px;
     height: 95px;
     margin: 0 auto 18px;
@@ -1214,7 +1214,7 @@
     transition: all 0.3s ease;
 }
 
-.marbella-amenity-item h3 {
+.casa-spa-amenity-item h3 {
     font-size: 20px;
     font-weight: 500;
     color: #1b1b1b;
@@ -1223,47 +1223,47 @@
     text-transform: uppercase;
 }
 
-.marbella-amenity-item:hover .marbella-amenity-icon {
+.casa-spa-amenity-item:hover .casa-spa-amenity-icon {
     transform: translateY(-6px);
     color: #d8ab4c;
 }
 
-.marbella-amenity-item:hover h3 {
+.casa-spa-amenity-item:hover h3 {
     color: #3f2d20;
 }
 
 @media (max-width: 1199px) {
-    .marbella-amenities-title {
+    .casa-spa-amenities-title {
         font-size: 40px;
     }
-    .marbella-amenity-icon {
+    .casa-spa-amenity-icon {
         width: 85px;
         height: 85px;
         font-size: 48px;
     }
-    .marbella-amenity-item h3 {
+    .casa-spa-amenity-item h3 {
         font-size: 18px;
     }
 }
 
 @media (max-width: 767px) {
-    .marbella-amenities-section {
+    .casa-spa-amenities-section {
         padding: 70px 0;
     }
-    .marbella-amenities-title {
+    .casa-spa-amenities-title {
         font-size: 32px;
     }
-    .marbella-amenities-desc {
+    .casa-spa-amenities-desc {
         font-size: 15px;
         line-height: 1.7;
     }
-    .marbella-amenity-icon {
+    .casa-spa-amenity-icon {
         width: 72px;
         height: 72px;
         font-size: 38px;
         margin-bottom: 14px;
     }
-    .marbella-amenity-item h3 {
+    .casa-spa-amenity-item h3 {
         font-size: 15px;
     }
 }
@@ -2113,7 +2113,7 @@ body {
 }
 
 /* 6. Reviews & Footer — editorial finish */
-.marbella-guest-reviews {
+.casa-spa-guest-reviews {
     position: relative;
     isolation: isolate;
     overflow: hidden;
@@ -2123,7 +2123,7 @@ body {
         linear-gradient(160deg, var(--casa-forest) 0%, #0E120F 100%) !important;
 }
 
-.marbella-guest-reviews::after {
+.casa-spa-guest-reviews::after {
     content: "";
     position: absolute;
     inset: auto 0 0;
@@ -2132,7 +2132,7 @@ body {
     background: linear-gradient(180deg, rgba(17, 23, 19, 0) 0%, rgba(17, 23, 19, 0.58) 72%, #0B100D 100%);
 }
 
-.marbella-guest-reviews .pbmit-subtitle {
+.casa-spa-guest-reviews .pbmit-subtitle {
     color: var(--casa-champagne) !important;
     font-family: 'Manrope', sans-serif !important;
     font-size: 11px !important;
@@ -2141,7 +2141,7 @@ body {
     text-transform: uppercase !important;
 }
 
-.marbella-guest-reviews .msc-head h2 {
+.casa-spa-guest-reviews .msc-head h2 {
     color: var(--casa-ivory-soft) !important;
     font-family: 'Cormorant Garamond', serif !important;
     font-size: clamp(42px, 4vw, 58px) !important;
@@ -2150,13 +2150,13 @@ body {
     letter-spacing: -0.01em !important;
 }
 
-.marbella-guest-reviews .fnt-style {
+.casa-spa-guest-reviews .fnt-style {
     color: rgba(244, 239, 230, 0.58) !important;
     font-family: 'Manrope', sans-serif !important;
     font-weight: 300 !important;
 }
 
-.marbella-guest-reviews .mgr-card {
+.casa-spa-guest-reviews .mgr-card {
     background: rgba(98, 105, 77, 0.16) !important;
     border: 1px solid rgba(238, 232, 220, 0.10) !important;
     border-radius: 4px !important;
@@ -2164,7 +2164,7 @@ body {
     padding: 30px 30px 28px !important;
 }
 
-.marbella-guest-reviews .mgr-card p {
+.casa-spa-guest-reviews .mgr-card p {
     color: rgba(244, 239, 230, 0.82) !important;
     font-family: 'Cormorant Garamond', serif !important;
     font-size: clamp(21px, 1.7vw, 28px) !important;
@@ -2172,11 +2172,11 @@ body {
     line-height: 1.25 !important;
 }
 
-.marbella-guest-reviews .mgr-meta {
+.casa-spa-guest-reviews .mgr-meta {
     border-top-color: rgba(244, 239, 230, 0.055) !important;
 }
 
-.marbella-guest-reviews .mgr-name {
+.casa-spa-guest-reviews .mgr-name {
     color: var(--casa-ivory-soft) !important;
     font-family: 'Manrope', sans-serif !important;
     font-size: 13px !important;
@@ -2184,32 +2184,32 @@ body {
     letter-spacing: 0.04em;
 }
 
-.marbella-guest-reviews .mgr-role {
+.casa-spa-guest-reviews .mgr-role {
     color: rgba(244, 239, 230, 0.5) !important;
     font-family: 'Manrope', sans-serif !important;
     font-size: 12px !important;
     font-weight: 300 !important;
 }
 
-.marbella-guest-reviews .mgr-stars {
+.casa-spa-guest-reviews .mgr-stars {
     gap: 1px !important;
     opacity: 0.72;
 }
 
-.marbella-guest-reviews .mgr-stars span,
-.marbella-guest-reviews .mgr-stars span.half {
+.casa-spa-guest-reviews .mgr-stars span,
+.casa-spa-guest-reviews .mgr-stars span.half {
     width: 13px !important;
     height: 13px !important;
 }
 
-.marbella-guest-reviews .mgr-stars span::before,
-.marbella-guest-reviews .mgr-stars span.half::before {
+.casa-spa-guest-reviews .mgr-stars span::before,
+.casa-spa-guest-reviews .mgr-stars span.half::before {
     color: var(--casa-champagne) !important;
     font-size: 13px !important;
     line-height: 13px !important;
 }
 
-.marbella-guest-reviews .mgr-quote {
+.casa-spa-guest-reviews .mgr-quote {
     width: 28px !important;
     height: 28px !important;
     border-radius: 4px !important;
@@ -2219,26 +2219,26 @@ body {
     font-weight: 400 !important;
 }
 
-.marbella-guest-reviews .mgr-thumb {
+.casa-spa-guest-reviews .mgr-thumb {
     background: transparent !important;
     border: 0 !important;
     border-radius: 4px !important;
     box-shadow: none !important;
 }
 
-.marbella-guest-reviews .mgr-thumb img {
+.casa-spa-guest-reviews .mgr-thumb img {
     border-radius: 4px !important;
     filter: saturate(.92) contrast(1.03) brightness(.95);
 }
 
-.marbella-guest-reviews .mgr-nav-btn {
+.casa-spa-guest-reviews .mgr-nav-btn {
     background: rgba(255, 255, 255, 0.025) !important;
     border: 1px solid rgba(244, 239, 230, 0.08) !important;
     color: var(--casa-ivory-soft) !important;
     box-shadow: none !important;
 }
 
-.marbella-guest-reviews .mgr-nav-btn:hover {
+.casa-spa-guest-reviews .mgr-nav-btn:hover {
     background: rgba(195, 154, 91, 0.12) !important;
     border-color: rgba(195, 154, 91, 0.22) !important;
     color: var(--casa-ivory-soft) !important;
@@ -2420,18 +2420,18 @@ body {
         height: min(86vw, 360px) !important;
     }
 
-    .marbella-guest-reviews {
+    .casa-spa-guest-reviews {
         padding: 68px 0 82px !important;
         background:
             radial-gradient(ellipse at 50% 18%, rgba(98, 105, 77, 0.14) 0%, rgba(41, 49, 38, 0.38) 42%, rgba(17, 23, 19, 0.98) 100%),
             #111713 !important;
     }
 
-    .marbella-guest-reviews .mgr-card {
+    .casa-spa-guest-reviews .mgr-card {
         padding: 24px 22px !important;
     }
 
-    .marbella-guest-reviews .mgr-card p {
+    .casa-spa-guest-reviews .mgr-card p {
         font-size: 23px !important;
     }
 

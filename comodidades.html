@@ -14,7 +14,7 @@
 
     <!-- Title -->
 
-    <title>A Casa | Casa SPA Paraty</title>
+    <title>Comodidades | Casa SPA Paraty</title>
 
 
 
@@ -483,7 +483,7 @@
 
                                                 <li class="">
 
-                                                    <a href="about-us.html" style="color:var(--casa-champagne)">A Casa</a>
+                                                    <a href="about-us.html">A Casa</a>
 
                                                 </li>
 
@@ -491,7 +491,7 @@
 
                                                 <li class="">
 
-                                                    <a href="comodidades.html">Comodidades</a>
+                                                    <a href="comodidades.html" style="color:var(--casa-champagne)">Comodidades</a>
 
                                                 </li>
 
@@ -595,7 +595,7 @@
 
             <div class="pbmit-tbar-title">
 
-              <h1 class="pbmit-tbar-title">A Casa</h1>
+              <h1 class="pbmit-tbar-title">Comodidades</h1>
 
             </div>
 
@@ -609,41 +609,115 @@
 
     
 
-    <section class="section-md">
+    <section class="section-md" style="background: var(--casa-forest-light);">
 
       <div class="container">
 
-        <div class="row align-items-center">
+        <div class="text-center mb-5">
 
-          <div class="col-lg-6">
+            <h4 class="pbmit-subtitle">Conforto</h4>
 
-            <img src="images/mf-images/sala-02.webp" alt="Sala da Casa SPA" class="img-fluid rounded shadow" style="margin-bottom: 20px;">
+            <h2>O que a Casa SPA oferece</h2>
 
-            <img src="images/mf-images/quarto-02.webp" alt="Quarto Casa SPA" class="img-fluid rounded shadow">
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-4 mb-4">
+
+            <div class="p-4 rounded" style="background: var(--casa-forest); border: 1px solid rgba(255,255,255,0.05); height: 100%;">
+
+              <i class="fas fa-bed fa-2x mb-3" style="color: var(--casa-champagne);"></i>
+
+              <h4 style="color: var(--casa-ivory);">3 Quartos Climatizados</h4>
+
+              <p style="color: rgba(255,255,255,0.7); font-size: 14px;">Espaços tranquilos e confortáveis com ar-condicionado para um sono reparador, acomodando até 6 hóspedes confortavelmente.</p>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-4 mb-4">
+
+            <div class="p-4 rounded" style="background: var(--casa-forest); border: 1px solid rgba(255,255,255,0.05); height: 100%;">
+
+              <i class="fas fa-water fa-2x mb-3" style="color: var(--casa-champagne);"></i>
+
+              <h4 style="color: var(--casa-ivory);">SPA / Hidromassagem</h4>
+
+              <p style="color: rgba(255,255,255,0.7); font-size: 14px;">Deck privativo com hidromassagem planejada para relaxar, com vista e atmosfera de refúgio.</p>
+
+            </div>
 
           </div>
 
-          <div class="col-lg-6 mt-4 mt-lg-0">
+          <div class="col-md-4 mb-4">
 
-            <h4 class="pbmit-subtitle">A Casa</h4>
+            <div class="p-4 rounded" style="background: var(--casa-forest); border: 1px solid rgba(255,255,255,0.05); height: 100%;">
 
-            <h2>Seu espaço em Paraty</h2>
+              <i class="fas fa-utensils fa-2x mb-3" style="color: var(--casa-champagne);"></i>
 
-            <p>Ambientes pensados para compartilhar os dias com conforto e privacidade. Três quartos, áreas de convivência e tudo o que você precisa para se sentir em casa, só que longe da rotina.</p>
+              <h4 style="color: var(--casa-ivory);">Cozinha Equipada</h4>
 
-            <p>Um refúgio particular entre o verde e o mar, concebido para desacelerar, brindar ao pôr do sol e viver o momento presente com quem se ama.</p>
+              <p style="color: rgba(255,255,255,0.7); font-size: 14px;">Estrutura completa para preparar suas próprias refeições com liberdade e sem pressa.</p>
 
-            <!-- REVISAR: confirmar história/conceito da casa com o proprietário -->
-
-            <br>
-
-            <a class="pbmit-btn pbmit-btn-global" href="https://wa.me/5524998144912" target="_blank">
-
-                <span>Consultar Disponibilidade</span>
-
-            </a>
+            </div>
 
           </div>
+
+          <div class="col-md-4 mb-4">
+
+            <div class="p-4 rounded" style="background: var(--casa-forest); border: 1px solid rgba(255,255,255,0.05); height: 100%;">
+
+              <i class="fas fa-bath fa-2x mb-3" style="color: var(--casa-champagne);"></i>
+
+              <h4 style="color: var(--casa-ivory);">3 Banheiros</h4>
+
+              <p style="color: rgba(255,255,255,0.7); font-size: 14px;">Conforto e conveniência garantidos para todos os hóspedes com ampla disponibilidade de banheiros.</p>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-4 mb-4">
+
+            <div class="p-4 rounded" style="background: var(--casa-forest); border: 1px solid rgba(255,255,255,0.05); height: 100%;">
+
+              <i class="fas fa-tree fa-2x mb-3" style="color: var(--casa-champagne);"></i>
+
+              <h4 style="color: var(--casa-ivory);">Área Externa</h4>
+
+              <p style="color: rgba(255,255,255,0.7); font-size: 14px;">Um amplo espaço aberto, cercado de verde e natureza, perfeito para reunir os amigos ou a família ao ar livre.</p>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-4 mb-4">
+
+            <div class="p-4 rounded" style="background: var(--casa-forest); border: 1px solid rgba(255,255,255,0.05); height: 100%;">
+
+              <i class="fas fa-wifi fa-2x mb-3" style="color: var(--casa-champagne);"></i>
+
+              <h4 style="color: var(--casa-ivory);">Wi-Fi de Alta Velocidade</h4>
+
+              <p style="color: rgba(255,255,255,0.7); font-size: 14px;">Conectividade garantida para quem precisa estar online, mesmo longe da cidade.</p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        
+
+        <div class="mt-5 text-center">
+
+            <img src="images/ms-images/spa-01.webp" alt="SPA" class="img-fluid rounded shadow mx-2" style="max-height: 250px; width: auto; display: inline-block; object-fit: cover;">
+
+            <img src="images/mf-images/cozinha-02.webp" alt="Cozinha" class="img-fluid rounded shadow mx-2" style="max-height: 250px; width: auto; display: inline-block; object-fit: cover;">
+
+            <img src="images/mf-images/quarto-01.webp" alt="Quarto" class="img-fluid rounded shadow mx-2" style="max-height: 250px; width: auto; display: inline-block; object-fit: cover;">
 
         </div>
 
