@@ -2466,3 +2466,26 @@ body {
         min-height: unset !important;
     }
 }
+
+
+@media (max-width: 992px) {
+    .msc-card {
+        grid-template-columns: 1fr !important;
+        grid-template-rows: auto 1fr !important;
+        min-height: unset !important;
+    }
+    .msc-card--reverse {
+        direction: ltr !important;
+    }
+    .msc-card--reverse > * {
+        direction: ltr !important;
+    }
+    .msc-media {
+        border-right: none !important;
+        border-bottom: 1px solid var(--msc-line) !important;
+        aspect-ratio: 4/3 !important;
+    }
+    .msc-body {
+        padding: 24px 20px 28px !important;
+    }
+}
