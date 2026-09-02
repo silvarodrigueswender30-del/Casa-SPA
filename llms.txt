@@ -1,0 +1,37 @@
+# Casa SPA Paraty
+
+> Um refúgio particular entre o verde e o mar, combinando o luxo de uma hospedagem exclusiva com a tranquilidade da natureza em Paraty (RJ).
+
+A Casa SPA Paraty não é uma pousada com quartos compartilhados, mas sim uma **casa inteira** disponível para locação de temporada. O local foi projetado para hóspedes que buscam silêncio, descanso e isolamento, com a conveniência de estar a poucos minutos do Centro Histórico.
+
+## Localização
+- Bairro: Corumbê
+- Cidade: Paraty, Rio de Janeiro (RJ)
+- País: Brasil
+- CEP: 23970-000
+
+## Detalhes da Propriedade e Capacidade
+- Tipo de acomodação: Casa inteira (Aluguel de Temporada)
+- Capacidade máxima: 6 hóspedes
+- Quartos: 3 quartos privativos (camas confortáveis, roupas de cama premium)
+- Banheiros: 3 banheiros completos
+- Cozinha: Totalmente equipada para preparo de refeições
+
+## Comodidades Principais
+- Hidromassagem privativa (estilo SPA) com vista para a natureza
+- Área externa ampla com deck
+- Conexão Wi-Fi de alta velocidade (adequada para trabalho remoto/home office)
+- Ar-condicionado nos ambientes
+- Aceita Pets (Pet Friendly)
+- Atmosfera de refúgio e total privacidade
+
+## Contato e Reservas
+- WhatsApp: +55 24 99814-4912
+- Email: contato@casaspaparaty.com.br
+- Disponível para locação no Airbnb.
+
+## Links Oficiais
+- Galeria de Fotos: [https://site-casa-spa.vercel.app/gallery.html]
+- Detalhes e Comodidades: [https://site-casa-spa.vercel.app/comodidades.html]
+- Guia de Paraty: [https://site-casa-spa.vercel.app/paraty.html]
+- Reservas: [https://site-casa-spa.vercel.app/contact-us.html]

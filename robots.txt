@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# Permitir explicitly crawlers de IA (AEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://site-casa-spa.vercel.app/sitemap.xml
