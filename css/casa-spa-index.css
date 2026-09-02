@@ -2588,3 +2588,185 @@ body {
 .mv-popup-next { right: 16px; }
 .mv-popup-prev:hover, .mv-popup-next:hover { background: var(--casa-forest); }
 @media (max-width: 767.98px) { .mv-popup-prev { left: 8px; } .mv-popup-next { right: 8px; } }
+
+/* ===== Casa SPA Video Tour ===== */
+.casa-video-tour {
+    background-color: var(--casa-forest);
+    color: var(--casa-ivory-soft);
+}
+.casa-video-tour__grid {
+    display: grid;
+    gap: 40px;
+    align-items: center;
+}
+.casa-video-tour__content {
+    max-width: 600px;
+}
+.casa-video-tour__content .pbmit-subtitle {
+    color: var(--casa-champagne);
+    margin-bottom: 12px;
+}
+.casa-video-tour__content .casa-editorial-headline {
+    color: var(--casa-ivory);
+    font-size: clamp(32px, 5vw, 48px);
+    margin-bottom: 24px;
+}
+.casa-video-tour__content p {
+    color: var(--casa-ivory-soft);
+    opacity: 0.9;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.casa-video-tour__attributes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 24px;
+    margin-bottom: 40px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    color: var(--casa-ivory);
+}
+.casa-video-tour__attributes .casa-attr {
+    position: relative;
+}
+.casa-video-tour__attributes .casa-attr:not(:last-child)::after {
+    content: "·";
+    position: absolute;
+    right: -14px;
+    color: var(--casa-champagne);
+}
+.casa-video-tour__cta-wrapper .pbmit-btn-outline {
+    border-color: var(--casa-champagne);
+    color: var(--casa-champagne);
+}
+.casa-video-tour__cta-wrapper .pbmit-btn-outline:hover {
+    background-color: var(--casa-champagne);
+    color: var(--casa-forest);
+}
+.casa-video-tour__media {
+    width: min(82vw, 360px);
+    margin-inline: auto;
+    text-align: center;
+}
+.casa-video-tour__player-wrap {
+    width: 100%;
+    aspect-ratio: 9 / 16;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    margin-bottom: 16px;
+    background-color: #000;
+}
+.casa-video-tour__video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.casa-video-tour__microcopy {
+    font-size: 14px;
+    color: var(--casa-sage);
+    font-style: italic;
+    margin: 0;
+}
+
+@media (min-width: 992px) {
+    .casa-video-tour__grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+    }
+    .casa-video-tour__media {
+        width: min(100%, 430px);
+        margin-inline: 0 auto;
+    }
+}
+
+/* ===== WhatsApp Concierge ===== */
+.casa-whatsapp-concierge {
+    position: fixed;
+    right: 18px;
+    bottom: 100px;
+    width: 320px;
+    background-color: var(--casa-forest);
+    border: 1px solid var(--casa-olive);
+    border-radius: 6px;
+    padding: 24px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
+}
+.casa-whatsapp-concierge.is-visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.casa-whatsapp-concierge__close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: transparent;
+    border: none;
+    color: var(--casa-sage);
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+.casa-whatsapp-concierge__close:hover {
+    color: var(--casa-ivory);
+}
+.casa-whatsapp-concierge__eyebrow {
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--casa-champagne);
+    margin-bottom: 8px;
+}
+.casa-whatsapp-concierge__headline {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    color: var(--casa-ivory);
+    margin-bottom: 8px;
+    line-height: 1.2;
+}
+.casa-whatsapp-concierge__text {
+    font-size: 14px;
+    color: var(--casa-ivory-soft);
+    opacity: 0.9;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.casa-whatsapp-concierge__cta {
+    display: inline-block;
+    color: var(--casa-forest);
+    background-color: var(--casa-champagne);
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+.casa-whatsapp-concierge__cta:hover {
+    background-color: #d4a968;
+    color: var(--casa-forest);
+}
+
+@media (max-width: 767px) {
+    .casa-whatsapp-concierge {
+        width: calc(100vw - 36px);
+        max-width: 320px;
+        right: 18px;
+        bottom: 85px;
+        padding: 20px;
+    }
+}
+@media (max-width: 480px) {
+    .casa-whatsapp-concierge {
+        right: 10px;
+        width: calc(100vw - 20px);
+    }
+}

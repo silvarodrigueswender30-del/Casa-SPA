@@ -1047,8 +1047,46 @@
             </div>
           </div>
         </section>
-        <!-- Ihbox End -->
-        <section class="venue-premium-section pb-3">
+<!-- Ihbox End -->
+
+<!-- ===== NOVA SEÇÃO DE VÍDEO ===== -->
+<section class="casa-video-tour pbmit-padding-top pbmit-padding-bottom">
+  <div class="container">
+    <div class="casa-video-tour__grid">
+      <div class="casa-video-tour__content">
+        <h4 class="pbmit-subtitle">EXPERIÊNCIA CASA SPA</h4>
+        <h2 class="casa-editorial-headline">Conheça a casa por dentro.</h2>
+        <p class="fnt-style">
+          Um passeio pela Casa SPA para você imaginar seus dias aqui — dos ambientes de convivência ao espaço de descanso e à hidromassagem.
+        </p>
+        <div class="casa-video-tour__attributes">
+          <span class="casa-attr">Casa inteira</span>
+          <span class="casa-attr">03 quartos</span>
+          <span class="casa-attr">SPA privativo</span>
+          <span class="casa-attr">Paraty</span>
+        </div>
+        <div class="casa-video-tour__cta-wrapper">
+          <a href="https://wa.me/5524998144912" target="_blank" class="pbmit-btn pbmit-btn-outline">
+            <span class="pbmit-button-content-wrapper">
+              <span class="pbmit-button-text">Consultar disponibilidade</span>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="casa-video-tour__media">
+        <div class="casa-video-tour__player-wrap">
+          <video src="https://jszueizwowynhekpsfii.supabase.co/storage/v1/object/public/Casa-SPA/casa-spa-tur.mp4" playsinline preload="metadata" controls class="casa-video-tour__video">
+            Seu navegador não suporta reprodução de vídeo.
+          </video>
+        </div>
+        <p class="casa-video-tour__microcopy">Aperte o play e faça um tour pela casa.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ===== FIM NOVA SEÇÃO DE VÍDEO ===== -->
+
+<section class="venue-premium-section pb-3">
           <div class="venue-premium-container">
             <div
               class="pbmit-heading-subheading animation-style4 text-center mb-0"
@@ -2253,7 +2291,14 @@
                                 </a>
 
                                 <!-- WhatsApp button -->
-                                <a href="https://wa.me/5524998144912" target="_blank" class="wild-float-whatsapp">
+<div class="casa-whatsapp-concierge" id="casa-whatsapp-concierge" aria-hidden="true">
+  <button class="casa-whatsapp-concierge__close" id="casa-whatsapp-concierge-close" aria-label="Fechar">&times;</button>
+  <div class="casa-whatsapp-concierge__eyebrow">CASA SPA · PARATY</div>
+  <div class="casa-whatsapp-concierge__headline">Planejando sua estadia?</div>
+  <div class="casa-whatsapp-concierge__text">Consulte datas e tire suas dúvidas diretamente pelo WhatsApp.</div>
+  <a href="https://wa.me/5524998144912" target="_blank" class="casa-whatsapp-concierge__cta">Consultar disponibilidade &rarr;</a>
+</div>
+<a href="https://wa.me/5524998144912" target="_blank" class="wild-float-whatsapp">
           <i class="fab fa-whatsapp"></i>
           <span>WhatsApp</span>
         </a>
@@ -2421,6 +2466,48 @@
                                         });
                                 });
                             </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const concierge = document.getElementById('casa-whatsapp-concierge');
+      const closeBtn = document.getElementById('casa-whatsapp-concierge-close');
+      if (!concierge || !closeBtn) return;
+      
+      if (sessionStorage.getItem('casaSpaWhatsappDismissed') === 'true') {
+        return;
+      }
+      
+      let hasShown = false;
+      function showConcierge() {
+        if (hasShown) return;
+        hasShown = true;
+        concierge.classList.add('is-visible');
+        concierge.setAttribute('aria-hidden', 'false');
+      }
+      
+      const timer = setTimeout(showConcierge, 10000);
+      
+      window.addEventListener('scroll', function onScroll() {
+        if (hasShown) {
+          window.removeEventListener('scroll', onScroll);
+          return;
+        }
+        const scrollPercent = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+        if (scrollPercent >= 35) {
+          showConcierge();
+          clearTimeout(timer);
+          window.removeEventListener('scroll', onScroll);
+        }
+      });
+      
+      closeBtn.addEventListener('click', function() {
+        concierge.classList.remove('is-visible');
+        concierge.setAttribute('aria-hidden', 'true');
+        sessionStorage.setItem('casaSpaWhatsappDismissed', 'true');
+      });
+    });
+  </script>
 </body>
+
 
 </html>
