@@ -22,6 +22,8 @@ def build_page(filename, title, content):
         modified_top = modified_top.replace('<a href="marbella-suites.html">Paraty</a>', '<a href="marbella-suites.html" style="color:var(--casa-champagne)">Paraty</a>')
     elif "contact-us.html" in filename:
         modified_top = modified_top.replace('<a href="contact-us.html">Reservar</a>', '<a href="contact-us.html" style="color:var(--casa-champagne)">Reservar</a>')
+    elif "gallery.html" in filename:
+        modified_top = modified_top.replace('<a href="gallery.html">Galeria</a>', '<a href="gallery.html" style="color:var(--casa-champagne)">Galeria</a>')
 
     hero_section = f"""
     <!-- Inner Hero -->
@@ -219,3 +221,6 @@ build_page('about-us.html', 'A Casa', content_acasa)
 build_page('marbella-farms-resort.html', 'Comodidades', content_comodidades)
 build_page('marbella-suites.html', 'Paraty', content_paraty)
 build_page('contact-us.html', 'Reservar', content_reservar)
+
+content_galeria = open('galeria_content.txt', encoding='utf-8').read()
+build_page('gallery.html', 'Galeria', content_galeria)
