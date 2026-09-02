@@ -298,30 +298,24 @@
 
 @media (max-width: 992px) {
     .msc-card {
-        grid-template-columns: 1fr 1fr;
-        min-height: 250px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+        min-height: unset;
     }
+    /* Reseta o zig-zag reverso no mobile */
     .msc-card--reverse {
-        direction: rtl;
+        direction: ltr;
     }
     .msc-card--reverse > * {
         direction: ltr;
     }
     .msc-media {
-        aspect-ratio: 16/9;
-        min-height: unset;
+        border-right: none;
+        border-bottom: 1px solid var(--msc-line);
+        aspect-ratio: 4/3;
     }
     .msc-body {
-        padding: 15px;
-    }
-    .pbmit-heading-title {
-        font-size: 1.2rem !important;
-        line-height: 1.2 !important;
-        margin-bottom: 10px;
-    }
-    .pbmit-heading-desc {
-        font-size: 0.85rem !important;
-        line-height: 1.4 !important;
+        padding: 24px 20px 28px;
     }
 }
 
@@ -2460,14 +2454,6 @@ body {
     }
 }
 
-/* Fix Mobile Menu Background Overlay */
-@media (max-width: 1199px) {
-    .pbmit-menu-wrap {
-        background-color: var(--casa-forest) !important;
-        backdrop-filter: blur(10px) !important;
-        -webkit-backdrop-filter: blur(10px) !important;
-    }
-}
 /* Mobile Hero Image Override */
 @media (max-width: 767px) {
     .hero-section .swiper-slide {
