@@ -1,0 +1,647 @@
+<section class="mv-gallery">
+
+      <div class="container">
+
+        <div class="mv-heading">
+
+          <h2>Cada canto da casa, em detalhe</h2>
+
+          <p>Conheça os espaços pensados para o seu descanso, com privacidade, conforto e conexão com a natureza de Paraty.</p>
+
+        </div>
+
+
+
+        <!-- Category Filters -->
+
+        <div class="gallery-filter-wrap">
+
+          <button class="gallery-filter-btn active" data-filter="all">Todos os Ambientes</button>
+
+          <button class="gallery-filter-btn" data-filter="spa">SPA & Hidromassagem</button>
+
+          <button class="gallery-filter-btn" data-filter="quartos">Quartos</button>
+
+          <button class="gallery-filter-btn" data-filter="convivencia">Área de Convivência & Cozinha</button>
+
+          <button class="gallery-filter-btn" data-filter="banheiros">Banheiros</button>
+
+          <button class="gallery-filter-btn" data-filter="exterior">Exterior & Fachada</button>
+
+        </div>
+
+
+
+        <div class="row g-4 mv-gallery-grid" id="gallery-container">
+
+
+
+          <!-- 1. Fachada Principal -->
+
+          <div class="col-12 col-md-6 col-lg-4 gallery-item is-featured" data-category="exterior">
+
+            <a href="images/mf-images/fachada-01.webp" class="mv-gallery-card gallery-lightbox" title="Fachada da Casa SPA Paraty ao Entardecer">
+
+              <span class="mv-gallery-badge">Exterior</span>
+
+              <div class="mv-gallery-media">
+
+                <img src="images/mf-images/fachada-01.webp" alt="Fachada da Casa SPA Paraty ao Entardecer" loading="lazy">
+
+              </div>
+
+              <div class="mv-gallery-overlay">
+
+                <h4>Fachada & Entrada</h4>
+
+                <p>Arquitetura acolhedora em harmonia com a mata atlântica</p>
+
+              </div>
+
+            </a>
+
+          </div>
+
+
+
+          <!-- 2. SPA Entardecer -->
+
+          <div class="col-12 col-md-6 col-lg-4 gallery-item" data-category="spa">
+
+            <a href="images/ms-images/spa-02.webp" class="mv-gallery-card gallery-lightbox" title="Deck Privativo de Hidromassagem ao Entardecer">
+
+              <span class="mv-gallery-badge">SPA</span>
+
+              <div class="mv-gallery-media">
+
+                <img src="images/ms-images/spa-02.webp" alt="Deck Privativo de Hidromassagem ao Entardecer" loading="lazy">
+
+              </div>
+
+              <div class="mv-gallery-overlay">
+
+                <h4>Deck da Hidromassagem</h4>
+
+                <p>Momento relaxante de pausa com vista superior ao entardecer</p>
+
+              </div>
+
+            </a>
+
+          </div>
+
+
+
+          <!-- 3. Quarto 1 - Suíte Rio -->
+
+          <div class="col-12 col-md-6 col-lg-4 gallery-item" data-category="quartos">
+
+            <a href="images/mf-images/quarto-01.webp" class="mv-gallery-card gallery-lightbox" title="Quarto 1 - Suíte Rio de Janeiro com Cama de Casal">
+
+              <span class="mv-gallery-badge">Quarto 1</span>
+
+              <div class="mv-gallery-media">
+
+                <img src="images/mf-images/quarto-01.webp" alt="Quarto 1 - Suíte Rio de Janeiro com Cama de Casal" loading="lazy">
+
+              </div>
+
+              <div class="mv-gallery-overlay">
+
+                <h4>Quarto 1 (Suíte Rio)</h4>
+
+                <p>Cama queen, iluminação acolhedora e decoração temática</p>
+
+              </div>
+
+            </a>
+
+          </div>
+
+
+
+          <!-- 4. SPA Iluminação Noturna -->
+
+          <div class="col-12 col-md-6 col-lg-4 gallery-item" data-category="spa">
+
+            <a href="images/ms-images/spa-03.webp" class="mv-gallery-card gallery-lightbox" title="Área de Hidromassagem com Iluminação Noturna">
+
+              <span class="mv-gallery-badge">SPA</span>
+
+              <div class="mv-gallery-media">
+
+                <img src="images/ms-images/spa-03.webp" alt="Área de Hidromassagem com Iluminação Noturna" loading="lazy">
+
+              </div>
+
+              <div class="mv-gallery-overlay">
+
+                <h4>Hidromassagem Noturna</h4>
+
+                <p>Ambiente iluminado para desfrutar de noites inesquecíveis</p>
+
+              </div>
+
+            </a>
+
+          </div>
+
+
+
+          <!-- 5. Cozinha Equipada -->
+
+          <div class="col-12 col-md-6 col-lg-4 gallery-item" data-category="convivencia">
+
+            <a href="images/mf-images/cozinha-01.webp" class="mv-gallery-card gallery-lightbox" title="Cozinha Equipada com Eletrodomésticos Completos">
+
+              <span class="mv-gallery-badge">Cozinha</span>
+
+              <div class="mv-gallery-media">
+
+                <img src="images/mf-images/cozinha-01.webp" alt="Cozinha Equipada com Eletrodomésticos Completos" loading="lazy">
+
+              </div>
+
+              <div class="mv-gallery-overlay">
+
+                <h4>Cozinha Completa</h4>
+
+                <p>Forno elétrico, geladeira duplex e bancada moderna</p>
+
+              </div>
+
+            </a>
+
+          </div>
+
+
+
+          <!-- 6. Sala de Estar Principal -->
+
+          <div class="col-12 col-md-6 col-lg-4 gallery-item is-featured" data-category="convivencia">
+
+            <a href="images/mf-images/sala-01.webp" class="mv-gallery-card gallery-lightbox" title="Sala de Estar Integrada com TV e Sofás Confortáveis">
+
+              <span class="mv-gallery-badge">Sala de Estar</span>
+
+              <div class="mv-gallery-media">
+
+                <img src="images/mf-images/sala-01.webp" alt="Sala de Estar Integrada com TV e Sofás Confortáveis" loading="lazy">
+
+              </div>
+
+              <div class="mv-gallery-overlay">
+
+                <h4>Sala de Estar</h4>
+
+                <p>Espaço amplo e confortável para reunir amigos e família</p>
+
+              </div>
+
+            </a>
+
+          </div>
+
+
+
+          <!-- 7. Quarto 2 - Varanda -->
+
+          <div class="col-12 col-md-6 col-lg-4 gallery-item" data-category="quartos">
+
+            <a href="images/mf-images/quarto-02.webp" class="mv-gallery-card gallery-lightbox" title="Quarto 2 com Acesso à Varanda e Vista para a Natureza">
+
+              <span class="mv-gallery-badge">Quarto 2</span>
+
+              <div class="mv-gallery-media">
+
+                <img src="images/mf-images/quarto-02.webp" alt="Quarto 2 com Acesso à Varanda e Vista para a Natureza" loading="lazy">
+
+              </div>
+
+              <div class="mv-gallery-overlay">
+
+                <h4>Quarto 2</h4>
+
+                <p>Abertura direta para varanda com vista arborizada</p>
+
+              </div>
+
+            </a>
+
+          </div>
+
+
+
+          <!-- 8. Quarto 3 - Madeira -->
+
+          <div class="col-12 col-md-6 col-lg-4 gallery-item" data-category="quartos">
+
+            <a href="images/mf-images/quarto-03.webp" class="mv-gallery-card gallery-lightbox" title="Quarto 3 com Cama de Madeira e Varanda Panorâmica">
+
+              <span class="mv-gallery-badge">Quarto 3</span>
+
+              <div class="mv-gallery-media">
+
+                <img src="images/mf-images/quarto-03.webp" alt="Quarto 3 com Cama de Madeira e Varanda Panorâmica" loading="lazy">
+
+              </div>
+
+              <div class="mv-gallery-overlay">
+
+                <h4>Quarto 3</h4>
+
+                <p>Cama rústica de madeira nobre, ar-condicionado e varanda privativa</p>
+
+              </div>
+
+            </a>
+
+          </div>
+
+
+
+          <!-- 9. SPA Diurno -->
+
+          <div class="col-12 col-md-6 col-lg-4 gallery-item" data-category="spa">
+
+            <a href="images/ms-images/spa-04.webp" class="mv-gallery-card gallery-lightbox" title="Área de Hidromassagem Externa Durante o Dia">
+
+              <span class="mv-gallery-badge">SPA</span>
+
+              <div class="mv-gallery-media">
+
+                <img src="images/ms-images/spa-04.webp" alt="Área de Hidromassagem Externa Durante o Dia" loading="lazy">
+
+              </div>
+
+              <div class="mv-gallery-overlay">
+
+                <h4>Hidromassagem ao Sol</h4>
+
+                <p>Águas límpidas cercadas pela tranquilidade do verde</p>
+
+              </div>
+
+            </a>
+
+          </div>
+
+
+
+          <!-- 10. Banheiro 2 - Suíte Principal -->
+
+          <div class="col-12 col-md-6 col-lg-4 gallery-item" data-category="banheiros">
+
+            <a href="images/mf-images/banheiro-02.webp" class="mv-gallery-card gallery-lightbox" title="Banheiro Moderno com Box Blindex e Espelho Orgânico LED">
+
+              <span class="mv-gallery-badge">Banheiro 2</span>
+
+              <div class="mv-gallery-media">
+
+                <img src="images/mf-images/banheiro-02.webp" alt="Banheiro Moderno com Box Blindex e Espelho Orgânico LED" loading="lazy">
+
+              </div>
+
+              <div class="mv-gallery-overlay">
+
+                <h4>Banheiro Completo</h4>
+
+                <p>Acabamentos em preto fosco, box de vidro e espelho orgânico</p>
+
+              </div>
+
+            </a>
+
+          </div>
+
+
+
+          <!-- 11. Banheiro 1 - Lavabo -->
+
+          <div class="col-12 col-md-6 col-lg-4 gallery-item" data-category="banheiros">
+
+            <a href="images/mf-images/banheiro-01.webp" class="mv-gallery-card gallery-lightbox" title="Lavabo Social com Design Funcional">
+
+              <span class="mv-gallery-badge">Banheiro 1</span>
+
+              <div class="mv-gallery-media">
+
+                <img src="images/mf-images/banheiro-01.webp" alt="Lavabo Social com Design Funcional" loading="lazy">
+
+              </div>
+
+              <div class="mv-gallery-overlay">
+
+                <h4>Lavabo Social</h4>
+
+                <p>Praticidade e conforto no piso térreo da casa</p>
+
+              </div>
+
+            </a>
+
+          </div>
+
+
+
+          <!-- 12. Sala de Jantar & Churrasqueira Externa -->
+
+          <div class="col-12 col-md-6 col-lg-4 gallery-item" data-category="convivencia">
+
+            <a href="images/index/r1-exterior.webp" class="mv-gallery-card gallery-lightbox" title="Área Externa Gourmet com Mesa de Jantar e Churrasqueira">
+
+              <span class="mv-gallery-badge">Sala de Jantar</span>
+
+              <div class="mv-gallery-media">
+
+                <img src="images/index/r1-exterior.webp" alt="Área Externa Gourmet com Mesa de Jantar e Churrasqueira" loading="lazy">
+
+              </div>
+
+              <div class="mv-gallery-overlay">
+
+                <h4>Espaço Gourmet & Jantar</h4>
+
+                <p>Mesa de refeições integrada ao deck e churrasqueira</p>
+
+              </div>
+
+            </a>
+
+          </div>
+
+
+
+          <!-- 13. Sala Convivência & Escada -->
+
+          <div class="col-12 col-md-6 col-lg-4 gallery-item" data-category="convivencia">
+
+            <a href="images/mf-images/sala-02.webp" class="mv-gallery-card gallery-lightbox" title="Área de Circulação e Convivência Térrea">
+
+              <span class="mv-gallery-badge">Convivência</span>
+
+              <div class="mv-gallery-media">
+
+                <img src="images/mf-images/sala-02.webp" alt="Área de Circulação e Convivência Térrea" loading="lazy">
+
+              </div>
+
+              <div class="mv-gallery-overlay">
+
+                <h4>Integração dos Ambientes</h4>
+
+                <p>Acesso fluido entre sala, cozinha e o deck externo</p>
+
+              </div>
+
+            </a>
+
+          </div>
+
+
+
+          <!-- 14. Sala de TV Intimista -->
+
+          <div class="col-12 col-md-6 col-lg-4 gallery-item" data-category="convivencia">
+
+            <a href="images/mf-images/sala-03.webp" class="mv-gallery-card gallery-lightbox" title="Sala de TV com Iluminação Cênica">
+
+              <span class="mv-gallery-badge">Sala de TV</span>
+
+              <div class="mv-gallery-media">
+
+                <img src="images/mf-images/sala-03.webp" alt="Sala de TV com Iluminação Cênica" loading="lazy">
+
+              </div>
+
+              <div class="mv-gallery-overlay">
+
+                <h4>Ambiente de Estar</h4>
+
+                <p>Iluminação quente ideal para momentos de filme e descanso</p>
+
+              </div>
+
+            </a>
+
+          </div>
+
+
+
+          <!-- 15. SPA & Mesa de Apoio -->
+
+          <div class="col-12 col-md-6 col-lg-4 gallery-item" data-category="spa">
+
+            <a href="images/ms-images/spa-01.webp" class="mv-gallery-card gallery-lightbox" title="Hidromassagem com Mesa de Convivência no Deck">
+
+              <span class="mv-gallery-badge">SPA</span>
+
+              <div class="mv-gallery-media">
+
+                <img src="images/ms-images/spa-01.webp" alt="Hidromassagem com Mesa de Convivência no Deck" loading="lazy">
+
+              </div>
+
+              <div class="mv-gallery-overlay">
+
+                <h4>Convivência no SPA</h4>
+
+                <p>Deck privativo planejado para relaxar e conversar</p>
+
+              </div>
+
+            </a>
+
+          </div>
+
+
+
+          <!-- 16. Jardim & Área Externa -->
+
+          <div class="col-12 col-md-6 col-lg-4 gallery-item" data-category="exterior">
+
+            <a href="images/ms-images/exterior-01.webp" class="mv-gallery-card gallery-lightbox" title="Jardim e Área Externa Integrada ao Deck">
+
+              <span class="mv-gallery-badge">Jardim</span>
+
+              <div class="mv-gallery-media">
+
+                <img src="images/ms-images/exterior-01.webp" alt="Jardim e Área Externa Integrada ao Deck" loading="lazy">
+
+              </div>
+
+              <div class="mv-gallery-overlay">
+
+                <h4>Área Externa & Jardim</h4>
+
+                <p>Portas amplas conectando o interior ao deck de madeira</p>
+
+              </div>
+
+            </a>
+
+          </div>
+
+
+
+          <!-- 17. Deck Gourmet Coberto -->
+
+          <div class="col-12 col-md-6 col-lg-4 gallery-item is-featured" data-category="exterior">
+
+            <a href="images/index/r2-exterior.webp" class="mv-gallery-card gallery-lightbox" title="Varanda e Deck Gourmet com Churrasqueira">
+
+              <span class="mv-gallery-badge">Área Externa</span>
+
+              <div class="mv-gallery-media">
+
+                <img src="images/index/r2-exterior.webp" alt="Varanda e Deck Gourmet com Churrasqueira" loading="lazy">
+
+              </div>
+
+              <div class="mv-gallery-overlay">
+
+                <h4>Varanda Gourmet</h4>
+
+                <p>Espaço coberto com churrasqueira para celebrar bons momentos</p>
+
+              </div>
+
+            </a>
+
+          </div>
+
+
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Gallery Lightbox Popup -->
+    <div id="mv-gallery-popup" class="mv-gallery-popup" role="dialog" aria-modal="true" aria-label="Visualizador de imagem">
+      <button id="mv-popup-close" class="mv-popup-close" aria-label="Fechar">&times;</button>
+      <button id="mv-popup-prev" class="mv-popup-prev" aria-label="Anterior">&#8249;</button>
+      <img id="mv-popup-img" src="" alt="Imagem ampliada">
+      <button id="mv-popup-next" class="mv-popup-next" aria-label="Próximo">&#8250;</button>
+    </div>
+
+    <script>
+    (function() {
+      'use strict';
+      var filterBtns = document.querySelectorAll('.gallery-filter-btn');
+      var items = document.querySelectorAll('.gallery-item');
+      var popup = document.getElementById('mv-gallery-popup');
+      var popupImg = document.getElementById('mv-popup-img');
+      var closeBtn = document.getElementById('mv-popup-close');
+      var nextBtn = document.getElementById('mv-popup-next');
+      var prevBtn = document.getElementById('mv-popup-prev');
+      var galleryImages = [];
+      var currentIndex = 0;
+
+      if (!filterBtns.length || !items.length) return;
+
+      // Build image list from currently visible items
+      function buildImageList() {
+        galleryImages = [];
+        items.forEach(function(item) {
+          if (item.style.display !== 'none') {
+            var img = item.querySelector('img');
+            if (img) galleryImages.push(img.src);
+          }
+        });
+      }
+
+      // Filter handler
+      filterBtns.forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          filterBtns.forEach(function(b) { b.classList.remove('active'); });
+          btn.classList.add('active');
+          var filter = btn.getAttribute('data-filter');
+          var grid = document.querySelector('.mv-gallery-grid');
+          if (grid) {
+              if (filter === 'all') {
+                  grid.classList.remove('is-filtered');
+              } else {
+                  grid.classList.add('is-filtered');
+              }
+          }
+          items.forEach(function(item) {
+            if (filter === 'all' || item.getAttribute('data-category') === filter) {
+              item.style.display = 'block';
+            } else {
+              item.style.display = 'none';
+            }
+          });
+          buildImageList();
+        });
+      });
+
+      // Initial image list
+      buildImageList();
+
+      // Lightbox open
+      items.forEach(function(item) {
+        var card = item.querySelector('.mv-gallery-card');
+        if (!card) return;
+        card.addEventListener('click', function(e) {
+          e.preventDefault();
+          var img = item.querySelector('img');
+          if (!img || !popup) return;
+          buildImageList();
+          currentIndex = galleryImages.indexOf(img.src);
+          if (currentIndex < 0) currentIndex = 0;
+          popupImg.src = img.src;
+          popupImg.alt = img.alt || '';
+          popup.classList.add('active');
+          document.body.style.overflow = 'hidden';
+        });
+      });
+
+      // Close popup
+      if (closeBtn) {
+        closeBtn.addEventListener('click', function() {
+          popup.classList.remove('active');
+          document.body.style.overflow = '';
+        });
+      }
+      if (popup) {
+        popup.addEventListener('click', function(e) {
+          if (e.target === popup) {
+            popup.classList.remove('active');
+            document.body.style.overflow = '';
+          }
+        });
+      }
+      document.addEventListener('keydown', function(e) {
+        if (!popup || !popup.classList.contains('active')) return;
+        if (e.key === 'Escape') {
+          popup.classList.remove('active');
+          document.body.style.overflow = '';
+        }
+        if (e.key === 'ArrowRight') {
+          currentIndex = (currentIndex + 1) % galleryImages.length;
+          popupImg.src = galleryImages[currentIndex];
+        }
+        if (e.key === 'ArrowLeft') {
+          currentIndex = (currentIndex - 1 + galleryImages.length) % galleryImages.length;
+          popupImg.src = galleryImages[currentIndex];
+        }
+      });
+
+      // Next / Prev
+      if (nextBtn) {
+        nextBtn.addEventListener('click', function() {
+          currentIndex = (currentIndex + 1) % galleryImages.length;
+          popupImg.src = galleryImages[currentIndex];
+        });
+      }
+      if (prevBtn) {
+        prevBtn.addEventListener('click', function() {
+          currentIndex = (currentIndex - 1 + galleryImages.length) % galleryImages.length;
+          popupImg.src = galleryImages[currentIndex];
+        });
+      }
+    })();
+    </script>

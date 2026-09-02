@@ -4,8 +4,8 @@ html = open('index.html', encoding='utf-8').read()
 parts1 = html.split('<!-- page content -->')
 top = parts1[0] + '<!-- page content -->\n  <div class="page-content">\n'
 
-parts2 = parts1[1].split('<footer')
-bottom = '\n  </div>\n  <footer' + parts2[1]
+parts2 = parts1[1].split('<!-- page content End -->')
+bottom = '\n  </div>\n<!-- page content End -->' + parts2[1]
 
 def build_page(filename, title, content):
     modified_top = top.replace('<title>Casa SPA Paraty</title>', f'<title>{title} | Casa SPA Paraty</title>')
@@ -217,10 +217,14 @@ content_reservar = """
     </section>
 """
 
-build_page('about-us.html', 'A Casa', content_acasa)
-build_page('marbella-farms-resort.html', 'Comodidades', content_comodidades)
-build_page('marbella-suites.html', 'Paraty', content_paraty)
-build_page('contact-us.html', 'Reservar', content_reservar)
+# content_about = open('about-us.txt', 'r', encoding='utf-8').read()
+# content_marbella = open('marbella_resort_content.txt', 'r', encoding='utf-8').read()
+# content_marbella2 = open('marbella_suites_content.txt', 'r', encoding='utf-8').read()
+# content_contact = open('contact-us.txt', 'r', encoding='utf-8').read()
+content_galeria = open('galeria_content.txt', 'r', encoding='utf-8').read()
 
-content_galeria = open('galeria_content.txt', encoding='utf-8').read()
+# build_page('about-us.html', 'A Casa', content_about)
+# build_page('marbella-farms-resort.html', 'Comodidades', content_marbella)
+# build_page('marbella-suites.html', 'Paraty', content_marbella2)
+# build_page('contact-us.html', 'Reservar', content_contact)
 build_page('gallery.html', 'Galeria', content_galeria)

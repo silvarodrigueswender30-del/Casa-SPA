@@ -2372,74 +2372,7 @@
                             </script>
                             <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"93bed8f929113ae5","version":"2025.4.0-1-g37f21b1","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"125856bf84ab44059737e93b01aa0fef","b":1}'
                                 crossorigin="anonymous"></script>
-                            <script>
-                                const tabs = document.querySelectorAll(".ss-tabs li");
-                                const items = document.querySelectorAll(".s-s-item");
-                                const popup = document.getElementById("popup");
-                                const popupImg = document.getElementById("popup-img");
-                                const closeBtn = document.getElementById("close");
-                                const nextBtn = document.getElementById("next");
-                                const prevBtn = document.getElementById("prev");
 
-                                let currentIndex = 0;
-                                let galleryImages = [];
-
-                                // Tab filter
-                                tabs.forEach((tab) => {
-                                    tab.addEventListener("click", () => {
-                                        tabs.forEach((t) => t.classList.remove("active"));
-                                        tab.classList.add("active");
-
-                                        let filter = tab.getAttribute("data-filter");
-                                        galleryImages = [];
-
-                                        items.forEach((item, index) => {
-                                            if (filter === "all" || item.classList.contains(filter)) {
-                                                item.style.display = "block";
-                                                galleryImages.push(item.querySelector("img").src);
-                                            } else {
-                                                item.style.display = "none";
-                                            }
-                                        });
-                                    });
-                                });
-
-                                // Default load all images
-                                galleryImages = Array.from(items).map(
-                                    (item) => item.querySelector("img").src,
-                                );
-
-                                // Open popup
-                                items.forEach((item, index) => {
-                                    item.addEventListener("click", () => {
-                                        popup.classList.add("active");
-                                        popupImg.src = item.querySelector("img").src;
-                                        currentIndex = galleryImages.indexOf(popupImg.src);
-                                    });
-                                });
-
-                                // Close popup
-                                closeBtn.addEventListener("click", () => {
-                                    popup.classList.remove("active");
-                                });
-
-                                // Next & Prev
-                                nextBtn.addEventListener("click", () => {
-                                    currentIndex = (currentIndex + 1) % galleryImages.length;
-                                    popupImg.src = galleryImages[currentIndex];
-                                });
-
-                                prevBtn.addEventListener("click", () => {
-                                    currentIndex =
-                                        (currentIndex - 1 + galleryImages.length) % galleryImages.length;
-                                    popupImg.src = galleryImages[currentIndex];
-                                });
-
-                                // Close on background click
-                                popup.addEventListener("click", (e) => {
-                                    if (e.target === popup) popup.classList.remove("active");
-                                });
-                            </script>
 
                             <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
                             <script>

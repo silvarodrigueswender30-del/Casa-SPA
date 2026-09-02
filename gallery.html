@@ -373,7 +373,7 @@
 
           <!-- 1. Fachada Principal -->
 
-          <div class="col-12 col-md-6 col-lg-4 gallery-item" data-category="exterior">
+          <div class="col-12 col-md-6 col-lg-4 gallery-item is-featured" data-category="exterior">
 
             <a href="images/mf-images/fachada-01.webp" class="mv-gallery-card gallery-lightbox" title="Fachada da Casa SPA Paraty ao Entardecer">
 
@@ -513,7 +513,7 @@
 
           <!-- 6. Sala de Estar Principal -->
 
-          <div class="col-12 col-md-6 col-lg-4 gallery-item" data-category="convivencia">
+          <div class="col-12 col-md-6 col-lg-4 gallery-item is-featured" data-category="convivencia">
 
             <a href="images/mf-images/sala-01.webp" class="mv-gallery-card gallery-lightbox" title="Sala de Estar Integrada com TV e Sofás Confortáveis">
 
@@ -821,7 +821,7 @@
 
           <!-- 17. Deck Gourmet Coberto -->
 
-          <div class="col-12 col-md-6 col-lg-4 gallery-item" data-category="exterior">
+          <div class="col-12 col-md-6 col-lg-4 gallery-item is-featured" data-category="exterior">
 
             <a href="images/index/r2-exterior.webp" class="mv-gallery-card gallery-lightbox" title="Varanda e Deck Gourmet com Churrasqueira">
 
@@ -847,234 +847,584 @@
 
 
 
+
         </div>
 
       </div>
 
     </section>
 
-
-
-    <!-- Footer -->
-
-    <footer id="site-footer" class="footer-container">
-
-      <div class="container">
-
-        <div class="footer-row">
-
-          <!-- Left Section: Logo and Contact Info -->
-
-          <div class="footer-column">
-
-            <h3>Casa SPA Paraty</h3>
-
-            <div class="footer-logo">
-
-              <img src="images/brand/logo-casa-spa-branca.webp" alt="Casa SPA Paraty" style="height: 48px; width: auto; margin-bottom: 15px;" />
-
-            </div>
-
-            <ul>
-
-              <li>Um refúgio privativo em Paraty para viver alguns dias com mais calma, natureza e tempo para estar junto.</li>
-
-              <li><strong>E-mail:</strong> <a href="mailto:casa-spagroup8@gmail.com">Enviar e-mail</a></li>
-
-              <li><strong>WhatsApp:</strong> <a href="tel:+5524998144912">+55 24 99814-4912</a></li>
-
-            </ul>
-
-          </div>
-
-
-
-          <!-- Middle Section: Paraty -->
-
-          <div class="footer-column">
-
-            <h3>Descubra Paraty</h3>
-
-            <ul>
-
-              <li>Centro Histórico</li>
-
-              <li>Praias & Ilhas</li>
-
-              <li>Cachoeiras</li>
-
-              <li>Passeios de Barco</li>
-
-              <li>Gastronomia Local</li>
-
-              <li>Praia do Corumbê</li>
-
-            </ul>
-
-          </div>
-
-
-
-          <!-- Right Section: Map -->
-
-          <div class="footer-column">
-
-            <h3>Localização</h3>
-
-            <ul>
-
-              <li>Corumbê · Paraty · RJ</li>
-
-            </ul>
-
-            <div class="footer-map-container">
-
-              <div class="footer-map">
-
-                <iframe src="https://maps.google.com/maps?q=Corumb%C3%AA%2C%20Paraty%20-%20RJ&t=&z=13&ie=UTF8&iwloc=&output=embed"
-
-                  width="100%" height="220" style="border:0; border-radius: 8px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </footer>
-
-
-
-    <!-- Call button -->
-
-    <a href="tel:+5524998144912" class="wild-float-call" aria-label="Ligar para Casa SPA">
-
-      <i class="fas fa-phone"></i>
-
-    </a>
-
-
-
-    <!-- WhatsApp button -->
-
-    <a href="https://wa.me/5524998144912" target="_blank" class="wild-float-whatsapp" aria-label="Falar no WhatsApp">
-
-      <i class="fab fa-whatsapp"></i>
-
-      <span>WhatsApp</span>
-
-    </a>
-
-  </div>
-
-  <!-- Page Wrapper End -->
-
-
-
-  <!-- JS ============================================ -->
-
-  <script src="js/jquery.min.js"></script>
-
-  <script src="js/popper.min.js"></script>
-
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/scripts.js"></script>
-
-  <script src="js/jquery.magnific-popup.min.js"></script>
-
-
-
-  <script>
-
-    // Gallery Filter functionality
-
-    document.addEventListener('DOMContentLoaded', function() {
-
-      const filterBtns = document.querySelectorAll('.gallery-filter-btn');
-
-      const galleryItems = document.querySelectorAll('.gallery-item');
-
-
-
-      filterBtns.forEach(btn => {
-
-        btn.addEventListener('click', function() {
-
-          filterBtns.forEach(b => b.classList.remove('active'));
-
-          this.classList.add('active');
-
-
-
-          const filterValue = this.getAttribute('data-filter');
-
-
-
-          galleryItems.forEach(item => {
-
-            if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
-
-              item.style.display = 'block';
-
-            } else {
-
-              item.style.display = 'none';
-
-            }
-
-          });
-
-        });
-
-      });
-
-
-
-      // Initialize Magnific Popup for Gallery Lightbox
-
-      if (typeof $.fn.magnificPopup !== 'undefined') {
-
-        $('.mv-gallery-grid').magnificPopup({
-
-          delegate: 'a.gallery-lightbox',
-
-          type: 'image',
-
-          gallery: {
-
-            enabled: true,
-
-            navigateByImgClick: true,
-
-            preload: [0, 1]
-
-          },
-
-          image: {
-
-            tError: '<a href="%url%">A imagem</a> não pôde ser carregada.',
-
-            titleSrc: function(item) {
-
-              return item.el.attr('title') || '';
-
-            }
-
+    <!-- Gallery Lightbox Popup -->
+    <div id="mv-gallery-popup" class="mv-gallery-popup" role="dialog" aria-modal="true" aria-label="Visualizador de imagem">
+      <button id="mv-popup-close" class="mv-popup-close" aria-label="Fechar">&times;</button>
+      <button id="mv-popup-prev" class="mv-popup-prev" aria-label="Anterior">&#8249;</button>
+      <img id="mv-popup-img" src="" alt="Imagem ampliada">
+      <button id="mv-popup-next" class="mv-popup-next" aria-label="Próximo">&#8250;</button>
+    </div>
+
+    <script>
+    (function() {
+      'use strict';
+      var filterBtns = document.querySelectorAll('.gallery-filter-btn');
+      var items = document.querySelectorAll('.gallery-item');
+      var popup = document.getElementById('mv-gallery-popup');
+      var popupImg = document.getElementById('mv-popup-img');
+      var closeBtn = document.getElementById('mv-popup-close');
+      var nextBtn = document.getElementById('mv-popup-next');
+      var prevBtn = document.getElementById('mv-popup-prev');
+      var galleryImages = [];
+      var currentIndex = 0;
+
+      if (!filterBtns.length || !items.length) return;
+
+      // Build image list from currently visible items
+      function buildImageList() {
+        galleryImages = [];
+        items.forEach(function(item) {
+          if (item.style.display !== 'none') {
+            var img = item.querySelector('img');
+            if (img) galleryImages.push(img.src);
           }
-
         });
-
       }
 
-    });
+      // Filter handler
+      filterBtns.forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          filterBtns.forEach(function(b) { b.classList.remove('active'); });
+          btn.classList.add('active');
+          var filter = btn.getAttribute('data-filter');
+          var grid = document.querySelector('.mv-gallery-grid');
+          if (grid) {
+              if (filter === 'all') {
+                  grid.classList.remove('is-filtered');
+              } else {
+                  grid.classList.add('is-filtered');
+              }
+          }
+          items.forEach(function(item) {
+            if (filter === 'all' || item.getAttribute('data-category') === filter) {
+              item.style.display = 'block';
+            } else {
+              item.style.display = 'none';
+            }
+          });
+          buildImageList();
+        });
+      });
 
-  </script>
+      // Initial image list
+      buildImageList();
+
+      // Lightbox open
+      items.forEach(function(item) {
+        var card = item.querySelector('.mv-gallery-card');
+        if (!card) return;
+        card.addEventListener('click', function(e) {
+          e.preventDefault();
+          var img = item.querySelector('img');
+          if (!img || !popup) return;
+          buildImageList();
+          currentIndex = galleryImages.indexOf(img.src);
+          if (currentIndex < 0) currentIndex = 0;
+          popupImg.src = img.src;
+          popupImg.alt = img.alt || '';
+          popup.classList.add('active');
+          document.body.style.overflow = 'hidden';
+        });
+      });
+
+      // Close popup
+      if (closeBtn) {
+        closeBtn.addEventListener('click', function() {
+          popup.classList.remove('active');
+          document.body.style.overflow = '';
+        });
+      }
+      if (popup) {
+        popup.addEventListener('click', function(e) {
+          if (e.target === popup) {
+            popup.classList.remove('active');
+            document.body.style.overflow = '';
+          }
+        });
+      }
+      document.addEventListener('keydown', function(e) {
+        if (!popup || !popup.classList.contains('active')) return;
+        if (e.key === 'Escape') {
+          popup.classList.remove('active');
+          document.body.style.overflow = '';
+        }
+        if (e.key === 'ArrowRight') {
+          currentIndex = (currentIndex + 1) % galleryImages.length;
+          popupImg.src = galleryImages[currentIndex];
+        }
+        if (e.key === 'ArrowLeft') {
+          currentIndex = (currentIndex - 1 + galleryImages.length) % galleryImages.length;
+          popupImg.src = galleryImages[currentIndex];
+        }
+      });
+
+      // Next / Prev
+      if (nextBtn) {
+        nextBtn.addEventListener('click', function() {
+          currentIndex = (currentIndex + 1) % galleryImages.length;
+          popupImg.src = galleryImages[currentIndex];
+        });
+      }
+      if (prevBtn) {
+        prevBtn.addEventListener('click', function() {
+          currentIndex = (currentIndex - 1 + galleryImages.length) % galleryImages.length;
+          popupImg.src = galleryImages[currentIndex];
+        });
+      }
+    })();
+    </script>
   </div>
-  <footer id="site-footer" class="footer-container">
+<!-- page content End -->
+                                <!-- footer -->
+                                <style>
+                                    .footer-container {
+                                        background-color: #333;
+                                        color: #fff;
+                                        padding: 40px 0;
+                                    }
+
+                                    .footer-row {
+                                        display: flex;
+                                        justify-content: space-between;
+                                        align-items: flex-start;
+                                        flex-wrap: wrap;
+                                    }
+
+                                    .footer-column {
+                                        flex: 1;
+                                        padding: 15px;
+                                    }
+
+                                    .footer-logo img {
+                                        height: 48px;
+                                        width: auto;
+                                        max-width: 100%;
+                                        opacity: 1;
+                                    }
+
+                                    .footer-column h3 {
+                                        margin-bottom: 20px;
+                                        font-size: 18px;
+                                        color: #fff;
+                                    }
+
+                                    .footer-column ul {
+                                        list-style: none;
+                                        padding: 0;
+                                    }
+
+                                    .footer-column ul li {
+                                        margin: 10px 0;
+                                    }
+
+                                    .footer-column a {
+                                        color: #fff;
+                                        text-decoration: none;
+                                    }
+
+                                    .footer-column a:hover {
+                                        text-decoration: underline;
+                                    }
+
+                                    .footer-map-container {
+                                        display: flex;
+                                        justify-content: space-between;
+                                        flex-wrap: wrap;
+                                    }
+
+                                    .footer-map {
+                                        width: 100%;
+                                        height: 250px;
+                                        border: 1px solid #ddd;
+                                        margin-bottom: 20px;
+                                    }
+
+                                    .social-links {
+                                        display: flex;
+                                        justify-content: none;
+                                        margin-top: 15px;
+                                    }
+
+                                    .social-links a {
+                                        color: #fff;
+                                        font-size: 20px;
+                                        margin: 0 10px;
+                                    }
+
+                                    .social-links a:hover {
+                                        color: #ff6347;
+                                    }
+
+                                    /* Mobile footer layout */
+
+                                    @media (max-width: 768px) {
+                                        .footer-row {
+                                            flex-direction: column;
+                                            /* stack columns */
+                                        }
+                                        .footer-column {
+                                            flex: 0 0 100%;
+                                            width: 100%;
+                                            max-width: 100%;
+                                            padding: 10px 0;
+                                        }
+                                        .footer-map {
+                                            height: 220px;
+                                            /* optional: slightly shorter on mobile */
+                                            margin-bottom: 15px;
+                                        }
+                                        .footer-logo img {
+                                            height: 44px;
+                                            margin-bottom: 10px;
+                                        }
+                                        .social-links {
+                                            justify-content: flex-start;
+                                            /* or center if you prefer */
+                                            margin-top: 10px;
+                                        }
+                                    }
+
+                                    .wild-hero-section {
+                                        position: relative;
+                                        width: 100%;
+                                        height: 440px;
+                                        overflow: hidden;
+                                        background: #2f2f2f;
+                                    }
+
+                                    .wild-hero-bg {
+                                        position: absolute;
+                                        inset: 0;
+                                        z-index: 1;
+                                    }
+
+                                    .wild-hero-bg img {
+                                        width: 100%;
+                                        height: 100%;
+                                        object-fit: cover;
+                                        display: block;
+                                    }
+
+                                    .wild-hero-overlay {
+                                        position: absolute;
+                                        inset: 0;
+                                        background: rgba(26, 26, 26, 0.52);
+                                        z-index: 2;
+                                    }
+
+                                    .wild-hero-content {
+                                        position: relative;
+                                        z-index: 3;
+                                        max-width: 1200px;
+                                        height: 100%;
+                                        margin: 0 auto;
+                                        padding: 0 20px;
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        text-align: center;
+                                    }
+
+                                    .wild-hero-btn {
+                                        display: inline-flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        min-width: 270px;
+                                        height: 66px;
+                                        padding: 0 34px;
+                                        background: #cfc4b4;
+                                        color: #111;
+                                        text-decoration: none;
+                                        font-size: 14px;
+                                        letter-spacing: 4px;
+                                        font-weight: 500;
+                                        text-transform: uppercase;
+                                        transition: all 0.35s ease;
+                                        border: 1px solid rgba(255, 255, 255, 0.12);
+                                    }
+
+                                    .wild-hero-btn:hover {
+                                        background: #dfd5c6;
+                                        color: #111;
+                                        transform: translateY(-2px);
+                                    }
+
+                                    .wild-float-call {
+                                        position: fixed;
+                                        left: 18px;
+                                        bottom: 35px;
+                                        z-index: 999;
+                                        display: inline-flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        gap: 10px;
+                                        height: 52px;
+                                        padding: 0 24px;
+                                        border-radius: 999px;
+                                        background: var(--casa-accent);
+                                        color: #fff;
+                                        text-decoration: none;
+                                        font-size: 14px;
+                                        font-weight: 600;
+                                        box-shadow: 0 10px 30px rgba(200, 163, 95, 0.25);
+                                        transition: all 0.35s ease;
+                                        overflow: hidden;
+                                    }
+
+                                    /* ICON */
+
+                                    .wild-float-call i {
+                                        font-size: 18px;
+                                        position: relative;
+                                        z-index: 2;
+                                        animation: callIconTilt 2.5s ease-in-out infinite;
+                                    }
+
+                                    /* TEXT */
+
+                                    .wild-float-call span {
+                                        position: relative;
+                                        z-index: 2;
+                                    }
+
+                                    /* SOFT GLOW BACKGROUND */
+
+                                    .wild-float-call::before {
+                                        content: "";
+                                        position: absolute;
+                                        inset: 0;
+                                        border-radius: 999px;
+                                        background: radial-gradient( circle at center, rgba(255, 255, 255, 0.25), transparent 70%);
+                                        opacity: 0;
+                                        animation: callSoftGlow 3s ease-in-out infinite;
+                                    }
+
+                                    /* SOUND WAVE EFFECT (premium subtle) */
+
+                                    .wild-float-call::after {
+                                        content: "";
+                                        position: absolute;
+                                        top: -6px;
+                                        left: -6px;
+                                        right: -6px;
+                                        bottom: -6px;
+                                        border-radius: 999px;
+                                        border: 2px solid rgba(200, 163, 95, 0.45);
+                                        opacity: 0;
+                                        transform: scale(1);
+                                        animation: callWave 2.4s infinite;
+                                    }
+
+                                    /* HOVER */
+
+                                    .wild-float-call:hover {
+                                        transform: translateY(-4px) scale(1.03);
+                                        box-shadow: 0 16px 40px rgba(200, 163, 95, 0.35);
+                                        color: #fff;
+                                    }
+
+                                    /* ANIMATIONS */
+
+                                    /* slight phone tilt (like ringing feel) */
+
+                                    @keyframes callIconTilt {
+                                        0%,
+                                        100% {
+                                            transform: rotate(0deg);
+                                        }
+                                        20% {
+                                            transform: rotate(-8deg);
+                                        }
+                                        40% {
+                                            transform: rotate(6deg);
+                                        }
+                                        60% {
+                                            transform: rotate(-4deg);
+                                        }
+                                        80% {
+                                            transform: rotate(3deg);
+                                        }
+                                    }
+
+                                    /* soft glow breathing */
+
+                                    @keyframes callSoftGlow {
+                                        0%,
+                                        100% {
+                                            opacity: 0;
+                                        }
+                                        50% {
+                                            opacity: 0.6;
+                                        }
+                                    }
+
+                                    /* wave ring */
+
+                                    @keyframes callWave {
+                                        0% {
+                                            opacity: 0.7;
+                                            transform: scale(1);
+                                        }
+                                        70% {
+                                            opacity: 0.2;
+                                            transform: scale(1.18);
+                                        }
+                                        100% {
+                                            opacity: 0;
+                                            transform: scale(1.28);
+                                        }
+                                    }
+
+                                    /* right side whatsapp */
+
+                                    .wild-float-whatsapp {
+                                        right: 18px;
+                                        background: linear-gradient(135deg, #25d366, #1faa52);
+                                    }
+
+                                    @media (max-width: 767px) {}
+
+                                    @media (max-width: 480px) {}
+
+                                    .wild-float-whatsapp {
+                                        position: fixed;
+                                        right: 18px;
+                                        bottom: 35px;
+                                        z-index: 999;
+                                        display: inline-flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        gap: 10px;
+                                        height: 52px;
+                                        padding: 0 24px;
+                                        border-radius: 999px;
+                                        background: linear-gradient(135deg, #25d366, #128c4a);
+                                        color: #fff;
+                                        text-decoration: none;
+                                        font-size: 14px;
+                                        font-weight: 600;
+                                        /* box-shadow: 0 10px 30px rgba(37, 211, 102, 0.28); */
+                                        transition: all 0.35s ease;
+                                        animation: wildWhatsappFloat 3s ease-in-out infinite;
+                                        overflow: visible;
+                                    }
+
+                                    .wild-float-whatsapp i,
+                                    .wild-float-whatsapp span {
+                                        position: relative;
+                                        z-index: 2;
+                                    }
+
+                                    .wild-float-whatsapp i {
+                                        font-size: 19px;
+                                        animation: wildWhatsappIconPulse 1.8s ease-in-out infinite;
+                                    }
+
+                                    .wild-float-whatsapp::before,
+                                    .wild-float-whatsapp::after {
+                                        content: "";
+                                        position: absolute;
+                                        top: -6px;
+                                        left: -6px;
+                                        right: -6px;
+                                        bottom: -6px;
+                                        border-radius: 999px;
+                                        border: 2px solid rgba(37, 211, 102, 0.38);
+                                        /* box-shadow: 0 0 0 2px rgba(37, 211, 102, 0.22); */
+                                        opacity: 0;
+                                        transform: scale(1);
+                                        pointer-events: none;
+                                    }
+
+                                    .wild-float-whatsapp::before {
+                                        animation: wildWhatsappRippleVisible 2.2s infinite;
+                                    }
+
+                                    .wild-float-whatsapp::after {
+                                        animation: wildWhatsappRippleVisible 2.2s 1.1s infinite;
+                                    }
+
+                                    .wild-float-whatsapp:hover {
+                                        transform: translateY(-4px) scale(1.03);
+                                        /* box-shadow: 0 16px 36px rgba(37, 211, 102, 0.38); */
+                                        color: #fff;
+                                    }
+
+                                    @keyframes wildWhatsappFloat {
+                                        0%,
+                                        100% {
+                                            transform: translateY(0);
+                                        }
+                                        50% {
+                                            transform: translateY(-4px);
+                                        }
+                                    }
+
+                                    @keyframes wildWhatsappIconPulse {
+                                        0%,
+                                        100% {
+                                            transform: scale(1);
+                                        }
+                                        50% {
+                                            transform: scale(1.12);
+                                        }
+                                    }
+
+                                    @keyframes wildWhatsappRippleVisible {
+                                        0% {
+                                            opacity: 0.85;
+                                            transform: scale(1);
+                                        }
+                                        70% {
+                                            opacity: 0.22;
+                                            transform: scale(1.16);
+                                        }
+                                        100% {
+                                            opacity: 0;
+                                            transform: scale(1.24);
+                                        }
+                                    }
+
+                                    @media (max-width: 767px) {
+                                        .wild-float-whatsapp {
+                                            right: 10px;
+                                            bottom: 20px;
+                                            height: 50px;
+                                            padding: 0 16px;
+                                            font-size: 13px;
+                                            gap: 8px;
+                                        }
+                                    }
+
+                                    @media (max-width: 480px) {
+                                        .wild-float-whatsapp {
+                                            width: 56px;
+                                            height: 56px;
+                                            padding: 0;
+                                            border-radius: 50%;
+                                        }
+                                        .wild-float-whatsapp span {
+                                            display: none;
+                                        }
+                                        .wild-float-whatsapp i {
+                                            font-size: 22px;
+                                        }
+                                        .wild-float-whatsapp::before,
+                                        .wild-float-whatsapp::after {
+                                            border-radius: 50%;
+                                        }
+                                    }
+                                </style>
+
+                                <footer id="site-footer" class="footer-container">
                                     <!-- AEO / Factual Text -->
                                     <div class="container pt-4 pb-2" style="border-bottom: 1px solid rgba(255,255,255,0.1);">
                                         <div class="row">
@@ -1274,74 +1624,7 @@
                             </script>
                             <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"93bed8f929113ae5","version":"2025.4.0-1-g37f21b1","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"125856bf84ab44059737e93b01aa0fef","b":1}'
                                 crossorigin="anonymous"></script>
-                            <script>
-                                const tabs = document.querySelectorAll(".ss-tabs li");
-                                const items = document.querySelectorAll(".s-s-item");
-                                const popup = document.getElementById("popup");
-                                const popupImg = document.getElementById("popup-img");
-                                const closeBtn = document.getElementById("close");
-                                const nextBtn = document.getElementById("next");
-                                const prevBtn = document.getElementById("prev");
 
-                                let currentIndex = 0;
-                                let galleryImages = [];
-
-                                // Tab filter
-                                tabs.forEach((tab) => {
-                                    tab.addEventListener("click", () => {
-                                        tabs.forEach((t) => t.classList.remove("active"));
-                                        tab.classList.add("active");
-
-                                        let filter = tab.getAttribute("data-filter");
-                                        galleryImages = [];
-
-                                        items.forEach((item, index) => {
-                                            if (filter === "all" || item.classList.contains(filter)) {
-                                                item.style.display = "block";
-                                                galleryImages.push(item.querySelector("img").src);
-                                            } else {
-                                                item.style.display = "none";
-                                            }
-                                        });
-                                    });
-                                });
-
-                                // Default load all images
-                                galleryImages = Array.from(items).map(
-                                    (item) => item.querySelector("img").src,
-                                );
-
-                                // Open popup
-                                items.forEach((item, index) => {
-                                    item.addEventListener("click", () => {
-                                        popup.classList.add("active");
-                                        popupImg.src = item.querySelector("img").src;
-                                        currentIndex = galleryImages.indexOf(popupImg.src);
-                                    });
-                                });
-
-                                // Close popup
-                                closeBtn.addEventListener("click", () => {
-                                    popup.classList.remove("active");
-                                });
-
-                                // Next & Prev
-                                nextBtn.addEventListener("click", () => {
-                                    currentIndex = (currentIndex + 1) % galleryImages.length;
-                                    popupImg.src = galleryImages[currentIndex];
-                                });
-
-                                prevBtn.addEventListener("click", () => {
-                                    currentIndex =
-                                        (currentIndex - 1 + galleryImages.length) % galleryImages.length;
-                                    popupImg.src = galleryImages[currentIndex];
-                                });
-
-                                // Close on background click
-                                popup.addEventListener("click", (e) => {
-                                    if (e.target === popup) popup.classList.remove("active");
-                                });
-                            </script>
 
                             <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
                             <script>

@@ -2489,3 +2489,102 @@ body {
         padding: 24px 20px 28px !important;
     }
 }
+
+
+/* ===== Scoped: Casa SPA Gallery ===== */
+.mv-gallery { padding: 60px 0; background-color: #f8fafc; }
+.mv-gallery .mv-heading { text-align: center; margin-bottom: 40px; }
+.mv-gallery .mv-heading h2 { font-size: clamp(24px, 4vw, 36px); font-weight: 800; margin-bottom: 12px; }
+.mv-gallery .mv-heading p { color: #475569; max-width: 600px; margin: 0 auto; }
+.gallery-filter-wrap { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; margin-bottom: 40px; }
+.gallery-filter-btn { 
+    appearance: none;
+    -webkit-appearance: none;
+    font: inherit;
+    background: transparent; 
+    border: 1px solid rgba(22, 29, 25, 0.2); 
+    color: var(--casa-forest); 
+    padding: 8px 18px; 
+    border-radius: 99px; 
+    font-weight: 600; 
+    font-size: 14px; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+}
+.gallery-filter-btn:hover, .gallery-filter-btn.active { 
+    background: var(--casa-forest); 
+    color: var(--casa-ivory); 
+    border-color: var(--casa-forest); 
+}
+
+/* Ritmo Editorial Base */
+.gallery-item {
+    --gallery-ratio: 4 / 3;
+}
+
+@media (max-width: 991.98px) {
+    /* Controle seguro para Mobile e Tablet */
+    .gallery-item { --gallery-ratio: 4 / 3 !important; }
+}
+
+@media (min-width: 992px) {
+    /* Desktop Mosaico Editorial (CSS Grid) */
+    .mv-gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 24px;
+    }
+    
+    /* Prevent orphaned panoramas when filtering */
+    .mv-gallery-grid.is-filtered .gallery-item {
+        grid-column: span 1 !important;
+        --gallery-ratio: 4 / 3 !important;
+    }
+    
+    .gallery-item.is-featured {
+        grid-column: span 2;
+        --gallery-ratio: 8 / 3;
+    }
+    
+    /* Anula interferencia do Bootstrap row/col dentro do nosso grid desktop */
+    .mv-gallery-grid > .gallery-item {
+        width: auto !important;
+        max-width: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+}
+
+.mv-gallery-card { display: block; position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); transition: transform 0.3s ease, box-shadow 0.3s ease; height: 100%; }
+.mv-gallery-card:hover { transform: translateY(-5px); box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); }
+
+.mv-gallery-media { 
+    width: 100%; 
+    aspect-ratio: var(--gallery-ratio); 
+    overflow: hidden; 
+    position: relative; 
+    background-color: #e5e7eb; 
+}
+.mv-gallery-media img { 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    object-position: center;
+    transition: transform 0.5s ease; 
+}
+.mv-gallery-card:hover .mv-gallery-media img { transform: scale(1.05); }
+.mv-gallery-badge { position: absolute; top: 16px; left: 16px; background: rgba(15, 23, 42, 0.7); color: #fff; padding: 4px 12px; border-radius: 99px; font-size: 12px; font-weight: 600; z-index: 2; backdrop-filter: blur(4px); }
+.mv-gallery-overlay { position: absolute; bottom: 0; left: 0; width: 100%; background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%); padding: 40px 20px 20px; z-index: 2; transition: opacity 0.3s ease; }
+.mv-gallery-overlay h4 { color: #fff; margin: 0 0 4px; font-size: 18px; font-weight: 700; }
+.mv-gallery-overlay p { color: #cbd5e1; margin: 0; font-size: 14px; line-height: 1.4; }
+
+/* Gallery Lightbox Popup */
+.mv-gallery-popup { display: none; position: fixed; inset: 0; z-index: 9999; background: rgba(22, 29, 25, 0.92); align-items: center; justify-content: center; }
+.mv-gallery-popup.active { display: flex; }
+.mv-gallery-popup img { max-width: 90vw; max-height: 85vh; object-fit: contain; border-radius: 4px; box-shadow: 0 20px 60px rgba(0,0,0,0.5); }
+.mv-popup-close { position: absolute; top: 20px; right: 24px; background: none; border: none; color: var(--casa-ivory); font-size: 36px; cursor: pointer; line-height: 1; z-index: 1; }
+.mv-popup-prev, .mv-popup-next { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(22, 29, 25, 0.5); border: 1px solid rgba(238,232,220,0.2); color: var(--casa-ivory); font-size: 32px; width: 48px; height: 48px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: background 0.2s; }
+.mv-popup-prev { left: 16px; }
+.mv-popup-next { right: 16px; }
+.mv-popup-prev:hover, .mv-popup-next:hover { background: var(--casa-forest); }
+@media (max-width: 767.98px) { .mv-popup-prev { left: 8px; } .mv-popup-next { right: 8px; } }
