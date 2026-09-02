@@ -1056,7 +1056,7 @@
       <div class="casa-video-tour__content">
         <h4 class="pbmit-subtitle">EXPERIÊNCIA CASA SPA</h4>
         <h2 class="casa-editorial-headline">Conheça a casa por dentro.</h2>
-        <p class="fnt-style">
+        <p class="fnt-style casa-video-tour__desc">
           Um passeio pela Casa SPA para você imaginar seus dias aqui — dos ambientes de convivência ao espaço de descanso e à hidromassagem.
         </p>
         <div class="casa-video-tour__attributes">
@@ -1074,10 +1074,18 @@
         </div>
       </div>
       <div class="casa-video-tour__media">
-        <div class="casa-video-tour__player-wrap">
-          <video src="https://jszueizwowynhekpsfii.supabase.co/storage/v1/object/public/Casa-SPA/casa-spa-tur.mp4" playsinline preload="metadata" controls class="casa-video-tour__video">
-            Seu navegador não suporta reprodução de vídeo.
-          </video>
+        <div class="casa-video-tour__stage">
+          <div class="casa-video-tour__frame">
+            <video src="https://jszueizwowynhekpsfii.supabase.co/storage/v1/object/public/Casa-SPA/casa-spa-tur.mp4" playsinline preload="metadata" poster="images/index/hero-master-mobile.webp" class="casa-video-tour__video" id="casaSpaVideo">
+              Seu navegador não suporta reprodução de vídeo.
+            </video>
+            <button class="casa-video-tour__play" id="casaSpaVideoPlayBtn" aria-label="Reproduzir tour em vídeo pela Casa SPA">
+              <i class="fas fa-play"></i>
+            </button>
+            <div class="casa-video-tour__meta">
+              <span>TOUR PELA CASA</span>
+            </div>
+          </div>
         </div>
         <p class="casa-video-tour__microcopy">Aperte o play e faça um tour pela casa.</p>
       </div>
@@ -2526,7 +2534,24 @@
       window.addEventListener('scroll', updateHeaderState, { passive: true });
     });
   </script>
+
+  <!-- Video Tour Play Logic -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const video = document.getElementById('casaSpaVideo');
+      const playBtn = document.getElementById('casaSpaVideoPlayBtn');
+      if (video && playBtn) {
+        playBtn.addEventListener('click', function() {
+          video.setAttribute('controls', 'true');
+          video.play();
+          playBtn.style.opacity = '0';
+          playBtn.style.pointerEvents = 'none';
+        });
+      }
+    });
+  </script>
 </body>
+
 
 
 
