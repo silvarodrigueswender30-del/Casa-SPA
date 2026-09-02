@@ -1329,7 +1329,7 @@
 @media (max-width: 767px) {
     .wild-floating-icons {
         right: 12px;
-        bottom: 80px;
+        bottom: calc(18px + env(safe-area-inset-bottom));
     }
     .premium-whatsapp-btn,
     .premium-call-btn {
@@ -1348,9 +1348,9 @@
 @media (max-width: 480px) {
     .premium-whatsapp-btn,
     .premium-call-btn {
-        min-width: 56px;
-        width: 56px;
-        height: 56px;
+        min-width: 54px;
+        width: 54px;
+        height: 54px;
         padding: 0;
         border-radius: 50%;
     }
@@ -2595,6 +2595,11 @@ body {
     color: var(--casa-ivory-soft);
     position: relative;
     z-index: 1;
+    padding-block: clamp(88px, 8vw, 130px);
+}
+
+.casa-video-tour .container {
+    max-width: 1240px;
 }
 
 /* Fundo radial sutil atrás da área do vídeo */
@@ -2635,8 +2640,7 @@ body {
 }
 
 .casa-video-tour__desc {
-    color: var(--casa-ivory-soft);
-    opacity: 0.9;
+    color: rgba(244,239,230,.65);
     margin-bottom: 30px;
     font-size: 16px;
     line-height: 1.6;
@@ -2665,7 +2669,7 @@ body {
 }
 
 .casa-video-tour__cta-wrapper {
-    margin-top: 40px;
+    margin-top: 36px;
 }
 
 .casa-video-tour__cta-wrapper .pbmit-btn-outline {
@@ -2679,7 +2683,7 @@ body {
 }
 
 .casa-video-tour__media {
-    width: min(82vw, 350px);
+    width: min(84vw, 340px);
     margin-inline: auto;
     display: flex;
     flex-direction: column;
@@ -2689,7 +2693,7 @@ body {
 .casa-video-tour__stage {
     position: relative;
     width: 100%;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 
 .casa-video-tour__frame {
@@ -2782,8 +2786,7 @@ body {
 .casa-video-tour__microcopy {
     font-family: 'Manrope', sans-serif;
     font-size: 13px;
-    color: var(--casa-sage);
-    opacity: 0.8;
+    color: rgba(244,239,230,.45);
     margin: 0;
     text-align: left;
     width: 100%;
@@ -2791,12 +2794,15 @@ body {
 
 @media (min-width: 992px) {
     .casa-video-tour__grid {
-        grid-template-columns: minmax(0, .82fr) minmax(360px, 1.18fr);
-        gap: 60px;
+        grid-template-columns: minmax(0, 1fr) minmax(360px, .85fr);
+        column-gap: clamp(56px, 6vw, 96px);
     }
     .casa-video-tour__media {
-        width: clamp(330px, 29vw, 420px);
-        margin-inline: auto; 
+        width: clamp(340px, 27vw, 390px);
+        margin-inline: auto 0;
+    }
+    .casa-video-tour__content {
+        margin-top: -30px; /* Slight optical adjustment upwards */
     }
     .casa-video-tour__play {
         width: 76px;
@@ -2884,7 +2890,7 @@ body {
         width: calc(100vw - 36px);
         max-width: 320px;
         right: 18px;
-        bottom: 85px;
+        bottom: calc(84px + env(safe-area-inset-bottom));
         padding: 20px;
     }
 }
