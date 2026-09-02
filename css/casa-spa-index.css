@@ -2770,3 +2770,36 @@ body {
         width: calc(100vw - 20px);
     }
 }
+
+/* ===== Casa SPA Sticky Navbar ===== */
+.site-header {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1050 !important;
+}
+
+.site-header .pbmit-header-overlay {
+    transition: background-color 0.35s ease, backdrop-filter 0.35s ease, border-bottom 0.35s ease;
+    border-bottom: 1px solid transparent;
+}
+
+.site-header.is-scrolled .pbmit-header-overlay {
+    background: rgba(22, 29, 25, 0.90) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(195, 154, 91, 0.10);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .site-header .pbmit-header-overlay {
+        transition: none !important;
+    }
+}
+
+/* Fix for anchor links to prevent being hidden under fixed header */
+#avaliacoes {
+    scroll-margin-top: 90px;
+}

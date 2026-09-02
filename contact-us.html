@@ -703,6 +703,26 @@
                                         });
                                 });
                             </script>
+
+  <!-- Navbar Sticky Logic -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const header = document.querySelector('.site-header');
+      if (!header) return;
+
+      function updateHeaderState() {
+        if (window.scrollY > 30) {
+          header.classList.add('is-scrolled');
+        } else {
+          header.classList.remove('is-scrolled');
+        }
+      }
+
+      updateHeaderState();
+      window.addEventListener('scroll', updateHeaderState, { passive: true });
+    });
+  </script>
 </body>
+
 
 </html>
