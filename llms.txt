@@ -31,7 +31,7 @@ A Casa SPA Paraty não é uma pousada com quartos compartilhados, mas sim uma **
 - Disponível para locação no Airbnb.
 
 ## Links Oficiais
-- Galeria de Fotos: [https://site-casa-spa.vercel.app/gallery.html]
-- Detalhes e Comodidades: [https://site-casa-spa.vercel.app/comodidades.html]
-- Guia de Paraty: [https://site-casa-spa.vercel.app/paraty.html]
-- Reservas: [https://site-casa-spa.vercel.app/contact-us.html]
+- Galeria de Fotos: [https://casaspaparaty.casa/gallery.html]
+- Detalhes e Comodidades: [https://casaspaparaty.casa/comodidades.html]
+- Guia de Paraty: [https://casaspaparaty.casa/paraty.html]
+- Reservas: [https://casaspaparaty.casa/contact-us.html]

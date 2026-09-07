@@ -20,4 +20,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://site-casa-spa.vercel.app/sitemap.xml
+Sitemap: https://casaspaparaty.casa/sitemap.xml
