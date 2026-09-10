@@ -1,7 +1,10 @@
 User-agent: *
 Allow: /
 
-# Permitir explicitly crawlers de IA (AEO)
+User-agent: Googlebot
+Allow: /
+
+# Permitir crawlers de IA (AEO/GEO)
 User-agent: GPTBot
 Allow: /
 
@@ -20,4 +23,5 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
+# LLMs: https://casaspaparaty.casa/llms.txt
 Sitemap: https://casaspaparaty.casa/sitemap.xml
